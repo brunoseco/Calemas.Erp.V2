@@ -1,0 +1,16 @@
+﻿using Common.Domain.Interfaces;
+using Common.Validation;
+using <#namespace#>.Dtos;
+using <#namespace#>.Data.Repository;
+using System.Threading.Tasks;
+
+namespace <#namespace#>.Services
+{
+    public class <#className#>Service : <#className#>ServiceBase
+    {
+        public <#className#>Service(<#className#>Repository rep, ValidationContract validation, IUnitOfWork uow)
+            : base(rep, validation, uow)
+        { }
+
+    }
+}

@@ -1,0 +1,29 @@
+﻿using Common.Orm;
+using <#namespace#>.Filters;
+using <#namespace#>.Data.Context;
+using <#namespace#>.Data.Model;
+using System.Linq;
+
+namespace <#namespace#>.Data.Repository
+{
+    public class <#className#>Repository : Repository<<#className#>>
+    {
+        public <#className#>Repository(DbContext<#module#> ctx) : base(ctx)
+        {
+
+        }
+
+        public IQueryable<<#className#>> GetByFilters(<#className#>Filter filters)
+        {
+            var querybase = this.GetAll();
+            return querybase;
+        }
+
+        public <#className#> GetById(<#className#>Filter filters)
+        {
+            var item = this.Get(new <#className#>() { <#KeyName#> = filters.<#KeyName#> });
+            return item;
+        }
+
+    }
+}

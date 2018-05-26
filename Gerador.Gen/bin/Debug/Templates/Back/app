@@ -1,0 +1,38 @@
+﻿using Common.Domain.Base;
+using Common.Domain.Interfaces;
+using Common.Domain.Model;
+using Common.Validation;
+using <#namespace#>.Dto;
+using <#namespace#>.Filters;
+using <#namespace#>.Data.Model;
+using <#namespace#>.Data.Repository;
+using System.Threading.Tasks;
+
+namespace <#namespace#>.Services
+{
+    public class <#className#>ServiceBase : ServiceBase<<#className#>, <#className#>Dto, <#className#>Filter>, IService
+    {
+        protected <#className#>Repository _rep;
+
+        public <#className#>ServiceBase(<#className#>Repository rep, ValidationContract validation, IUnitOfWork uow)
+            : base(rep, uow, validation)
+        {
+            this._rep = rep;
+        }
+
+        public async Task<SearchResult<<#className#>Dto>> GetByFiltersPaging(<#className#>Filter filters)
+        {
+            var queryBase = this._rep.GetByFilters(filters);
+            var paginated = await this._rep.Paging(filters, queryBase);
+            return await this.SearchResult(filters, paginated, queryBase);
+        }
+
+        public async Task<<#className#>Dto> GetById(<#className#>Filter filters)
+        {
+            var alvo = this._rep.GetById(filters);
+            var result = await MapperDomainToDto<<#className#>Dto>(alvo);
+            return result;
+        }
+
+    }
+}

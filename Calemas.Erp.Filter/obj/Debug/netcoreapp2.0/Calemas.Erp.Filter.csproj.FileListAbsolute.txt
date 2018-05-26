@@ -1,0 +1,14 @@
+D:\Projetos\calemas-erp-v2\Calemas.Erp.Filter\bin\Debug\netcoreapp2.0\Calemas.Erp.Filter.deps.json
+D:\Projetos\calemas-erp-v2\Calemas.Erp.Filter\bin\Debug\netcoreapp2.0\Calemas.Erp.Filter.dll
+D:\Projetos\calemas-erp-v2\Calemas.Erp.Filter\bin\Debug\netcoreapp2.0\Calemas.Erp.Filter.pdb
+D:\Projetos\calemas-erp-v2\Calemas.Erp.Filter\bin\Debug\netcoreapp2.0\Common.Domain.dll
+D:\Projetos\calemas-erp-v2\Calemas.Erp.Filter\bin\Debug\netcoreapp2.0\Common.Validation.dll
+D:\Projetos\calemas-erp-v2\Calemas.Erp.Filter\bin\Debug\netcoreapp2.0\Common.Domain.pdb
+D:\Projetos\calemas-erp-v2\Calemas.Erp.Filter\bin\Debug\netcoreapp2.0\Common.Validation.pdb
+D:\Projetos\calemas-erp-v2\Calemas.Erp.Filter\obj\Debug\netcoreapp2.0\Calemas.Erp.Filter.csprojAssemblyReference.cache
+D:\Projetos\calemas-erp-v2\Calemas.Erp.Filter\obj\Debug\netcoreapp2.0\Calemas.Erp.Filter.csproj.CoreCompileInputs.cache
+D:\Projetos\calemas-erp-v2\Calemas.Erp.Filter\obj\Debug\netcoreapp2.0\Calemas.Erp.Filter.AssemblyInfoInputs.cache
+D:\Projetos\calemas-erp-v2\Calemas.Erp.Filter\obj\Debug\netcoreapp2.0\Calemas.Erp.Filter.AssemblyInfo.cs
+D:\Projetos\calemas-erp-v2\Calemas.Erp.Filter\obj\Debug\netcoreapp2.0\Calemas.Erp.Filter.csproj.CopyComplete
+D:\Projetos\calemas-erp-v2\Calemas.Erp.Filter\obj\Debug\netcoreapp2.0\Calemas.Erp.Filter.dll
+D:\Projetos\calemas-erp-v2\Calemas.Erp.Filter\obj\Debug\netcoreapp2.0\Calemas.Erp.Filter.pdb

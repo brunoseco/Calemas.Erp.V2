@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace <#namespace#>.Data.Model
+{
+    public class <#className#>Base
+    {
+        public <#className#>Base()
+        {
+
+        }
+
+<#property#>
+
+    }
+}
