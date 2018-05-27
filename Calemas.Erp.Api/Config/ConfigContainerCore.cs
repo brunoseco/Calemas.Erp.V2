@@ -15,8 +15,11 @@ namespace Calemas.Erp.Core.Api.Config
             services.AddScoped<IUnitOfWork, UnitOfWork<DbContextCore>>();
 
             services.AddScoped<ValidationContract>();
-            
 
+            services.AddScoped<ChangeLogRepository>();
+            services.AddScoped<ChangeLogService>();
+
+            
             RegisterOtherComponents(services);
         }
     }

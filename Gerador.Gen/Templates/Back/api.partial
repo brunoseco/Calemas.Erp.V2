@@ -1,0 +1,24 @@
+﻿using Common.API;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Routing;
+using Microsoft.Extensions.Logging;
+using <#namespace#>.Services;
+using <#namespace#>.Dto;
+using <#namespace#>.Filters;
+using <#namespace#>.Data.Repository;
+using System;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
+
+namespace <#namespace#>.Api.Controllers
+{
+    [Authorize]
+    [Route("api/[controller]")]
+    public class <#className#>Controller : <#className#>ControllerBase
+    {
+        public <#className#>Controller(<#className#>Service service, <#className#>Repository rep, ILoggerFactory logger)
+            : base(service, rep, logger)
+        { }
+		
+    }
+}

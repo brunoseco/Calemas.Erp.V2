@@ -68,8 +68,11 @@ namespace Common.Domain.Base
             var model = await this.MapperDtoToDomain(entity);
 
             this.BeginTransaction();
-                        
-            var resultDomain = this._repBase.Add(model);
+
+            var resultDomain = this.Save(model);
+
+            if (!this.IsValid())
+                return entity;
 
             await this.Commit();
 
@@ -80,7 +83,9 @@ namespace Common.Domain.Base
         {
             return await this.Save(entity);
         }
-        
+
+        public abstract T Save(T entity);
+
         protected async virtual Task<T> MapperDtoToDomain<TDS>(TDS dto) where TDS : class
         {
             return await Task.Run(() =>

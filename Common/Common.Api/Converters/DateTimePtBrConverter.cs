@@ -22,7 +22,12 @@ namespace Common.API
 
         public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
         {
-            writer.WriteValue(((DateTime)value).ToString("dd/MM/yyyy HH:mm"));
+            var date = (DateTime)value;
+
+            if (date.Hour == 0 && date.Minute == 0)
+                writer.WriteValue(date.ToString("dd/MM/yyyy"));
+            else
+                writer.WriteValue(date.ToString("dd/MM/yyyy HH:mm"));
         }
     }
 }

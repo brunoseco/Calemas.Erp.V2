@@ -78,7 +78,7 @@ namespace Common.Orm
         {
             dbSet.Remove(entity);
         }
-        
+
         public virtual void Remove(IEnumerable<T> entitys)
         {
             dbSet.RemoveRange(entitys);
@@ -97,7 +97,14 @@ namespace Common.Orm
                 Source = queryFilter
             };
         }
-                
+
+
+        public virtual async Task<PaginateResult<T>> PagingAndOrdering(FilterBase filters, IQueryable<T> queryFilter)
+        {
+            var orderedQuery = queryFilter.OrderByProperty(filters);
+            return await this.Paging(filters, orderedQuery);
+        }
+
         #region async
 
         public Task<List<T2>> ToListAsync<T2>(IQueryable<T2> source)
@@ -124,7 +131,7 @@ namespace Common.Orm
         {
             return source.SumAsync(selector);
         }
-        
+
         public Task<int> CommitAsync()
         {
             return this.ctx.SaveChangesAsync();
@@ -133,7 +140,7 @@ namespace Common.Orm
         #endregion
 
         #region helpers
-                
+
         private IQueryable<T2> Paging<T2>(FilterBase filter, IQueryable<T2> source, int totalCount)
         {
             if (filter.IsPagination)

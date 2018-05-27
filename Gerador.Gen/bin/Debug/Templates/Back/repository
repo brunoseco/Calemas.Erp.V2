@@ -3,27 +3,31 @@ using <#namespace#>.Filters;
 using <#namespace#>.Data.Context;
 using <#namespace#>.Data.Model;
 using System.Linq;
+using System.Collections.Generic;
 
 namespace <#namespace#>.Data.Repository
 {
-    public class <#className#>Repository : Repository<<#className#>>
+    public class <#className#>RepositoryBase : Repository<<#className#>>
     {
-        public <#className#>Repository(DbContext<#module#> ctx) : base(ctx)
+        public <#className#>RepositoryBase(DbContextCore ctx) : base(ctx)
         {
 
         }
-
-        public IQueryable<<#className#>> GetByFilters(<#className#>Filter filters)
+				
+		public virtual IEnumerable<dynamic> GetDataItems(<#className#>Filter filters)
         {
             var querybase = this.GetAll();
-            return querybase;
+            return this.GetAll().Select(_ => new { Id = _.<#KeyName#>, Name = _.<#DataItemFieldName#> });
         }
 
-        public <#className#> GetById(<#className#>Filter filters)
+        protected IQueryable<<#className#>> SimpleFilters(<#className#>Filter filters, IQueryable<<#className#>> queryBase)
         {
-            var item = this.Get(new <#className#>() { <#KeyName#> = filters.<#KeyName#> });
-            return item;
-        }
+			var queryFilter = queryBase;
+            
+<#filtersExpressions#>
 
+            return queryFilter;
+        }
+        
     }
 }

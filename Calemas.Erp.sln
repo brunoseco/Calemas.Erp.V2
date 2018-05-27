@@ -30,6 +30,11 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calemas.Erp.Data", "Calemas.Erp.Repository\Calemas.Erp.Data.csproj", "{063CEC5D-99E9-4B9D-B46A-6658D8139034}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{76ECCD42-A2FF-4528-BFC0-43B884F5CE2C}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\Common.dll = Solution Items\Common.dll
+		Solution Items\Common.Domain.dll = Solution Items\Common.Domain.dll
+		Solution Items\Common.Gen.dll = Solution Items\Common.Gen.dll
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calemas.Erp.Services", "Calemas.Erp.Services\Calemas.Erp.Services.csproj", "{69F5FD6F-BA20-4C9B-A5F5-286B9FCCC28A}"
 EndProject
@@ -48,6 +53,7 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7DD6D95F-923A-450E-B55E-44D88E7B4D3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DD6D95F-923A-450E-B55E-44D88E7B4D3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DD6D95F-923A-450E-B55E-44D88E7B4D3A}.homolog|Any CPU.ActiveCfg = Release|Any CPU
 		{7DD6D95F-923A-450E-B55E-44D88E7B4D3A}.homolog|Any CPU.Build.0 = Release|Any CPU
 		{7DD6D95F-923A-450E-B55E-44D88E7B4D3A}.Local|Any CPU.ActiveCfg = Release|Any CPU
@@ -55,6 +61,7 @@ Global
 		{7DD6D95F-923A-450E-B55E-44D88E7B4D3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DD6D95F-923A-450E-B55E-44D88E7B4D3A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E285044F-AA49-41BF-A2B2-3B2F5F46527F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E285044F-AA49-41BF-A2B2-3B2F5F46527F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E285044F-AA49-41BF-A2B2-3B2F5F46527F}.homolog|Any CPU.ActiveCfg = Release|Any CPU
 		{E285044F-AA49-41BF-A2B2-3B2F5F46527F}.homolog|Any CPU.Build.0 = Release|Any CPU
 		{E285044F-AA49-41BF-A2B2-3B2F5F46527F}.Local|Any CPU.ActiveCfg = Release|Any CPU
@@ -62,6 +69,7 @@ Global
 		{E285044F-AA49-41BF-A2B2-3B2F5F46527F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E285044F-AA49-41BF-A2B2-3B2F5F46527F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8D24C3EC-58E9-40A4-8909-E3F9B4C270B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D24C3EC-58E9-40A4-8909-E3F9B4C270B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D24C3EC-58E9-40A4-8909-E3F9B4C270B8}.homolog|Any CPU.ActiveCfg = Release|Any CPU
 		{8D24C3EC-58E9-40A4-8909-E3F9B4C270B8}.homolog|Any CPU.Build.0 = Release|Any CPU
 		{8D24C3EC-58E9-40A4-8909-E3F9B4C270B8}.Local|Any CPU.ActiveCfg = Release|Any CPU

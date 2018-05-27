@@ -9,3 +9,15 @@ C:\Pessoal\simple-api-dotnetcore\Common.Domain\obj\Debug\netcoreapp2.0\Common.Do
 C:\Pessoal\simple-api-dotnetcore\Common.Domain\bin\Debug\netcoreapp2.0\Common.Validation.dll
 C:\Pessoal\simple-api-dotnetcore\Common.Domain\obj\Debug\netcoreapp2.0\Common.Domain.csprojResolveAssemblyReference.cache
 C:\Pessoal\simple-api-dotnetcore\Common.Domain\bin\Debug\netcoreapp2.0\Common.Validation.pdb
+D:\Projetos\calemas-erp-v2\Common\Common.Domain\bin\Debug\netcoreapp2.0\Common.Domain.deps.json
+D:\Projetos\calemas-erp-v2\Common\Common.Domain\bin\Debug\netcoreapp2.0\Common.Domain.dll
+D:\Projetos\calemas-erp-v2\Common\Common.Domain\bin\Debug\netcoreapp2.0\Common.Domain.pdb
+D:\Projetos\calemas-erp-v2\Common\Common.Domain\bin\Debug\netcoreapp2.0\Common.Validation.dll
+D:\Projetos\calemas-erp-v2\Common\Common.Domain\bin\Debug\netcoreapp2.0\Common.Validation.pdb
+D:\Projetos\calemas-erp-v2\Common\Common.Domain\obj\Debug\netcoreapp2.0\Common.Domain.csprojAssemblyReference.cache
+D:\Projetos\calemas-erp-v2\Common\Common.Domain\obj\Debug\netcoreapp2.0\Common.Domain.csproj.CoreCompileInputs.cache
+D:\Projetos\calemas-erp-v2\Common\Common.Domain\obj\Debug\netcoreapp2.0\Common.Domain.AssemblyInfoInputs.cache
+D:\Projetos\calemas-erp-v2\Common\Common.Domain\obj\Debug\netcoreapp2.0\Common.Domain.AssemblyInfo.cs
+D:\Projetos\calemas-erp-v2\Common\Common.Domain\obj\Debug\netcoreapp2.0\Common.Domain.csproj.CopyComplete
+D:\Projetos\calemas-erp-v2\Common\Common.Domain\obj\Debug\netcoreapp2.0\Common.Domain.dll
+D:\Projetos\calemas-erp-v2\Common\Common.Domain\obj\Debug\netcoreapp2.0\Common.Domain.pdb

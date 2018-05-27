@@ -403,6 +403,11 @@ public static class CommonExtensions
         return true;
 
     }
+    public static bool IsDate(this object value)
+    {
+        DateTime date;
+        return DateTime.TryParse(Convert.ToString(value), out date);
+    }
     public static bool IsDate(this string value)
     {
         DateTime date;

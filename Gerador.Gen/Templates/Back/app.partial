@@ -1,16 +1,24 @@
 ﻿using Common.Domain.Interfaces;
 using Common.Validation;
-using <#namespace#>.Dtos;
-using <#namespace#>.Data.Repository;
 using System.Threading.Tasks;
+using System.Collections.Generic;
+using <#namespace#>.Dto;
+using <#namespace#>.Data.Repository;
+using <#namespace#>.Data.Model;
+using Common.Domain.Model;
 
 namespace <#namespace#>.Services
 {
     public class <#className#>Service : <#className#>ServiceBase
     {
-        public <#className#>Service(<#className#>Repository rep, ValidationContract validation, IUnitOfWork uow)
-            : base(rep, validation, uow)
+        public <#className#>Service(<#className#>Repository rep, ValidationContract validation, CurrentUser user, IUnitOfWork uow)
+            : base(rep, validation, user, uow)
         { }
+
+		protected override async Task<IEnumerable<TDS>> MapperDomainToDto<TDS>(IEnumerable<<#className#>> models)
+        {
+            return await base.MapperDomainToDto<<#className#>DtoResult>(models) as IEnumerable<TDS>;
+        }
 
     }
 }

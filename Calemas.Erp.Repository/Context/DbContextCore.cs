@@ -15,7 +15,7 @@ namespace Calemas.Erp.Core.Data.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            new ContratoMap(modelBuilder.Entity<Contrato>());
+            new ChangeLogMap(modelBuilder.Entity<ChangeLog>());
 
         }
 

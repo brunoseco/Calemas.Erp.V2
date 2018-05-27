@@ -277,3 +277,6 @@ D:\Projetos\calemas-erp-v2\Gerador.Gen\obj\Debug\Gerador.Gen.exe
 D:\Projetos\calemas-erp-v2\Gerador.Gen\obj\Debug\Gerador.Gen.pdb
 D:\Projetos\calemas-erp-v2\Gerador.Gen\bin\Debug\Common.dll
 D:\Projetos\calemas-erp-v2\Gerador.Gen\bin\Debug\Common.Domain.dll
+D:\Projetos\calemas-erp-v2\Gerador.Gen\bin\Debug\Templates\Back\api.partial
+D:\Projetos\calemas-erp-v2\Gerador.Gen\bin\Debug\Templates\Back\repository.partial
+D:\Projetos\calemas-erp-v2\Gerador.Gen\bin\Debug\Templates\Back\app.audit

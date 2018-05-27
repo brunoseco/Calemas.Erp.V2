@@ -31,6 +31,8 @@ namespace Common.Domain.Interfaces
 
         Task<PaginateResult<T>> Paging(FilterBase filters, IQueryable<T> queryFilter);
 
+        Task<PaginateResult<T>> PagingAndOrdering(FilterBase filters, IQueryable<T> queryFilter);
+
         Task<List<T2>> ToListAsync<T2>(IQueryable<T2> source);
 
         Task<T2> SingleOrDefaultAsync<T2>(IQueryable<T2> source);

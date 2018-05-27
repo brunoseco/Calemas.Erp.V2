@@ -11,19 +11,20 @@ using System.Threading.Tasks;
 
 namespace <#namespace#>.Api.Controllers
 {
-    [Route("api/[controller]")]
-    public class <#className#>Controller : Controller
+    public class <#className#>ControllerBase : Controller
     {
-        private readonly <#className#>Service _service;
-        private readonly <#className#>Repository _rep;
-        private readonly ILogger _logger;
+        protected readonly <#className#>Service _service;
+        protected readonly <#className#>Repository _rep;
+        protected readonly ILogger _logger;
 
-        public <#className#>Controller(<#className#>Service service, <#className#>Repository rep, ILoggerFactory logger)
+        public <#className#>ControllerBase(<#className#>Service service, <#className#>Repository rep, ILoggerFactory logger)
         {
             this._service = service;
             this._rep = rep;
             this._logger = logger.CreateLogger<<#className#>Controller>();
         }
+
+        #region Principals
 
         [HttpGet]
         public async Task<IActionResult> Get([FromQuery]<#className#>Filter filters)
@@ -73,8 +74,7 @@ namespace <#namespace#>.Api.Controllers
                 return result.ReturnCustomException(ex, "<#className#>", dto);
             }
         }
-
-
+		
         [HttpDelete]
         public async Task<IActionResult> Delete(<#className#>Dto dto)
         {
@@ -89,6 +89,27 @@ namespace <#namespace#>.Api.Controllers
                 return result.ReturnCustomException(ex, "<#className#>", dto);
             }
         }
+
+        #endregion
+
+		#region Others
+
+        [HttpGet("DataItems")]
+        public async Task<IActionResult> DataItems([FromQuery]<#className#>Filter filters)
+        {
+            var result = new HttpResult<dynamic>(this._logger, this._service);
+            try
+            {
+                var items = await this._service.GetDataItems(filters);
+                return result.ReturnCustomResponse(items);
+            }
+            catch (Exception ex)
+            {
+                return result.ReturnCustomException(ex, "Assinatura", filters);
+            }
+        }
+
+        #endregion
 
     }
 }
