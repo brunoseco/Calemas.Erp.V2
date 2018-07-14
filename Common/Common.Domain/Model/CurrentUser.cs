@@ -68,6 +68,11 @@ namespace Common.Domain.Model
             return this.GetUserId<int>();
         }
 
+        public int GetTenantId()
+        {
+            return this.GetTenantId<int>();
+        }
+
 
     }
 }

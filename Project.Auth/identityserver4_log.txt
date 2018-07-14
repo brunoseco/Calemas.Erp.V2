@@ -1,0 +1,2126 @@
+2018-07-05 21:11:44.915 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-05 21:11:44.966 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-05 21:11:44.969 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-05 21:11:44.970 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-05 21:11:44.970 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-05 21:11:44.970 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-05 21:11:56.489 -03:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2018-07-05 21:11:56.506 -03:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2018-07-05 21:11:56.506 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2018-07-05 21:11:56.511 -03:00 [DBG] Start discovery request
+2018-07-05 21:12:37.836 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-05 21:12:37.887 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-05 21:12:37.897 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-05 21:12:37.897 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-05 21:12:37.897 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-05 21:12:37.897 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-05 21:14:37.827 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-05 21:14:37.872 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-05 21:14:37.876 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-05 21:14:37.876 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-05 21:14:37.876 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-05 21:14:37.876 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-05 21:17:12.053 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-05 21:17:12.106 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-05 21:17:12.110 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-05 21:17:12.110 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-05 21:17:12.111 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-05 21:17:12.111 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-05 21:17:43.484 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-05 21:17:43.528 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-05 21:17:43.534 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-05 21:17:43.535 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-05 21:17:43.535 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-05 21:17:43.535 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-05 21:18:15.351 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-05 21:18:15.407 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-05 21:18:15.412 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-05 21:18:15.412 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-05 21:18:15.412 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-05 21:18:15.412 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-05 21:19:23.593 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-05 21:19:23.647 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-05 21:19:23.653 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-05 21:19:23.654 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-05 21:19:23.654 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-05 21:19:23.654 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-05 21:20:51.629 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-05 21:20:51.664 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-05 21:20:51.667 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-05 21:20:51.667 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-05 21:20:51.667 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-05 21:20:51.667 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-05 21:22:01.577 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-05 21:22:01.612 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-05 21:22:01.616 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-05 21:22:01.616 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-05 21:22:01.616 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-05 21:22:01.616 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-05 21:22:41.925 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-05 21:22:41.973 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-05 21:22:41.976 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-05 21:22:41.977 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-05 21:22:41.977 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-05 21:22:41.977 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-05 21:25:29.227 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-05 21:25:29.259 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-05 21:25:29.262 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-05 21:25:29.262 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-05 21:25:29.262 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-05 21:25:29.262 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-05 21:27:21.173 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-05 21:27:21.217 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-05 21:27:21.221 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-05 21:27:21.222 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-05 21:27:21.222 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-05 21:27:21.222 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-05 21:51:57.241 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-05 21:51:57.289 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-05 21:51:57.292 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-05 21:51:57.292 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-05 21:51:57.292 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-05 21:51:57.292 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-05 21:55:27.883 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-05 21:55:27.939 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-05 21:55:27.945 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-05 21:55:27.946 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-05 21:55:27.946 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-05 21:55:27.946 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-05 21:58:14.498 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-05 21:58:14.555 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-05 21:58:14.560 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-05 21:58:14.561 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-05 21:58:14.561 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-05 21:58:14.561 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-05 21:59:04.725 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-05 21:59:04.807 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-05 21:59:04.814 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-05 21:59:04.814 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-05 21:59:04.815 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-05 21:59:04.815 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-05 22:01:17.326 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-05 22:01:17.375 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-05 22:01:17.379 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-05 22:01:17.380 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-05 22:01:17.380 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-05 22:01:17.380 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-10 20:24:59.104 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-10 20:24:59.166 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-10 20:24:59.170 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-10 20:24:59.170 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-10 20:24:59.170 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-10 20:24:59.170 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-10 21:29:13.652 -03:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2018-07-10 21:29:13.667 -03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2018-07-10 21:29:13.667 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2018-07-10 21:29:13.675 -03:00 [DBG] Start authorize request
+2018-07-10 21:29:13.691 -03:00 [DBG] No user present in authorize request
+2018-07-10 21:29:13.700 -03:00 [DBG] Start authorize request protocol validation
+2018-07-10 21:29:13.742 -03:00 [ERR] Unknown client or not enabled: corporativo-spa
+{
+  "SubjectId": "anonymous",
+  "RequestedScopes": "",
+  "Raw": {
+    "client_id": "corporativo-spa",
+    "redirect_uri": "http://localhost:8080/authorized/?",
+    "response_type": "id_token token",
+    "scope": "openid ssocna profile email",
+    "state": "1531268953351",
+    "nonce": "xyz"
+  }
+}
+2018-07-10 21:29:13.747 -03:00 [ERR] Request validation failed
+2018-07-10 21:29:13.747 -03:00 [INF] {
+  "SubjectId": "anonymous",
+  "RequestedScopes": "",
+  "Raw": {
+    "client_id": "corporativo-spa",
+    "redirect_uri": "http://localhost:8080/authorized/?",
+    "response_type": "id_token token",
+    "scope": "openid ssocna profile email",
+    "state": "1531268953351",
+    "nonce": "xyz"
+  }
+}
+2018-07-10 21:29:13.777 -03:00 [INF] {
+  "Name": "Token Issued Failure",
+  "Category": "Token",
+  "EventType": "Failure",
+  "Id": 2001,
+  "ClientId": "corporativo-spa",
+  "Endpoint": "Authorize",
+  "Scopes": "",
+  "Error": "unauthorized_client",
+  "ActivityId": "0HLF6NHDC6IS0:00000001",
+  "TimeStamp": "2018-07-11T00:29:13Z",
+  "ProcessId": 13624,
+  "LocalIpAddress": "127.0.0.1:11279",
+  "RemoteIpAddress": "::1"
+}
+2018-07-10 21:30:31.385 -03:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2018-07-10 21:30:31.385 -03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2018-07-10 21:30:31.385 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2018-07-10 21:30:31.385 -03:00 [DBG] Start authorize request
+2018-07-10 21:30:31.385 -03:00 [DBG] No user present in authorize request
+2018-07-10 21:30:31.386 -03:00 [DBG] Start authorize request protocol validation
+2018-07-10 21:30:31.386 -03:00 [ERR] Unknown client or not enabled: corporativo-spa
+{
+  "SubjectId": "anonymous",
+  "RequestedScopes": "",
+  "Raw": {
+    "client_id": "corporativo-spa",
+    "redirect_uri": "http://localhost:8080/authorized/?",
+    "response_type": "id_token token",
+    "scope": "openid superacrm profile email",
+    "state": "1531269031088",
+    "nonce": "xyz"
+  }
+}
+2018-07-10 21:30:31.386 -03:00 [ERR] Request validation failed
+2018-07-10 21:30:31.387 -03:00 [INF] {
+  "SubjectId": "anonymous",
+  "RequestedScopes": "",
+  "Raw": {
+    "client_id": "corporativo-spa",
+    "redirect_uri": "http://localhost:8080/authorized/?",
+    "response_type": "id_token token",
+    "scope": "openid superacrm profile email",
+    "state": "1531269031088",
+    "nonce": "xyz"
+  }
+}
+2018-07-10 21:30:31.387 -03:00 [INF] {
+  "Name": "Token Issued Failure",
+  "Category": "Token",
+  "EventType": "Failure",
+  "Id": 2001,
+  "ClientId": "corporativo-spa",
+  "Endpoint": "Authorize",
+  "Scopes": "",
+  "Error": "unauthorized_client",
+  "ActivityId": "0HLF6NHDC6IS1:00000001",
+  "TimeStamp": "2018-07-11T00:30:31Z",
+  "ProcessId": 13624,
+  "LocalIpAddress": "127.0.0.1:11279",
+  "RemoteIpAddress": "::1"
+}
+2018-07-10 21:31:19.577 -03:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2018-07-10 21:31:19.577 -03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2018-07-10 21:31:19.577 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2018-07-10 21:31:19.577 -03:00 [DBG] Start authorize request
+2018-07-10 21:31:19.578 -03:00 [DBG] No user present in authorize request
+2018-07-10 21:31:19.578 -03:00 [DBG] Start authorize request protocol validation
+2018-07-10 21:31:19.580 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-10 21:31:19.666 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-10 21:31:19.669 -03:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "AllowedRedirectUris": [
+    "http://localhost:8080/authorized/?"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid superacrm profile email",
+  "State": "1531269079328",
+  "Nonce": "xyz",
+  "Raw": {
+    "client_id": "superacrm-spa",
+    "redirect_uri": "http://localhost:8080/authorized/?",
+    "response_type": "id_token token",
+    "scope": "openid superacrm profile email",
+    "state": "1531269079328",
+    "nonce": "xyz"
+  }
+}
+2018-07-10 21:31:19.682 -03:00 [INF] Showing login: User is not authenticated
+2018-07-10 21:31:19.726 -03:00 [DBG] Start authorize request protocol validation
+2018-07-10 21:31:19.726 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-10 21:31:19.726 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-10 21:31:19.731 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-10 21:31:23.413 -03:00 [INF] AuthenticationScheme: Google was challenged.
+2018-07-10 21:31:28.634 -03:00 [INF] AuthenticationScheme: idsrv.external signed in.
+2018-07-10 21:31:28.673 -03:00 [INF] {
+  "Name": "User Login Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1000,
+  "Provider": "Google",
+  "ProviderUserId": "113213507918619154134",
+  "SubjectId": "88f07e8525ea3dc0aa1f5bb06e78ec18ada984e7eef531bc56e111f3e2825dc9",
+  "DisplayName": "Bruno Henrique",
+  "Endpoint": "UI",
+  "ActivityId": "0HLF6NHDC6IS1:00000007",
+  "TimeStamp": "2018-07-11T00:31:28Z",
+  "ProcessId": 13624,
+  "LocalIpAddress": "127.0.0.1:11279",
+  "RemoteIpAddress": "::1"
+}
+2018-07-10 21:31:28.687 -03:00 [DBG] Augmenting SignInContext
+2018-07-10 21:31:28.689 -03:00 [DBG] Adding amr claim with value: external
+2018-07-10 21:31:28.694 -03:00 [INF] AuthenticationScheme: idsrv signed in.
+2018-07-10 21:31:28.701 -03:00 [INF] AuthenticationScheme: idsrv.external signed out.
+2018-07-10 21:31:28.701 -03:00 [DBG] Start authorize request protocol validation
+2018-07-10 21:31:28.702 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-10 21:31:28.702 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-10 21:31:28.704 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-10 21:31:28.713 -03:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2018-07-10 21:31:28.714 -03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2018-07-10 21:31:28.714 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2018-07-10 21:31:28.721 -03:00 [DBG] Start authorize callback request
+2018-07-10 21:31:28.725 -03:00 [DBG] User in authorize request: 88f07e8525ea3dc0aa1f5bb06e78ec18ada984e7eef531bc56e111f3e2825dc9
+2018-07-10 21:31:28.725 -03:00 [DBG] Start authorize request protocol validation
+2018-07-10 21:31:28.725 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-10 21:31:28.726 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-10 21:31:28.726 -03:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "AllowedRedirectUris": [
+    "http://localhost:8080/authorized/?"
+  ],
+  "SubjectId": "88f07e8525ea3dc0aa1f5bb06e78ec18ada984e7eef531bc56e111f3e2825dc9",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid superacrm profile email",
+  "State": "1531269079328",
+  "Nonce": "xyz",
+  "SessionId": "71db2e4aa2bd2d9cc7df8d890436e668",
+  "Raw": {
+    "client_id": "superacrm-spa",
+    "redirect_uri": "http://localhost:8080/authorized/?",
+    "response_type": "id_token token",
+    "scope": "openid superacrm profile email",
+    "state": "1531269079328",
+    "nonce": "xyz"
+  }
+}
+2018-07-10 21:31:28.728 -03:00 [DBG] IsActive called from: AuthorizeEndpoint
+2018-07-10 21:31:28.743 -03:00 [DBG] Client is configured to not require consent, no consent is required
+2018-07-10 21:31:28.751 -03:00 [DBG] Creating Implicit Flow response.
+2018-07-10 21:31:28.765 -03:00 [DBG] Getting claims for access token for client: superacrm-spa
+2018-07-10 21:31:28.765 -03:00 [DBG] Getting claims for access token for subject: 88f07e8525ea3dc0aa1f5bb06e78ec18ada984e7eef531bc56e111f3e2825dc9
+2018-07-10 21:31:28.773 -03:00 [DBG] Get profile called for subject 88f07e8525ea3dc0aa1f5bb06e78ec18ada984e7eef531bc56e111f3e2825dc9 from client Supera CRM with claim types [] via ClaimsProviderAccessToken
+2018-07-10 21:31:28.778 -03:00 [DBG] Issued claims: []
+2018-07-10 21:31:28.857 -03:00 [DBG] Getting claims for identity token for subject: 88f07e8525ea3dc0aa1f5bb06e78ec18ada984e7eef531bc56e111f3e2825dc9 and client: superacrm-spa
+2018-07-10 21:31:28.858 -03:00 [DBG] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2018-07-10 21:31:28.877 -03:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "Endpoint": "Authorize",
+  "SubjectId": "88f07e8525ea3dc0aa1f5bb06e78ec18ada984e7eef531bc56e111f3e2825dc9",
+  "Scopes": "openid profile email superacrm",
+  "GrantType": "implicit",
+  "Tokens": [
+    {
+      "TokenType": "id_token",
+      "TokenValue": "****FDoQ"
+    },
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****B1_g"
+    }
+  ],
+  "ActivityId": "0HLF6NHDC6IS1:00000008",
+  "TimeStamp": "2018-07-11T00:31:28Z",
+  "ProcessId": 13624,
+  "LocalIpAddress": "127.0.0.1:11279",
+  "RemoteIpAddress": "::1"
+}
+2018-07-10 21:31:28.884 -03:00 [INF] Authorize endpoint response
+{
+  "SubjectId": "88f07e8525ea3dc0aa1f5bb06e78ec18ada984e7eef531bc56e111f3e2825dc9",
+  "ClientId": "superacrm-spa",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "State": "1531269079328",
+  "Scope": "openid profile email superacrm"
+}
+2018-07-10 21:31:28.905 -03:00 [DBG] Augmenting SignInContext
+2018-07-10 21:31:28.906 -03:00 [INF] AuthenticationScheme: idsrv signed in.
+2018-07-10 21:33:14.918 -03:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2018-07-10 21:33:14.921 -03:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2018-07-10 21:33:14.921 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2018-07-10 21:33:14.926 -03:00 [DBG] Start discovery request
+2018-07-10 21:33:15.091 -03:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2018-07-10 21:33:15.091 -03:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2018-07-10 21:33:15.091 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2018-07-10 21:33:15.097 -03:00 [DBG] Start key discovery request
+2018-07-10 22:53:35.677 -03:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2018-07-10 22:53:35.678 -03:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2018-07-10 22:53:35.678 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2018-07-10 22:53:35.678 -03:00 [DBG] Start discovery request
+2018-07-10 22:53:35.775 -03:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2018-07-10 22:53:35.775 -03:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2018-07-10 22:53:35.775 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2018-07-10 22:53:35.775 -03:00 [DBG] Start key discovery request
+2018-07-10 22:53:36.106 -03:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2018-07-10 22:53:36.107 -03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2018-07-10 22:53:36.107 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2018-07-10 22:53:36.107 -03:00 [DBG] Start authorize request
+2018-07-10 22:53:36.107 -03:00 [DBG] No user present in authorize request
+2018-07-10 22:53:36.107 -03:00 [DBG] Start authorize request protocol validation
+2018-07-10 22:53:36.107 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-10 22:53:36.107 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-10 22:53:36.108 -03:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "AllowedRedirectUris": [
+    "http://localhost:8080/authorized/?"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid superacrm profile email",
+  "State": "1531274016084",
+  "Nonce": "xyz",
+  "Raw": {
+    "client_id": "superacrm-spa",
+    "redirect_uri": "http://localhost:8080/authorized/?",
+    "response_type": "id_token token",
+    "scope": "openid superacrm profile email",
+    "state": "1531274016084",
+    "nonce": "xyz"
+  }
+}
+2018-07-10 22:53:36.108 -03:00 [INF] Showing login: User is not authenticated
+2018-07-10 22:53:36.126 -03:00 [DBG] Start authorize request protocol validation
+2018-07-10 22:53:36.127 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-10 22:53:36.127 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-10 22:53:36.127 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-10 22:53:42.366 -03:00 [INF] AuthenticationScheme: Google was challenged.
+2018-07-10 22:53:48.376 -03:00 [INF] AuthenticationScheme: idsrv.external signed in.
+2018-07-10 22:53:48.385 -03:00 [INF] {
+  "Name": "User Login Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1000,
+  "Provider": "Google",
+  "ProviderUserId": "113213507918619154134",
+  "SubjectId": "88f07e8525ea3dc0aa1f5bb06e78ec18ada984e7eef531bc56e111f3e2825dc9",
+  "DisplayName": "Bruno Henrique",
+  "Endpoint": "UI",
+  "ActivityId": "0HLF6NHDC6IS3:00000007",
+  "TimeStamp": "2018-07-11T01:53:48Z",
+  "ProcessId": 13624,
+  "LocalIpAddress": "127.0.0.1:11279",
+  "RemoteIpAddress": "::1"
+}
+2018-07-10 22:53:48.385 -03:00 [DBG] Augmenting SignInContext
+2018-07-10 22:53:48.385 -03:00 [DBG] Adding amr claim with value: external
+2018-07-10 22:53:48.386 -03:00 [INF] AuthenticationScheme: idsrv signed in.
+2018-07-10 22:53:48.386 -03:00 [INF] AuthenticationScheme: idsrv.external signed out.
+2018-07-10 22:53:48.386 -03:00 [DBG] Start authorize request protocol validation
+2018-07-10 22:53:48.386 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-10 22:53:48.387 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-10 22:53:48.387 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-10 22:53:48.396 -03:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2018-07-10 22:53:48.397 -03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2018-07-10 22:53:48.397 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2018-07-10 22:53:48.397 -03:00 [DBG] Start authorize callback request
+2018-07-10 22:53:48.397 -03:00 [DBG] User in authorize request: 88f07e8525ea3dc0aa1f5bb06e78ec18ada984e7eef531bc56e111f3e2825dc9
+2018-07-10 22:53:48.397 -03:00 [DBG] Start authorize request protocol validation
+2018-07-10 22:53:48.397 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-10 22:53:48.397 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-10 22:53:48.398 -03:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "AllowedRedirectUris": [
+    "http://localhost:8080/authorized/?"
+  ],
+  "SubjectId": "88f07e8525ea3dc0aa1f5bb06e78ec18ada984e7eef531bc56e111f3e2825dc9",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid superacrm profile email",
+  "State": "1531274016084",
+  "Nonce": "xyz",
+  "SessionId": "292371a08afeab33e36db78ff7387db2",
+  "Raw": {
+    "client_id": "superacrm-spa",
+    "redirect_uri": "http://localhost:8080/authorized/?",
+    "response_type": "id_token token",
+    "scope": "openid superacrm profile email",
+    "state": "1531274016084",
+    "nonce": "xyz"
+  }
+}
+2018-07-10 22:53:48.398 -03:00 [DBG] IsActive called from: AuthorizeEndpoint
+2018-07-10 22:53:48.398 -03:00 [DBG] Client is configured to not require consent, no consent is required
+2018-07-10 22:53:48.398 -03:00 [DBG] Creating Implicit Flow response.
+2018-07-10 22:53:48.398 -03:00 [DBG] Getting claims for access token for client: superacrm-spa
+2018-07-10 22:53:48.398 -03:00 [DBG] Getting claims for access token for subject: 88f07e8525ea3dc0aa1f5bb06e78ec18ada984e7eef531bc56e111f3e2825dc9
+2018-07-10 22:53:48.398 -03:00 [DBG] Get profile called for subject 88f07e8525ea3dc0aa1f5bb06e78ec18ada984e7eef531bc56e111f3e2825dc9 from client Supera CRM with claim types [] via ClaimsProviderAccessToken
+2018-07-10 22:53:48.398 -03:00 [DBG] Issued claims: []
+2018-07-10 22:53:48.403 -03:00 [DBG] Getting claims for identity token for subject: 88f07e8525ea3dc0aa1f5bb06e78ec18ada984e7eef531bc56e111f3e2825dc9 and client: superacrm-spa
+2018-07-10 22:53:48.404 -03:00 [DBG] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2018-07-10 22:53:48.408 -03:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "Endpoint": "Authorize",
+  "SubjectId": "88f07e8525ea3dc0aa1f5bb06e78ec18ada984e7eef531bc56e111f3e2825dc9",
+  "Scopes": "openid profile email superacrm",
+  "GrantType": "implicit",
+  "Tokens": [
+    {
+      "TokenType": "id_token",
+      "TokenValue": "****sBig"
+    },
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****Kg3A"
+    }
+  ],
+  "ActivityId": "0HLF6NHDC6IS3:00000008",
+  "TimeStamp": "2018-07-11T01:53:48Z",
+  "ProcessId": 13624,
+  "LocalIpAddress": "127.0.0.1:11279",
+  "RemoteIpAddress": "::1"
+}
+2018-07-10 22:53:48.419 -03:00 [INF] Authorize endpoint response
+{
+  "SubjectId": "88f07e8525ea3dc0aa1f5bb06e78ec18ada984e7eef531bc56e111f3e2825dc9",
+  "ClientId": "superacrm-spa",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "State": "1531274016084",
+  "Scope": "openid profile email superacrm"
+}
+2018-07-10 22:53:48.420 -03:00 [DBG] Augmenting SignInContext
+2018-07-10 22:53:48.420 -03:00 [INF] AuthenticationScheme: idsrv signed in.
+2018-07-11 09:42:22.522 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-11 09:42:22.611 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-11 09:42:22.615 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-11 09:42:22.616 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-11 09:42:22.616 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-11 09:42:22.616 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-11 09:47:36.347 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-11 09:47:36.394 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-11 09:47:36.397 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-11 09:47:36.397 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-11 09:47:36.397 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-11 09:47:36.397 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-11 20:27:13.780 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-11 20:27:13.835 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-11 20:27:13.839 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-11 20:27:13.840 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-11 20:27:13.840 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-11 20:27:13.840 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-11 20:29:10.939 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-11 20:29:11.020 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-11 20:29:11.026 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-11 20:29:11.026 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-11 20:29:11.026 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-11 20:29:11.026 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-11 20:30:23.564 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-11 20:30:23.617 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-11 20:30:23.622 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-11 20:30:23.622 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-11 20:30:23.622 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-11 20:30:23.623 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-11 20:30:43.745 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-11 20:30:43.800 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-11 20:30:43.809 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-11 20:30:43.809 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-11 20:30:43.809 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-11 20:30:43.809 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-11 20:32:35.644 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-11 20:32:35.734 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-11 20:32:35.740 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-11 20:32:35.740 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-11 20:32:35.740 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-11 20:32:35.740 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-11 20:35:03.577 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-11 20:35:03.621 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-11 20:35:03.625 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-11 20:35:03.626 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-11 20:35:03.626 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-11 20:35:03.626 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-11 20:35:20.536 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-11 20:35:20.616 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-11 20:35:20.624 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-11 20:35:20.624 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-11 20:35:20.624 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-11 20:35:20.624 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-11 20:36:29.288 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-11 20:36:29.371 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-11 20:36:29.375 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-11 20:36:29.376 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-11 20:36:29.376 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-11 20:36:29.376 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-11 20:38:44.013 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-11 20:38:44.079 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-11 20:38:44.085 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-11 20:38:44.085 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-11 20:38:44.085 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-11 20:38:44.085 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-11 20:45:19.077 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-11 20:45:19.149 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-11 20:45:19.154 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-11 20:45:19.154 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-11 20:45:19.154 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-11 20:45:19.154 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-11 20:47:25.033 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-11 20:47:25.104 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-11 20:47:25.109 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-11 20:47:25.109 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-11 20:47:25.109 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-11 20:47:25.110 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-11 21:23:38.799 -03:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2018-07-11 21:23:38.818 -03:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2018-07-11 21:23:38.819 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2018-07-11 21:23:38.826 -03:00 [DBG] Start discovery request
+2018-07-11 21:23:39.035 -03:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2018-07-11 21:23:39.037 -03:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2018-07-11 21:23:39.037 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2018-07-11 21:23:39.045 -03:00 [DBG] Start key discovery request
+2018-07-11 21:30:49.505 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-11 21:30:49.560 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-11 21:30:49.564 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-11 21:30:49.564 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-11 21:30:49.564 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-11 21:30:49.564 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-11 21:30:49.888 -03:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2018-07-11 21:30:49.897 -03:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2018-07-11 21:30:49.897 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2018-07-11 21:30:49.902 -03:00 [DBG] Start discovery request
+2018-07-11 21:30:50.109 -03:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2018-07-11 21:30:50.110 -03:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2018-07-11 21:30:50.111 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2018-07-11 21:30:50.116 -03:00 [DBG] Start key discovery request
+2018-07-11 21:33:09.601 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-11 21:33:09.665 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-11 21:33:09.676 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-11 21:33:09.676 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-11 21:33:09.677 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-11 21:33:09.677 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-11 21:33:10.373 -03:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2018-07-11 21:33:10.390 -03:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2018-07-11 21:33:10.391 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2018-07-11 21:33:10.397 -03:00 [DBG] Start discovery request
+2018-07-11 21:33:10.595 -03:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2018-07-11 21:33:10.596 -03:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2018-07-11 21:33:10.596 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2018-07-11 21:33:10.603 -03:00 [DBG] Start key discovery request
+2018-07-11 21:33:11.029 -03:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2018-07-11 21:33:11.042 -03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2018-07-11 21:33:11.042 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2018-07-11 21:33:11.052 -03:00 [DBG] Start authorize request
+2018-07-11 21:33:11.071 -03:00 [DBG] No user present in authorize request
+2018-07-11 21:33:11.077 -03:00 [DBG] Start authorize request protocol validation
+2018-07-11 21:33:11.092 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:33:11.145 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-11 21:33:11.160 -03:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "AllowedRedirectUris": [
+    "http://localhost:8080/authorized/?"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid superacrm profile email",
+  "State": "1531355591013",
+  "Nonce": "xyz",
+  "Raw": {
+    "client_id": "superacrm-spa",
+    "redirect_uri": "http://localhost:8080/authorized/?",
+    "response_type": "id_token token",
+    "scope": "openid superacrm profile email",
+    "state": "1531355591013",
+    "nonce": "xyz"
+  }
+}
+2018-07-11 21:33:11.173 -03:00 [INF] Showing login: User is not authenticated
+2018-07-11 21:33:11.384 -03:00 [DBG] Start authorize request protocol validation
+2018-07-11 21:33:11.385 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:33:11.385 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-11 21:33:11.391 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:33:25.666 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-11 21:33:25.723 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-11 21:33:25.740 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-11 21:33:25.740 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-11 21:33:25.740 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-11 21:33:25.740 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-11 21:33:38.028 -03:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2018-07-11 21:33:38.036 -03:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2018-07-11 21:33:38.036 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2018-07-11 21:33:38.042 -03:00 [DBG] Start discovery request
+2018-07-11 21:33:38.213 -03:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2018-07-11 21:33:38.214 -03:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2018-07-11 21:33:38.214 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2018-07-11 21:33:38.219 -03:00 [DBG] Start key discovery request
+2018-07-11 21:33:38.451 -03:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2018-07-11 21:33:38.456 -03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2018-07-11 21:33:38.456 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2018-07-11 21:33:38.463 -03:00 [DBG] Start authorize request
+2018-07-11 21:33:38.478 -03:00 [DBG] No user present in authorize request
+2018-07-11 21:33:38.484 -03:00 [DBG] Start authorize request protocol validation
+2018-07-11 21:33:38.529 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:33:38.582 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-11 21:33:38.597 -03:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "AllowedRedirectUris": [
+    "http://localhost:8080/authorized/?"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid superacrm profile email",
+  "State": "1531355618437",
+  "Nonce": "xyz",
+  "Raw": {
+    "client_id": "superacrm-spa",
+    "redirect_uri": "http://localhost:8080/authorized/?",
+    "response_type": "id_token token",
+    "scope": "openid superacrm profile email",
+    "state": "1531355618437",
+    "nonce": "xyz"
+  }
+}
+2018-07-11 21:33:38.610 -03:00 [INF] Showing login: User is not authenticated
+2018-07-11 21:33:38.689 -03:00 [DBG] Start authorize request protocol validation
+2018-07-11 21:33:38.689 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:33:38.690 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-11 21:33:38.698 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:34:15.816 -03:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-07-11 21:34:15.910 -03:00 [DBG] Start authorize request protocol validation
+2018-07-11 21:34:15.910 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:34:15.918 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-11 21:34:15.964 -03:00 [INF] {
+  "Name": "User Login Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1000,
+  "Username": "alice",
+  "SubjectId": "818727",
+  "DisplayName": "alice",
+  "Endpoint": "UI",
+  "ActivityId": "0HLF7HSAEUCEJ:00000006",
+  "TimeStamp": "2018-07-12T00:34:15Z",
+  "ProcessId": 12428,
+  "LocalIpAddress": "127.0.0.1:19912",
+  "RemoteIpAddress": "::1"
+}
+2018-07-11 21:34:16.041 -03:00 [DBG] Augmenting SignInContext
+2018-07-11 21:34:16.049 -03:00 [DBG] Adding idp claim with value: local
+2018-07-11 21:34:16.050 -03:00 [DBG] Adding amr claim with value: pwd
+2018-07-11 21:34:16.075 -03:00 [INF] AuthenticationScheme: idsrv signed in.
+2018-07-11 21:34:16.078 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:34:16.090 -03:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2018-07-11 21:34:16.092 -03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2018-07-11 21:34:16.092 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2018-07-11 21:34:16.102 -03:00 [DBG] Start authorize callback request
+2018-07-11 21:34:16.109 -03:00 [DBG] User in authorize request: 818727
+2018-07-11 21:34:16.134 -03:00 [DBG] Start authorize request protocol validation
+2018-07-11 21:34:16.134 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:34:16.135 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-11 21:34:16.135 -03:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "AllowedRedirectUris": [
+    "http://localhost:8080/authorized/?"
+  ],
+  "SubjectId": "818727",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid superacrm profile email",
+  "State": "1531355618437",
+  "Nonce": "xyz",
+  "SessionId": "11ba53ab493877c7af7e92c67c24a70f",
+  "Raw": {
+    "client_id": "superacrm-spa",
+    "redirect_uri": "http://localhost:8080/authorized/?",
+    "response_type": "id_token token",
+    "scope": "openid superacrm profile email",
+    "state": "1531355618437",
+    "nonce": "xyz"
+  }
+}
+2018-07-11 21:34:16.138 -03:00 [DBG] IsActive called from: AuthorizeEndpoint
+2018-07-11 21:34:16.154 -03:00 [DBG] Client is configured to not require consent, no consent is required
+2018-07-11 21:34:16.166 -03:00 [DBG] Creating Implicit Flow response.
+2018-07-11 21:34:16.187 -03:00 [DBG] Getting claims for access token for client: superacrm-spa
+2018-07-11 21:34:16.188 -03:00 [DBG] Getting claims for access token for subject: 818727
+2018-07-11 21:34:16.201 -03:00 [DBG] Get profile called for subject 818727 from client Supera CRM with claim types [] via ClaimsProviderAccessToken
+2018-07-11 21:34:16.206 -03:00 [DBG] Issued claims: []
+2018-07-11 21:34:16.308 -03:00 [DBG] Getting claims for identity token for subject: 818727 and client: superacrm-spa
+2018-07-11 21:34:16.308 -03:00 [DBG] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2018-07-11 21:34:16.333 -03:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "Endpoint": "Authorize",
+  "SubjectId": "818727",
+  "Scopes": "openid profile email superacrm",
+  "GrantType": "implicit",
+  "Tokens": [
+    {
+      "TokenType": "id_token",
+      "TokenValue": "****zYGg"
+    },
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****zrQQ"
+    }
+  ],
+  "ActivityId": "0HLF7HSAEUCEJ:00000007",
+  "TimeStamp": "2018-07-12T00:34:16Z",
+  "ProcessId": 12428,
+  "LocalIpAddress": "127.0.0.1:19912",
+  "RemoteIpAddress": "::1"
+}
+2018-07-11 21:34:16.339 -03:00 [INF] Authorize endpoint response
+{
+  "SubjectId": "818727",
+  "ClientId": "superacrm-spa",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "State": "1531355618437",
+  "Scope": "openid profile email superacrm"
+}
+2018-07-11 21:34:16.369 -03:00 [DBG] Augmenting SignInContext
+2018-07-11 21:34:16.370 -03:00 [INF] AuthenticationScheme: idsrv signed in.
+2018-07-11 21:42:32.930 -03:00 [DBG] Request path /connect/endsession matched to endpoint type Endsession
+2018-07-11 21:42:32.936 -03:00 [DBG] Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionEndpoint
+2018-07-11 21:42:32.937 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionEndpoint for /connect/endsession
+2018-07-11 21:42:32.947 -03:00 [DBG] Processing signout request for 818727
+2018-07-11 21:42:32.959 -03:00 [DBG] Start end session request validation
+2018-07-11 21:42:32.970 -03:00 [DBG] Start identity token validation
+2018-07-11 21:42:32.983 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:42:32.983 -03:00 [DBG] Client found: superacrm-spa / Supera CRM
+2018-07-11 21:42:33.044 -03:00 [DBG] IsActive called from: IdentityTokenValidation
+2018-07-11 21:42:33.045 -03:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2018-07-11 21:42:33.051 -03:00 [DBG] Token validation success
+{
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "ValidateLifetime": false,
+  "Claims": {
+    "nbf": 1531355656,
+    "exp": 1531355956,
+    "iss": "http://localhost:5000",
+    "aud": "superacrm-spa",
+    "nonce": "xyz",
+    "iat": 1531355656,
+    "at_hash": "h5ISM8pDD6APw-UgGIAczg",
+    "sid": "11ba53ab493877c7af7e92c67c24a70f",
+    "sub": "818727",
+    "auth_time": 1531355656,
+    "idp": "local",
+    "amr": "pwd"
+  }
+}
+2018-07-11 21:42:33.061 -03:00 [INF] End session request validation failure: Invalid post logout URI
+{
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "SubjectId": "818727",
+  "Raw": {
+    "id_token_hint": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjgyYzY5NzI1NDU2ZWU2NDUxYjM0YWYxMWQxNTQzODk3IiwidHlwIjoiSldUIn0.eyJuYmYiOjE1MzEzNTU2NTYsImV4cCI6MTUzMTM1NTk1NiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjoic3VwZXJhY3JtLXNwYSIsIm5vbmNlIjoieHl6IiwiaWF0IjoxNTMxMzU1NjU2LCJhdF9oYXNoIjoiaDVJU004cERENkFQdy1VZ0dJQWN6ZyIsInNpZCI6IjExYmE1M2FiNDkzODc3YzdhZjdlOTJjNjdjMjRhNzBmIiwic3ViIjoiODE4NzI3IiwiYXV0aF90aW1lIjoxNTMxMzU1NjU2LCJpZHAiOiJsb2NhbCIsImFtciI6WyJwd2QiXX0.OqfDnQgta1wUg81eZ9sVlOZdpSQbwxrKK_qsx3CSh-RgISprIoG7sMbpAeu7VSowk_uSKSfcTkzGNPsZJjMp2EbK7vLhuj0DO2R0JqvUKrG-4Hkwgs6O1OcFV22eETa5ctJ1fo21BzuZLaUB93ZzsM-hoJ6x8PN6PFULpm-qj7mCKkX9IReNeFYrqy9H3IIDCLVQxmll4Iz_lqiQF6GL8-zlhxaxsSCUAbA9YhjbDazaiwjxwfoyASf7XY6x7_-KH-YzMV0zbwncmJSn6c2w0cGbVF5PJK_8nowXE0KcDGcaYn2e-HGIdirRYro3mZbFjNydCWznYvhB9O6bxfzYGg",
+    "post_logout_redirect_uri": "http://localhost:8080/loggedout/?",
+    "state": "1531355618437"
+  }
+}
+2018-07-11 21:42:33.061 -03:00 [ERR] Error processing end session request Invalid request
+2018-07-11 21:42:38.729 -03:00 [DBG] CORS request made for path: /account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-07-11 21:42:38.755 -03:00 [INF] AuthenticationScheme: idsrv signed out.
+2018-07-11 21:42:38.763 -03:00 [INF] {
+  "Name": "User Logout Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1002,
+  "SubjectId": "818727",
+  "DisplayName": "alice",
+  "ActivityId": "0HLF7HSAEUCEK:00000003",
+  "TimeStamp": "2018-07-12T00:42:38Z",
+  "ProcessId": 12428,
+  "LocalIpAddress": "127.0.0.1:19912",
+  "RemoteIpAddress": "::1"
+}
+2018-07-11 21:42:38.888 -03:00 [DBG] Request path /connect/endsession/callback matched to endpoint type Endsession
+2018-07-11 21:42:38.890 -03:00 [DBG] Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionCallbackEndpoint
+2018-07-11 21:42:38.890 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionCallbackEndpoint for /connect/endsession/callback
+2018-07-11 21:42:38.905 -03:00 [DBG] Processing signout callback request
+2018-07-11 21:42:38.927 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:42:38.927 -03:00 [DBG] No client front-channel logout URLs
+2018-07-11 21:42:38.928 -03:00 [DBG] No client back-channel logout URLs
+2018-07-11 21:42:38.928 -03:00 [INF] Successful signout callback.
+2018-07-11 21:42:38.928 -03:00 [DBG] No client front-channel iframe urls
+2018-07-11 21:42:38.928 -03:00 [DBG] No client back-channel iframe urls
+2018-07-11 21:43:10.827 -03:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2018-07-11 21:43:10.828 -03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2018-07-11 21:43:10.828 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2018-07-11 21:43:10.828 -03:00 [DBG] Start authorize request
+2018-07-11 21:43:10.828 -03:00 [DBG] No user present in authorize request
+2018-07-11 21:43:10.828 -03:00 [DBG] Start authorize request protocol validation
+2018-07-11 21:43:10.829 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:43:10.829 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-11 21:43:10.829 -03:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "AllowedRedirectUris": [
+    "http://localhost:8080/authorized/?"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid superacrm profile email",
+  "State": "1531356190581",
+  "Nonce": "xyz",
+  "Raw": {
+    "client_id": "superacrm-spa",
+    "redirect_uri": "http://localhost:8080/authorized/?",
+    "response_type": "id_token token",
+    "scope": "openid superacrm profile email",
+    "state": "1531356190581",
+    "nonce": "xyz"
+  }
+}
+2018-07-11 21:43:10.829 -03:00 [INF] Showing login: User is not authenticated
+2018-07-11 21:43:10.864 -03:00 [DBG] Start authorize request protocol validation
+2018-07-11 21:43:10.865 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:43:10.865 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-11 21:43:10.865 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:43:17.693 -03:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-07-11 21:43:17.695 -03:00 [DBG] Start authorize request protocol validation
+2018-07-11 21:43:17.696 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:43:17.696 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-11 21:43:17.697 -03:00 [INF] {
+  "Name": "User Login Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1000,
+  "Username": "alice",
+  "SubjectId": "818727",
+  "DisplayName": "alice",
+  "Endpoint": "UI",
+  "ActivityId": "0HLF7HSAEUCEK:00000007",
+  "TimeStamp": "2018-07-12T00:43:17Z",
+  "ProcessId": 12428,
+  "LocalIpAddress": "127.0.0.1:19912",
+  "RemoteIpAddress": "::1"
+}
+2018-07-11 21:43:17.697 -03:00 [DBG] Augmenting SignInContext
+2018-07-11 21:43:17.697 -03:00 [DBG] Adding idp claim with value: local
+2018-07-11 21:43:17.697 -03:00 [DBG] Adding amr claim with value: pwd
+2018-07-11 21:43:17.698 -03:00 [INF] AuthenticationScheme: idsrv signed in.
+2018-07-11 21:43:17.698 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:43:17.708 -03:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2018-07-11 21:43:17.708 -03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2018-07-11 21:43:17.708 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2018-07-11 21:43:17.708 -03:00 [DBG] Start authorize callback request
+2018-07-11 21:43:17.709 -03:00 [DBG] User in authorize request: 818727
+2018-07-11 21:43:17.709 -03:00 [DBG] Start authorize request protocol validation
+2018-07-11 21:43:17.709 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:43:17.709 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-11 21:43:17.709 -03:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "AllowedRedirectUris": [
+    "http://localhost:8080/authorized/?"
+  ],
+  "SubjectId": "818727",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid superacrm profile email",
+  "State": "1531356190581",
+  "Nonce": "xyz",
+  "SessionId": "c659db24999f8bb0d2285762bbda02e9",
+  "Raw": {
+    "client_id": "superacrm-spa",
+    "redirect_uri": "http://localhost:8080/authorized/?",
+    "response_type": "id_token token",
+    "scope": "openid superacrm profile email",
+    "state": "1531356190581",
+    "nonce": "xyz"
+  }
+}
+2018-07-11 21:43:17.710 -03:00 [DBG] IsActive called from: AuthorizeEndpoint
+2018-07-11 21:43:17.710 -03:00 [DBG] Client is configured to not require consent, no consent is required
+2018-07-11 21:43:17.710 -03:00 [DBG] Creating Implicit Flow response.
+2018-07-11 21:43:17.710 -03:00 [DBG] Getting claims for access token for client: superacrm-spa
+2018-07-11 21:43:17.710 -03:00 [DBG] Getting claims for access token for subject: 818727
+2018-07-11 21:43:17.711 -03:00 [DBG] Get profile called for subject 818727 from client Supera CRM with claim types [] via ClaimsProviderAccessToken
+2018-07-11 21:43:17.711 -03:00 [DBG] Issued claims: []
+2018-07-11 21:43:17.716 -03:00 [DBG] Getting claims for identity token for subject: 818727 and client: superacrm-spa
+2018-07-11 21:43:17.716 -03:00 [DBG] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2018-07-11 21:43:17.722 -03:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "Endpoint": "Authorize",
+  "SubjectId": "818727",
+  "Scopes": "openid profile email superacrm",
+  "GrantType": "implicit",
+  "Tokens": [
+    {
+      "TokenType": "id_token",
+      "TokenValue": "****dvcw"
+    },
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****0SyA"
+    }
+  ],
+  "ActivityId": "0HLF7HSAEUCEK:00000008",
+  "TimeStamp": "2018-07-12T00:43:17Z",
+  "ProcessId": 12428,
+  "LocalIpAddress": "127.0.0.1:19912",
+  "RemoteIpAddress": "::1"
+}
+2018-07-11 21:43:17.722 -03:00 [INF] Authorize endpoint response
+{
+  "SubjectId": "818727",
+  "ClientId": "superacrm-spa",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "State": "1531356190581",
+  "Scope": "openid profile email superacrm"
+}
+2018-07-11 21:43:17.722 -03:00 [DBG] Augmenting SignInContext
+2018-07-11 21:43:17.723 -03:00 [INF] AuthenticationScheme: idsrv signed in.
+2018-07-11 21:44:08.332 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-11 21:44:08.376 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-11 21:44:08.379 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-11 21:44:08.379 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-11 21:44:08.379 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-11 21:44:08.379 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-11 21:44:08.738 -03:00 [DBG] Request path /connect/endsession matched to endpoint type Endsession
+2018-07-11 21:44:08.749 -03:00 [DBG] Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionEndpoint
+2018-07-11 21:44:08.749 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionEndpoint for /connect/endsession
+2018-07-11 21:44:08.766 -03:00 [DBG] Processing signout request for 818727
+2018-07-11 21:44:08.779 -03:00 [DBG] Start end session request validation
+2018-07-11 21:44:08.793 -03:00 [DBG] Start identity token validation
+2018-07-11 21:44:08.848 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:44:08.849 -03:00 [DBG] Client found: superacrm-spa / Supera CRM
+2018-07-11 21:44:08.969 -03:00 [DBG] IsActive called from: IdentityTokenValidation
+2018-07-11 21:44:08.973 -03:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2018-07-11 21:44:08.983 -03:00 [DBG] Token validation success
+{
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "ValidateLifetime": false,
+  "Claims": {
+    "nbf": 1531356197,
+    "exp": 1531356497,
+    "iss": "http://localhost:5000",
+    "aud": "superacrm-spa",
+    "nonce": "xyz",
+    "iat": 1531356197,
+    "at_hash": "TPw1xBj8FHGjPSeHHxE1qA",
+    "sid": "c659db24999f8bb0d2285762bbda02e9",
+    "sub": "818727",
+    "auth_time": 1531356197,
+    "idp": "local",
+    "amr": "pwd"
+  }
+}
+2018-07-11 21:44:09.011 -03:00 [INF] End session request validation failure: Invalid post logout URI
+{
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "SubjectId": "818727",
+  "Raw": {
+    "id_token_hint": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjgyYzY5NzI1NDU2ZWU2NDUxYjM0YWYxMWQxNTQzODk3IiwidHlwIjoiSldUIn0.eyJuYmYiOjE1MzEzNTYxOTcsImV4cCI6MTUzMTM1NjQ5NywiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjoic3VwZXJhY3JtLXNwYSIsIm5vbmNlIjoieHl6IiwiaWF0IjoxNTMxMzU2MTk3LCJhdF9oYXNoIjoiVFB3MXhCajhGSEdqUFNlSEh4RTFxQSIsInNpZCI6ImM2NTlkYjI0OTk5ZjhiYjBkMjI4NTc2MmJiZGEwMmU5Iiwic3ViIjoiODE4NzI3IiwiYXV0aF90aW1lIjoxNTMxMzU2MTk3LCJpZHAiOiJsb2NhbCIsImFtciI6WyJwd2QiXX0.lqi7KJqyA3O3l5s14ZgEk5DjosXcPUAMoGCrW0ypvZRt-LsuEqbUuBZPqW5urLSKoVgwU1Ht7TA81xcCqHmynRY0YFhIl2AuP16u4GlotQtMjVcrdvSWOwXzKMTe2qUjEZms45YeVBX65gESAp9PCPtJOfXMOjM3fFxRXQX_-wpIRoj9VNLdgMoD93rR9C3Ls-hfjy94QVK1yD6Eu77bQ6vDNWIDN82MUUGvBMep32UZCWVR5xs11CXBxvMkPrIL1dIlTdr2ipQA7n4SbyqwPo21uOFi-q35fGYQrbT69u_SveYNa-E7W9dtkl9xm_ugaUjNRwAH8OjHPUhQH6dvcw",
+    "post_logout_redirect_uri": "http://localhost:8080/loggedout/?",
+    "state": "1531356190581"
+  }
+}
+2018-07-11 21:44:09.011 -03:00 [ERR] Error processing end session request Invalid request
+2018-07-11 21:44:13.531 -03:00 [DBG] CORS request made for path: /account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-07-11 21:44:13.614 -03:00 [INF] AuthenticationScheme: idsrv signed out.
+2018-07-11 21:44:13.642 -03:00 [INF] {
+  "Name": "User Logout Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1002,
+  "SubjectId": "818727",
+  "DisplayName": "alice",
+  "ActivityId": "0HLF7I29U9QUC:00000002",
+  "TimeStamp": "2018-07-12T00:44:13Z",
+  "ProcessId": 7288,
+  "LocalIpAddress": "127.0.0.1:21607",
+  "RemoteIpAddress": "::1"
+}
+2018-07-11 21:44:13.788 -03:00 [DBG] Request path /connect/endsession/callback matched to endpoint type Endsession
+2018-07-11 21:44:13.796 -03:00 [DBG] Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionCallbackEndpoint
+2018-07-11 21:44:13.797 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionCallbackEndpoint for /connect/endsession/callback
+2018-07-11 21:44:13.813 -03:00 [DBG] Processing signout callback request
+2018-07-11 21:44:13.837 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:44:13.837 -03:00 [DBG] No client front-channel logout URLs
+2018-07-11 21:44:13.837 -03:00 [DBG] No client back-channel logout URLs
+2018-07-11 21:44:13.837 -03:00 [INF] Successful signout callback.
+2018-07-11 21:44:13.837 -03:00 [DBG] No client front-channel iframe urls
+2018-07-11 21:44:13.837 -03:00 [DBG] No client back-channel iframe urls
+2018-07-11 21:44:17.717 -03:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2018-07-11 21:44:17.727 -03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2018-07-11 21:44:17.727 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2018-07-11 21:44:17.742 -03:00 [DBG] Start authorize request
+2018-07-11 21:44:17.753 -03:00 [DBG] No user present in authorize request
+2018-07-11 21:44:17.760 -03:00 [DBG] Start authorize request protocol validation
+2018-07-11 21:44:17.776 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:44:17.869 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-11 21:44:17.883 -03:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "AllowedRedirectUris": [
+    "http://localhost:8080/authorized/?"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid superacrm profile email",
+  "State": "1531356257458",
+  "Nonce": "xyz",
+  "Raw": {
+    "client_id": "superacrm-spa",
+    "redirect_uri": "http://localhost:8080/authorized/?",
+    "response_type": "id_token token",
+    "scope": "openid superacrm profile email",
+    "state": "1531356257458",
+    "nonce": "xyz"
+  }
+}
+2018-07-11 21:44:17.901 -03:00 [INF] Showing login: User is not authenticated
+2018-07-11 21:44:17.950 -03:00 [DBG] Start authorize request protocol validation
+2018-07-11 21:44:17.950 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:44:17.951 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-11 21:44:17.956 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:44:22.160 -03:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-07-11 21:44:22.179 -03:00 [DBG] Start authorize request protocol validation
+2018-07-11 21:44:22.179 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:44:22.180 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-11 21:44:22.190 -03:00 [INF] {
+  "Name": "User Login Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1000,
+  "Username": "alice",
+  "SubjectId": "818727",
+  "DisplayName": "alice",
+  "Endpoint": "UI",
+  "ActivityId": "0HLF7I29U9QUC:00000004",
+  "TimeStamp": "2018-07-12T00:44:22Z",
+  "ProcessId": 7288,
+  "LocalIpAddress": "127.0.0.1:21607",
+  "RemoteIpAddress": "::1"
+}
+2018-07-11 21:44:22.208 -03:00 [DBG] Augmenting SignInContext
+2018-07-11 21:44:22.211 -03:00 [DBG] Adding idp claim with value: local
+2018-07-11 21:44:22.211 -03:00 [DBG] Adding amr claim with value: pwd
+2018-07-11 21:44:22.219 -03:00 [INF] AuthenticationScheme: idsrv signed in.
+2018-07-11 21:44:22.222 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:44:22.229 -03:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2018-07-11 21:44:22.232 -03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2018-07-11 21:44:22.232 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2018-07-11 21:44:22.240 -03:00 [DBG] Start authorize callback request
+2018-07-11 21:44:22.249 -03:00 [DBG] User in authorize request: 818727
+2018-07-11 21:44:22.249 -03:00 [DBG] Start authorize request protocol validation
+2018-07-11 21:44:22.249 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:44:22.250 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-11 21:44:22.250 -03:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "AllowedRedirectUris": [
+    "http://localhost:8080/authorized/?"
+  ],
+  "SubjectId": "818727",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid superacrm profile email",
+  "State": "1531356257458",
+  "Nonce": "xyz",
+  "SessionId": "139c5ab97c5c5795eff42a6310917ac6",
+  "Raw": {
+    "client_id": "superacrm-spa",
+    "redirect_uri": "http://localhost:8080/authorized/?",
+    "response_type": "id_token token",
+    "scope": "openid superacrm profile email",
+    "state": "1531356257458",
+    "nonce": "xyz"
+  }
+}
+2018-07-11 21:44:22.250 -03:00 [DBG] IsActive called from: AuthorizeEndpoint
+2018-07-11 21:44:22.268 -03:00 [DBG] Client is configured to not require consent, no consent is required
+2018-07-11 21:44:22.282 -03:00 [DBG] Creating Implicit Flow response.
+2018-07-11 21:44:22.297 -03:00 [DBG] Getting claims for access token for client: superacrm-spa
+2018-07-11 21:44:22.298 -03:00 [DBG] Getting claims for access token for subject: 818727
+2018-07-11 21:44:22.310 -03:00 [DBG] Get profile called for subject 818727 from client Supera CRM with claim types ["name","openid","email"] via ClaimsProviderAccessToken
+2018-07-11 21:44:22.323 -03:00 [DBG] Issued claims: ["name","email"]
+2018-07-11 21:44:22.391 -03:00 [DBG] Getting claims for identity token for subject: 818727 and client: superacrm-spa
+2018-07-11 21:44:22.391 -03:00 [DBG] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2018-07-11 21:44:22.414 -03:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "Endpoint": "Authorize",
+  "SubjectId": "818727",
+  "Scopes": "openid profile email superacrm",
+  "GrantType": "implicit",
+  "Tokens": [
+    {
+      "TokenType": "id_token",
+      "TokenValue": "****zauQ"
+    },
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****6LdQ"
+    }
+  ],
+  "ActivityId": "0HLF7I29U9QUD:00000005",
+  "TimeStamp": "2018-07-12T00:44:22Z",
+  "ProcessId": 7288,
+  "LocalIpAddress": "127.0.0.1:21607",
+  "RemoteIpAddress": "::1"
+}
+2018-07-11 21:44:22.422 -03:00 [INF] Authorize endpoint response
+{
+  "SubjectId": "818727",
+  "ClientId": "superacrm-spa",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "State": "1531356257458",
+  "Scope": "openid profile email superacrm"
+}
+2018-07-11 21:44:22.444 -03:00 [DBG] Augmenting SignInContext
+2018-07-11 21:44:22.445 -03:00 [INF] AuthenticationScheme: idsrv signed in.
+2018-07-11 21:44:32.271 -03:00 [DBG] Request path /connect/endsession matched to endpoint type Endsession
+2018-07-11 21:44:32.271 -03:00 [DBG] Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionEndpoint
+2018-07-11 21:44:32.272 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionEndpoint for /connect/endsession
+2018-07-11 21:44:32.278 -03:00 [DBG] Processing signout request for 818727
+2018-07-11 21:44:32.278 -03:00 [DBG] Start end session request validation
+2018-07-11 21:44:32.278 -03:00 [DBG] Start identity token validation
+2018-07-11 21:44:32.278 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:44:32.279 -03:00 [DBG] Client found: superacrm-spa / Supera CRM
+2018-07-11 21:44:32.282 -03:00 [DBG] IsActive called from: IdentityTokenValidation
+2018-07-11 21:44:32.282 -03:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2018-07-11 21:44:32.282 -03:00 [DBG] Token validation success
+{
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "ValidateLifetime": false,
+  "Claims": {
+    "nbf": 1531356262,
+    "exp": 1531356562,
+    "iss": "http://localhost:5000",
+    "aud": "superacrm-spa",
+    "nonce": "xyz",
+    "iat": 1531356262,
+    "at_hash": "xIzQKilvfb4T6hfC1qWRIQ",
+    "sid": "139c5ab97c5c5795eff42a6310917ac6",
+    "sub": "818727",
+    "auth_time": 1531356262,
+    "idp": "local",
+    "amr": "pwd"
+  }
+}
+2018-07-11 21:44:32.282 -03:00 [INF] End session request validation failure: Invalid post logout URI
+{
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "SubjectId": "818727",
+  "Raw": {
+    "id_token_hint": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjgyYzY5NzI1NDU2ZWU2NDUxYjM0YWYxMWQxNTQzODk3IiwidHlwIjoiSldUIn0.eyJuYmYiOjE1MzEzNTYyNjIsImV4cCI6MTUzMTM1NjU2MiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjoic3VwZXJhY3JtLXNwYSIsIm5vbmNlIjoieHl6IiwiaWF0IjoxNTMxMzU2MjYyLCJhdF9oYXNoIjoieEl6UUtpbHZmYjRUNmhmQzFxV1JJUSIsInNpZCI6IjEzOWM1YWI5N2M1YzU3OTVlZmY0MmE2MzEwOTE3YWM2Iiwic3ViIjoiODE4NzI3IiwiYXV0aF90aW1lIjoxNTMxMzU2MjYyLCJpZHAiOiJsb2NhbCIsImFtciI6WyJwd2QiXX0.tU0LQKj4ENtL-CR79e4Pxaad9YIs12C93uBobNlsUneR7o-je9uyodb4I0WsUpV6MP-33DST9RcUWgSb4nA22QvWSGbaysXlFgGpHQXTpJHTqCOjgre8W7PEdL97yB5dOfO5J3-XF0Rtwgkeq3Z-cQTU6m4RbibPZNKHlMjLjXdeG6YmOopyGjhu1jqtdNRerpF8OaR4f14avrpUo2tJxPHMaF15la-r1u84uw87A0mr2e9OdTWiV8W_9Rj5SqV9ohC8ZiA8fKEKvaa2xf2ZuJeNLy20nPHvBP5tEGdUsQRqex5NuQZvUK_z8mWsD99EOnkqBhKLht6VElvDyPzauQ",
+    "post_logout_redirect_uri": "http://localhost:8080/loggedout/?",
+    "state": "1531356257458"
+  }
+}
+2018-07-11 21:44:32.283 -03:00 [ERR] Error processing end session request Invalid request
+2018-07-11 21:44:33.474 -03:00 [DBG] CORS request made for path: /account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-07-11 21:44:33.477 -03:00 [INF] AuthenticationScheme: idsrv signed out.
+2018-07-11 21:44:33.477 -03:00 [INF] {
+  "Name": "User Logout Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1002,
+  "SubjectId": "818727",
+  "DisplayName": "alice",
+  "ActivityId": "0HLF7I29U9QUC:00000006",
+  "TimeStamp": "2018-07-12T00:44:33Z",
+  "ProcessId": 7288,
+  "LocalIpAddress": "127.0.0.1:21607",
+  "RemoteIpAddress": "::1"
+}
+2018-07-11 21:44:33.596 -03:00 [DBG] Request path /connect/endsession/callback matched to endpoint type Endsession
+2018-07-11 21:44:33.597 -03:00 [DBG] Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionCallbackEndpoint
+2018-07-11 21:44:33.598 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionCallbackEndpoint for /connect/endsession/callback
+2018-07-11 21:44:33.598 -03:00 [DBG] Processing signout callback request
+2018-07-11 21:44:33.599 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:44:33.599 -03:00 [DBG] No client front-channel logout URLs
+2018-07-11 21:44:33.599 -03:00 [DBG] No client back-channel logout URLs
+2018-07-11 21:44:33.599 -03:00 [INF] Successful signout callback.
+2018-07-11 21:44:33.599 -03:00 [DBG] No client front-channel iframe urls
+2018-07-11 21:44:33.599 -03:00 [DBG] No client back-channel iframe urls
+2018-07-11 21:44:41.652 -03:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2018-07-11 21:44:41.653 -03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2018-07-11 21:44:41.653 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2018-07-11 21:44:41.654 -03:00 [DBG] Start authorize request
+2018-07-11 21:44:41.654 -03:00 [DBG] No user present in authorize request
+2018-07-11 21:44:41.654 -03:00 [DBG] Start authorize request protocol validation
+2018-07-11 21:44:41.654 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:44:41.654 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-11 21:44:41.654 -03:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "AllowedRedirectUris": [
+    "http://localhost:8080/authorized/?"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid superacrm profile email",
+  "State": "1531356281296",
+  "Nonce": "xyz",
+  "Raw": {
+    "client_id": "superacrm-spa",
+    "redirect_uri": "http://localhost:8080/authorized/?",
+    "response_type": "id_token token",
+    "scope": "openid superacrm profile email",
+    "state": "1531356281296",
+    "nonce": "xyz"
+  }
+}
+2018-07-11 21:44:41.654 -03:00 [INF] Showing login: User is not authenticated
+2018-07-11 21:44:41.684 -03:00 [DBG] Start authorize request protocol validation
+2018-07-11 21:44:41.685 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:44:41.685 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-11 21:44:41.686 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:44:42.746 -03:00 [INF] AuthenticationScheme: Google was challenged.
+2018-07-11 21:44:50.013 -03:00 [INF] AuthenticationScheme: idsrv.external signed in.
+2018-07-11 21:44:50.046 -03:00 [INF] {
+  "Name": "User Login Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1000,
+  "Provider": "Google",
+  "ProviderUserId": "113213507918619154134",
+  "SubjectId": "1aab91e7c93603a3795416f8084aa64e322b29a6cb40550df86373afc78a7211",
+  "DisplayName": "Bruno Henrique",
+  "Endpoint": "UI",
+  "ActivityId": "0HLF7I29U9QUC:00000009",
+  "TimeStamp": "2018-07-12T00:44:50Z",
+  "ProcessId": 7288,
+  "LocalIpAddress": "127.0.0.1:21607",
+  "RemoteIpAddress": "::1"
+}
+2018-07-11 21:44:50.050 -03:00 [DBG] Augmenting SignInContext
+2018-07-11 21:44:50.050 -03:00 [DBG] Adding amr claim with value: external
+2018-07-11 21:44:50.050 -03:00 [INF] AuthenticationScheme: idsrv signed in.
+2018-07-11 21:44:50.051 -03:00 [INF] AuthenticationScheme: idsrv.external signed out.
+2018-07-11 21:44:50.051 -03:00 [DBG] Start authorize request protocol validation
+2018-07-11 21:44:50.051 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:44:50.051 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-11 21:44:50.051 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:44:50.061 -03:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2018-07-11 21:44:50.061 -03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2018-07-11 21:44:50.061 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2018-07-11 21:44:50.061 -03:00 [DBG] Start authorize callback request
+2018-07-11 21:44:50.061 -03:00 [DBG] User in authorize request: 1aab91e7c93603a3795416f8084aa64e322b29a6cb40550df86373afc78a7211
+2018-07-11 21:44:50.062 -03:00 [DBG] Start authorize request protocol validation
+2018-07-11 21:44:50.062 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:44:50.062 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-11 21:44:50.062 -03:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "AllowedRedirectUris": [
+    "http://localhost:8080/authorized/?"
+  ],
+  "SubjectId": "1aab91e7c93603a3795416f8084aa64e322b29a6cb40550df86373afc78a7211",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid superacrm profile email",
+  "State": "1531356281296",
+  "Nonce": "xyz",
+  "SessionId": "508fbd4f0d0a34806f8ec9ada22c5373",
+  "Raw": {
+    "client_id": "superacrm-spa",
+    "redirect_uri": "http://localhost:8080/authorized/?",
+    "response_type": "id_token token",
+    "scope": "openid superacrm profile email",
+    "state": "1531356281296",
+    "nonce": "xyz"
+  }
+}
+2018-07-11 21:44:50.062 -03:00 [DBG] IsActive called from: AuthorizeEndpoint
+2018-07-11 21:44:50.062 -03:00 [DBG] Client is configured to not require consent, no consent is required
+2018-07-11 21:44:50.062 -03:00 [DBG] Creating Implicit Flow response.
+2018-07-11 21:44:50.062 -03:00 [DBG] Getting claims for access token for client: superacrm-spa
+2018-07-11 21:44:50.062 -03:00 [DBG] Getting claims for access token for subject: 1aab91e7c93603a3795416f8084aa64e322b29a6cb40550df86373afc78a7211
+2018-07-11 21:44:50.063 -03:00 [DBG] Get profile called for subject 1aab91e7c93603a3795416f8084aa64e322b29a6cb40550df86373afc78a7211 from client Supera CRM with claim types ["name","openid","email"] via ClaimsProviderAccessToken
+2018-07-11 21:44:50.063 -03:00 [DBG] Issued claims: ["name","email"]
+2018-07-11 21:44:50.067 -03:00 [DBG] Getting claims for identity token for subject: 1aab91e7c93603a3795416f8084aa64e322b29a6cb40550df86373afc78a7211 and client: superacrm-spa
+2018-07-11 21:44:50.067 -03:00 [DBG] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2018-07-11 21:44:50.072 -03:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "Endpoint": "Authorize",
+  "SubjectId": "1aab91e7c93603a3795416f8084aa64e322b29a6cb40550df86373afc78a7211",
+  "Scopes": "openid profile email superacrm",
+  "GrantType": "implicit",
+  "Tokens": [
+    {
+      "TokenType": "id_token",
+      "TokenValue": "****53ug"
+    },
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****cAsw"
+    }
+  ],
+  "ActivityId": "0HLF7I29U9QUD:0000000A",
+  "TimeStamp": "2018-07-12T00:44:50Z",
+  "ProcessId": 7288,
+  "LocalIpAddress": "127.0.0.1:21607",
+  "RemoteIpAddress": "::1"
+}
+2018-07-11 21:44:50.073 -03:00 [INF] Authorize endpoint response
+{
+  "SubjectId": "1aab91e7c93603a3795416f8084aa64e322b29a6cb40550df86373afc78a7211",
+  "ClientId": "superacrm-spa",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "State": "1531356281296",
+  "Scope": "openid profile email superacrm"
+}
+2018-07-11 21:44:50.074 -03:00 [DBG] Augmenting SignInContext
+2018-07-11 21:44:50.074 -03:00 [INF] AuthenticationScheme: idsrv signed in.
+2018-07-11 21:46:06.214 -03:00 [DBG] Request path /connect/endsession matched to endpoint type Endsession
+2018-07-11 21:46:06.215 -03:00 [DBG] Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionEndpoint
+2018-07-11 21:46:06.215 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionEndpoint for /connect/endsession
+2018-07-11 21:46:06.216 -03:00 [DBG] Processing signout request for 1aab91e7c93603a3795416f8084aa64e322b29a6cb40550df86373afc78a7211
+2018-07-11 21:46:06.216 -03:00 [DBG] Start end session request validation
+2018-07-11 21:46:06.217 -03:00 [DBG] Start identity token validation
+2018-07-11 21:46:06.217 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:46:06.217 -03:00 [DBG] Client found: superacrm-spa / Supera CRM
+2018-07-11 21:46:06.221 -03:00 [DBG] IsActive called from: IdentityTokenValidation
+2018-07-11 21:46:06.221 -03:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2018-07-11 21:46:06.221 -03:00 [DBG] Token validation success
+{
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "ValidateLifetime": false,
+  "Claims": {
+    "nbf": 1531356290,
+    "exp": 1531356590,
+    "iss": "http://localhost:5000",
+    "aud": "superacrm-spa",
+    "nonce": "xyz",
+    "iat": 1531356290,
+    "at_hash": "vgNEHd7em4aGXqKwr0KkDA",
+    "sid": "508fbd4f0d0a34806f8ec9ada22c5373",
+    "sub": "1aab91e7c93603a3795416f8084aa64e322b29a6cb40550df86373afc78a7211",
+    "auth_time": 1531356290,
+    "idp": "Google",
+    "amr": "external"
+  }
+}
+2018-07-11 21:46:06.221 -03:00 [INF] End session request validation failure: Invalid post logout URI
+{
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "SubjectId": "1aab91e7c93603a3795416f8084aa64e322b29a6cb40550df86373afc78a7211",
+  "Raw": {
+    "id_token_hint": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjgyYzY5NzI1NDU2ZWU2NDUxYjM0YWYxMWQxNTQzODk3IiwidHlwIjoiSldUIn0.eyJuYmYiOjE1MzEzNTYyOTAsImV4cCI6MTUzMTM1NjU5MCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjoic3VwZXJhY3JtLXNwYSIsIm5vbmNlIjoieHl6IiwiaWF0IjoxNTMxMzU2MjkwLCJhdF9oYXNoIjoidmdORUhkN2VtNGFHWHFLd3IwS2tEQSIsInNpZCI6IjUwOGZiZDRmMGQwYTM0ODA2ZjhlYzlhZGEyMmM1MzczIiwic3ViIjoiMWFhYjkxZTdjOTM2MDNhMzc5NTQxNmY4MDg0YWE2NGUzMjJiMjlhNmNiNDA1NTBkZjg2MzczYWZjNzhhNzIxMSIsImF1dGhfdGltZSI6MTUzMTM1NjI5MCwiaWRwIjoiR29vZ2xlIiwiYW1yIjpbImV4dGVybmFsIl19.pICv1smcUNO-L1qEtXSYKoqM9Zdq1SPp1Bv7dpfZBygvv7u5qjHaC3TA7eTkfHntpxS9OpXOEGrrdAESxKJA5mbc9bJxymJSGYL5uaj7l8BlWbWR70arsRqfg7hjVF8uwh1YbylaNVNQ3qizoiZyG2GBv0-ahvvx9CLhycj-S96dEURataagLiNn1VfPzCLQjwXL1GNzRoDn373SNxaEWf_gGO6dOkTKyZYxP60nSdujRXFRl8lGpz-XIHYjBJC3NTtdKPrkrw5os9JIMj5pCQESPejq7DYL-vWf_AS-bZs5FnXA_biJ5bjIS8s9j1NHqwhsbaE4jSnef6aNq853ug",
+    "post_logout_redirect_uri": "http://localhost:8080/loggedout/?",
+    "state": "1531356281296"
+  }
+}
+2018-07-11 21:46:06.221 -03:00 [ERR] Error processing end session request Invalid request
+2018-07-11 21:46:07.893 -03:00 [DBG] CORS request made for path: /account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-07-11 21:46:07.900 -03:00 [INF] AuthenticationScheme: idsrv signed out.
+2018-07-11 21:46:07.902 -03:00 [INF] {
+  "Name": "User Logout Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1002,
+  "SubjectId": "1aab91e7c93603a3795416f8084aa64e322b29a6cb40550df86373afc78a7211",
+  "DisplayName": "Bruno Henrique",
+  "ActivityId": "0HLF7I29U9QUE:00000003",
+  "TimeStamp": "2018-07-12T00:46:07Z",
+  "ProcessId": 7288,
+  "LocalIpAddress": "127.0.0.1:21607",
+  "RemoteIpAddress": "::1"
+}
+2018-07-11 21:46:08.024 -03:00 [DBG] Request path /connect/endsession/callback matched to endpoint type Endsession
+2018-07-11 21:46:08.024 -03:00 [DBG] Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionCallbackEndpoint
+2018-07-11 21:46:08.025 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionCallbackEndpoint for /connect/endsession/callback
+2018-07-11 21:46:08.025 -03:00 [DBG] Processing signout callback request
+2018-07-11 21:46:08.031 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:46:08.031 -03:00 [DBG] No client front-channel logout URLs
+2018-07-11 21:46:08.031 -03:00 [DBG] No client back-channel logout URLs
+2018-07-11 21:46:08.031 -03:00 [INF] Successful signout callback.
+2018-07-11 21:46:08.032 -03:00 [DBG] No client front-channel iframe urls
+2018-07-11 21:46:08.032 -03:00 [DBG] No client back-channel iframe urls
+2018-07-11 21:46:11.973 -03:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2018-07-11 21:46:11.974 -03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2018-07-11 21:46:11.974 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2018-07-11 21:46:11.974 -03:00 [DBG] Start authorize request
+2018-07-11 21:46:11.974 -03:00 [DBG] No user present in authorize request
+2018-07-11 21:46:11.974 -03:00 [DBG] Start authorize request protocol validation
+2018-07-11 21:46:11.974 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:46:11.975 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-11 21:46:11.976 -03:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "AllowedRedirectUris": [
+    "http://localhost:8080/authorized/?"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid superacrm profile email",
+  "State": "1531356371677",
+  "Nonce": "xyz",
+  "Raw": {
+    "client_id": "superacrm-spa",
+    "redirect_uri": "http://localhost:8080/authorized/?",
+    "response_type": "id_token token",
+    "scope": "openid superacrm profile email",
+    "state": "1531356371677",
+    "nonce": "xyz"
+  }
+}
+2018-07-11 21:46:11.976 -03:00 [INF] Showing login: User is not authenticated
+2018-07-11 21:46:11.994 -03:00 [DBG] Start authorize request protocol validation
+2018-07-11 21:46:11.994 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:46:11.995 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-11 21:46:11.995 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:46:14.138 -03:00 [INF] AuthenticationScheme: Google was challenged.
+2018-07-11 21:46:17.920 -03:00 [DBG] Start authorize request protocol validation
+2018-07-11 21:46:17.920 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:46:17.921 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-11 21:46:17.922 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:46:21.490 -03:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-07-11 21:46:21.493 -03:00 [DBG] Start authorize request protocol validation
+2018-07-11 21:46:21.493 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:46:21.494 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-11 21:46:21.494 -03:00 [INF] {
+  "Name": "User Login Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1000,
+  "Username": "alice",
+  "SubjectId": "818727",
+  "DisplayName": "alice",
+  "Endpoint": "UI",
+  "ActivityId": "0HLF7I29U9QUE:00000009",
+  "TimeStamp": "2018-07-12T00:46:21Z",
+  "ProcessId": 7288,
+  "LocalIpAddress": "127.0.0.1:21607",
+  "RemoteIpAddress": "::1"
+}
+2018-07-11 21:46:21.494 -03:00 [DBG] Augmenting SignInContext
+2018-07-11 21:46:21.494 -03:00 [DBG] Adding idp claim with value: local
+2018-07-11 21:46:21.494 -03:00 [DBG] Adding amr claim with value: pwd
+2018-07-11 21:46:21.495 -03:00 [INF] AuthenticationScheme: idsrv signed in.
+2018-07-11 21:46:21.495 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:46:21.503 -03:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2018-07-11 21:46:21.503 -03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2018-07-11 21:46:21.503 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2018-07-11 21:46:21.504 -03:00 [DBG] Start authorize callback request
+2018-07-11 21:46:21.505 -03:00 [DBG] User in authorize request: 818727
+2018-07-11 21:46:21.505 -03:00 [DBG] Start authorize request protocol validation
+2018-07-11 21:46:21.505 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 21:46:21.505 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-11 21:46:21.506 -03:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "AllowedRedirectUris": [
+    "http://localhost:8080/authorized/?"
+  ],
+  "SubjectId": "818727",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid superacrm profile email",
+  "State": "1531356371677",
+  "Nonce": "xyz",
+  "SessionId": "eae4f13e8efd613cd2992ed1e86031c1",
+  "Raw": {
+    "client_id": "superacrm-spa",
+    "redirect_uri": "http://localhost:8080/authorized/?",
+    "response_type": "id_token token",
+    "scope": "openid superacrm profile email",
+    "state": "1531356371677",
+    "nonce": "xyz"
+  }
+}
+2018-07-11 21:46:21.506 -03:00 [DBG] IsActive called from: AuthorizeEndpoint
+2018-07-11 21:46:21.506 -03:00 [DBG] Client is configured to not require consent, no consent is required
+2018-07-11 21:46:21.506 -03:00 [DBG] Creating Implicit Flow response.
+2018-07-11 21:46:21.506 -03:00 [DBG] Getting claims for access token for client: superacrm-spa
+2018-07-11 21:46:21.506 -03:00 [DBG] Getting claims for access token for subject: 818727
+2018-07-11 21:46:21.506 -03:00 [DBG] Get profile called for subject 818727 from client Supera CRM with claim types ["name","openid","email"] via ClaimsProviderAccessToken
+2018-07-11 21:46:21.506 -03:00 [DBG] Issued claims: ["name","email"]
+2018-07-11 21:46:21.510 -03:00 [DBG] Getting claims for identity token for subject: 818727 and client: superacrm-spa
+2018-07-11 21:46:21.510 -03:00 [DBG] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2018-07-11 21:46:21.514 -03:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "Endpoint": "Authorize",
+  "SubjectId": "818727",
+  "Scopes": "openid profile email superacrm",
+  "GrantType": "implicit",
+  "Tokens": [
+    {
+      "TokenType": "id_token",
+      "TokenValue": "****dp3w"
+    },
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****kqiA"
+    }
+  ],
+  "ActivityId": "0HLF7I29U9QUE:0000000A",
+  "TimeStamp": "2018-07-12T00:46:21Z",
+  "ProcessId": 7288,
+  "LocalIpAddress": "127.0.0.1:21607",
+  "RemoteIpAddress": "::1"
+}
+2018-07-11 21:46:21.515 -03:00 [INF] Authorize endpoint response
+{
+  "SubjectId": "818727",
+  "ClientId": "superacrm-spa",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "State": "1531356371677",
+  "Scope": "openid profile email superacrm"
+}
+2018-07-11 21:46:21.515 -03:00 [DBG] Augmenting SignInContext
+2018-07-11 21:46:21.515 -03:00 [INF] AuthenticationScheme: idsrv signed in.
+2018-07-11 21:58:08.698 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-11 21:58:08.777 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-11 21:58:08.782 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-11 21:58:08.782 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-11 21:58:08.782 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-11 21:58:08.782 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-11 21:58:36.740 -03:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2018-07-11 21:58:36.756 -03:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2018-07-11 21:58:36.757 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2018-07-11 21:58:36.766 -03:00 [DBG] Start discovery request
+2018-07-11 21:58:36.987 -03:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2018-07-11 21:58:36.988 -03:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2018-07-11 21:58:36.988 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2018-07-11 21:58:36.996 -03:00 [DBG] Start key discovery request
+2018-07-11 22:01:44.636 -03:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2018-07-11 22:01:44.644 -03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2018-07-11 22:01:44.644 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2018-07-11 22:01:44.650 -03:00 [DBG] Start authorize request
+2018-07-11 22:01:44.672 -03:00 [DBG] User in authorize request: 818727
+2018-07-11 22:01:44.687 -03:00 [DBG] Start authorize request protocol validation
+2018-07-11 22:01:44.713 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 22:01:44.776 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-11 22:01:44.797 -03:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "AllowedRedirectUris": [
+    "http://localhost:8080/authorized/?"
+  ],
+  "SubjectId": "818727",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid superacrm profile email",
+  "State": "1531357304370",
+  "Nonce": "xyz",
+  "SessionId": "eae4f13e8efd613cd2992ed1e86031c1",
+  "Raw": {
+    "client_id": "superacrm-spa",
+    "redirect_uri": "http://localhost:8080/authorized/?",
+    "response_type": "id_token token",
+    "scope": "openid superacrm profile email",
+    "state": "1531357304370",
+    "nonce": "xyz"
+  }
+}
+2018-07-11 22:01:44.813 -03:00 [DBG] IsActive called from: AuthorizeEndpoint
+2018-07-11 22:01:44.829 -03:00 [DBG] Client is configured to not require consent, no consent is required
+2018-07-11 22:01:44.841 -03:00 [DBG] Creating Implicit Flow response.
+2018-07-11 22:01:44.858 -03:00 [DBG] Getting claims for access token for client: superacrm-spa
+2018-07-11 22:01:44.860 -03:00 [DBG] Getting claims for access token for subject: 818727
+2018-07-11 22:01:44.872 -03:00 [DBG] Get profile called for subject 818727 from client Supera CRM with claim types ["name","openid","email"] via ClaimsProviderAccessToken
+2018-07-11 22:01:44.890 -03:00 [DBG] Issued claims: ["name","email"]
+2018-07-11 22:01:45.000 -03:00 [DBG] Getting claims for identity token for subject: 818727 and client: superacrm-spa
+2018-07-11 22:01:45.000 -03:00 [DBG] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2018-07-11 22:01:45.046 -03:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "Endpoint": "Authorize",
+  "SubjectId": "818727",
+  "Scopes": "openid profile email superacrm",
+  "GrantType": "implicit",
+  "Tokens": [
+    {
+      "TokenType": "id_token",
+      "TokenValue": "****TopA"
+    },
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****Cizw"
+    }
+  ],
+  "ActivityId": "0HLF7IA4D6JUU:00000001",
+  "TimeStamp": "2018-07-12T01:01:45Z",
+  "ProcessId": 16144,
+  "LocalIpAddress": "127.0.0.1:13612",
+  "RemoteIpAddress": "::1"
+}
+2018-07-11 22:01:45.054 -03:00 [INF] Authorize endpoint response
+{
+  "SubjectId": "818727",
+  "ClientId": "superacrm-spa",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "State": "1531357304370",
+  "Scope": "openid profile email superacrm"
+}
+2018-07-11 22:02:21.385 -03:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2018-07-11 22:02:21.385 -03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2018-07-11 22:02:21.385 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2018-07-11 22:02:21.386 -03:00 [DBG] Start authorize request
+2018-07-11 22:02:21.386 -03:00 [DBG] User in authorize request: 818727
+2018-07-11 22:02:21.386 -03:00 [DBG] Start authorize request protocol validation
+2018-07-11 22:02:21.386 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 22:02:21.386 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-11 22:02:21.387 -03:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "AllowedRedirectUris": [
+    "http://localhost:8080/authorized/?"
+  ],
+  "SubjectId": "818727",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid superacrm profile email",
+  "State": "1531357341142",
+  "Nonce": "xyz",
+  "SessionId": "eae4f13e8efd613cd2992ed1e86031c1",
+  "Raw": {
+    "client_id": "superacrm-spa",
+    "redirect_uri": "http://localhost:8080/authorized/?",
+    "response_type": "id_token token",
+    "scope": "openid superacrm profile email",
+    "state": "1531357341142",
+    "nonce": "xyz"
+  }
+}
+2018-07-11 22:02:21.387 -03:00 [DBG] IsActive called from: AuthorizeEndpoint
+2018-07-11 22:02:21.387 -03:00 [DBG] Client is configured to not require consent, no consent is required
+2018-07-11 22:02:21.387 -03:00 [DBG] Creating Implicit Flow response.
+2018-07-11 22:02:21.387 -03:00 [DBG] Getting claims for access token for client: superacrm-spa
+2018-07-11 22:02:21.387 -03:00 [DBG] Getting claims for access token for subject: 818727
+2018-07-11 22:02:21.387 -03:00 [DBG] Get profile called for subject 818727 from client Supera CRM with claim types ["name","openid","email"] via ClaimsProviderAccessToken
+2018-07-11 22:02:21.387 -03:00 [DBG] Issued claims: ["name","email"]
+2018-07-11 22:02:21.392 -03:00 [DBG] Getting claims for identity token for subject: 818727 and client: superacrm-spa
+2018-07-11 22:02:21.392 -03:00 [DBG] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2018-07-11 22:02:21.398 -03:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "Endpoint": "Authorize",
+  "SubjectId": "818727",
+  "Scopes": "openid profile email superacrm",
+  "GrantType": "implicit",
+  "Tokens": [
+    {
+      "TokenType": "id_token",
+      "TokenValue": "****FPMw"
+    },
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****muiA"
+    }
+  ],
+  "ActivityId": "0HLF7IA4D6JUU:00000002",
+  "TimeStamp": "2018-07-12T01:02:21Z",
+  "ProcessId": 16144,
+  "LocalIpAddress": "127.0.0.1:13612",
+  "RemoteIpAddress": "::1"
+}
+2018-07-11 22:02:21.398 -03:00 [INF] Authorize endpoint response
+{
+  "SubjectId": "818727",
+  "ClientId": "superacrm-spa",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "State": "1531357341142",
+  "Scope": "openid profile email superacrm"
+}
+2018-07-11 22:03:03.538 -03:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2018-07-11 22:03:03.538 -03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2018-07-11 22:03:03.538 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2018-07-11 22:03:03.538 -03:00 [DBG] Start authorize request
+2018-07-11 22:03:03.539 -03:00 [DBG] User in authorize request: 818727
+2018-07-11 22:03:03.539 -03:00 [DBG] Start authorize request protocol validation
+2018-07-11 22:03:03.540 -03:00 [DBG] client configuration validation for client superacrm-spa succeeded.
+2018-07-11 22:03:03.540 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-11 22:03:03.540 -03:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "AllowedRedirectUris": [
+    "http://localhost:8080/authorized/?"
+  ],
+  "SubjectId": "818727",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid superacrm profile email",
+  "State": "1531357383275",
+  "Nonce": "xyz",
+  "SessionId": "eae4f13e8efd613cd2992ed1e86031c1",
+  "Raw": {
+    "client_id": "superacrm-spa",
+    "redirect_uri": "http://localhost:8080/authorized/?",
+    "response_type": "id_token token",
+    "scope": "openid superacrm profile email",
+    "state": "1531357383275",
+    "nonce": "xyz"
+  }
+}
+2018-07-11 22:03:03.540 -03:00 [DBG] IsActive called from: AuthorizeEndpoint
+2018-07-11 22:03:03.540 -03:00 [DBG] Client is configured to not require consent, no consent is required
+2018-07-11 22:03:03.541 -03:00 [DBG] Creating Implicit Flow response.
+2018-07-11 22:03:03.541 -03:00 [DBG] Getting claims for access token for client: superacrm-spa
+2018-07-11 22:03:03.541 -03:00 [DBG] Getting claims for access token for subject: 818727
+2018-07-11 22:03:03.541 -03:00 [DBG] Get profile called for subject 818727 from client Supera CRM with claim types ["name","openid","email"] via ClaimsProviderAccessToken
+2018-07-11 22:03:03.541 -03:00 [DBG] Issued claims: ["name","email"]
+2018-07-11 22:03:03.546 -03:00 [DBG] Getting claims for identity token for subject: 818727 and client: superacrm-spa
+2018-07-11 22:03:03.546 -03:00 [DBG] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2018-07-11 22:03:03.552 -03:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "superacrm-spa",
+  "ClientName": "Supera CRM",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "Endpoint": "Authorize",
+  "SubjectId": "818727",
+  "Scopes": "openid profile email superacrm",
+  "GrantType": "implicit",
+  "Tokens": [
+    {
+      "TokenType": "id_token",
+      "TokenValue": "****wCVg"
+    },
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****usEA"
+    }
+  ],
+  "ActivityId": "0HLF7IA4D6JUU:00000003",
+  "TimeStamp": "2018-07-12T01:03:03Z",
+  "ProcessId": 16144,
+  "LocalIpAddress": "127.0.0.1:13612",
+  "RemoteIpAddress": "::1"
+}
+2018-07-11 22:03:03.553 -03:00 [INF] Authorize endpoint response
+{
+  "SubjectId": "818727",
+  "ClientId": "superacrm-spa",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "State": "1531357383275",
+  "Scope": "openid profile email superacrm"
+}
+2018-07-11 22:21:51.937 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-11 22:21:51.996 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-11 22:21:52.004 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-11 22:21:52.004 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-11 22:21:52.004 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-11 22:21:52.004 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-11 22:21:57.833 -03:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2018-07-11 22:21:57.844 -03:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2018-07-11 22:21:57.844 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2018-07-11 22:21:57.850 -03:00 [DBG] Start discovery request
+2018-07-11 22:21:58.083 -03:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2018-07-11 22:21:58.084 -03:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2018-07-11 22:21:58.084 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2018-07-11 22:21:58.090 -03:00 [DBG] Start key discovery request
+2018-07-11 22:38:11.557 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-11 22:38:11.615 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-11 22:38:11.620 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-11 22:38:11.620 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-11 22:38:11.621 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-11 22:38:11.621 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-14 14:12:24.664 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-14 14:12:24.696 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-14 14:12:24.698 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-14 14:12:24.698 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-14 14:12:24.699 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-14 14:12:24.699 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-14 14:12:25.177 -03:00 [INF] idsrv was not authenticated. Failure message: Unprotect ticket failed
+2018-07-14 14:12:25.201 -03:00 [INF] idsrv was not authenticated. Failure message: Unprotect ticket failed
+2018-07-14 14:12:25.446 -03:00 [INF] idsrv was not authenticated. Failure message: Unprotect ticket failed
+2018-07-14 14:12:25.447 -03:00 [INF] idsrv was not authenticated. Failure message: Unprotect ticket failed
+2018-07-14 14:12:25.447 -03:00 [INF] idsrv was not authenticated. Failure message: Unprotect ticket failed
+2018-07-14 14:12:25.447 -03:00 [INF] idsrv was not authenticated. Failure message: Unprotect ticket failed
+2018-07-14 14:12:25.449 -03:00 [INF] idsrv was not authenticated. Failure message: Unprotect ticket failed
+2018-07-14 14:12:25.449 -03:00 [INF] idsrv was not authenticated. Failure message: Unprotect ticket failed
+2018-07-14 14:12:25.469 -03:00 [INF] idsrv was not authenticated. Failure message: Unprotect ticket failed
+2018-07-14 14:12:25.469 -03:00 [INF] idsrv was not authenticated. Failure message: Unprotect ticket failed
+2018-07-14 14:12:25.525 -03:00 [INF] idsrv was not authenticated. Failure message: Unprotect ticket failed
+2018-07-14 14:12:25.525 -03:00 [INF] idsrv was not authenticated. Failure message: Unprotect ticket failed
+2018-07-14 14:12:25.526 -03:00 [INF] idsrv was not authenticated. Failure message: Unprotect ticket failed
+2018-07-14 14:12:25.526 -03:00 [INF] idsrv was not authenticated. Failure message: Unprotect ticket failed
+2018-07-14 14:12:25.667 -03:00 [INF] idsrv was not authenticated. Failure message: Unprotect ticket failed
+2018-07-14 14:12:25.667 -03:00 [INF] idsrv was not authenticated. Failure message: Unprotect ticket failed
+2018-07-14 14:13:20.252 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-14 14:13:20.298 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-14 14:13:20.303 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-14 14:13:20.303 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-14 14:13:20.303 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-14 14:13:20.303 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-14 14:13:20.732 -03:00 [INF] idsrv was not authenticated. Failure message: Unprotect ticket failed
+2018-07-14 14:13:20.757 -03:00 [INF] idsrv was not authenticated. Failure message: Unprotect ticket failed
+2018-07-14 14:15:51.858 -03:00 [INF] idsrv was not authenticated. Failure message: Unprotect ticket failed
+2018-07-14 14:15:51.858 -03:00 [INF] idsrv was not authenticated. Failure message: Unprotect ticket failed
+2018-07-14 14:17:13.212 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-07-14 14:17:13.244 -03:00 [DBG] Using idsrv as default scheme for authentication
+2018-07-14 14:17:13.246 -03:00 [DBG] Using idsrv as default scheme for sign-in
+2018-07-14 14:17:13.247 -03:00 [DBG] Using idsrv as default scheme for sign-out
+2018-07-14 14:17:13.247 -03:00 [DBG] Using idsrv as default scheme for challenge
+2018-07-14 14:17:13.247 -03:00 [DBG] Using idsrv as default scheme for forbid
+2018-07-14 14:17:13.629 -03:00 [INF] idsrv was not authenticated. Failure message: Unprotect ticket failed
+2018-07-14 14:17:13.648 -03:00 [INF] idsrv was not authenticated. Failure message: Unprotect ticket failed
+2018-07-14 14:17:16.670 -03:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2018-07-14 14:17:16.674 -03:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2018-07-14 14:17:16.675 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2018-07-14 14:17:16.679 -03:00 [DBG] Start discovery request
+2018-07-14 14:17:16.765 -03:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2018-07-14 14:17:16.766 -03:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2018-07-14 14:17:16.766 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2018-07-14 14:17:16.770 -03:00 [DBG] Start key discovery request
+2018-07-14 14:17:16.931 -03:00 [INF] idsrv was not authenticated. Failure message: Unprotect ticket failed
+2018-07-14 14:17:16.931 -03:00 [INF] idsrv was not authenticated. Failure message: Unprotect ticket failed
+2018-07-14 14:17:16.931 -03:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2018-07-14 14:17:16.937 -03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2018-07-14 14:17:16.938 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2018-07-14 14:17:16.942 -03:00 [DBG] Start authorize request
+2018-07-14 14:17:16.945 -03:00 [INF] idsrv was not authenticated. Failure message: Unprotect ticket failed
+2018-07-14 14:17:16.952 -03:00 [DBG] No user present in authorize request
+2018-07-14 14:17:16.956 -03:00 [DBG] Start authorize request protocol validation
+2018-07-14 14:17:16.969 -03:00 [DBG] client configuration validation for client calemaserp-spa succeeded.
+2018-07-14 14:17:17.007 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-14 14:17:17.019 -03:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "calemaserp-spa",
+  "ClientName": "Supera CRM",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "AllowedRedirectUris": [
+    "http://localhost:8080/authorized/?"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid calemaserp profile email",
+  "State": "1531588636923",
+  "Nonce": "xyz",
+  "Raw": {
+    "client_id": "calemaserp-spa",
+    "redirect_uri": "http://localhost:8080/authorized/?",
+    "response_type": "id_token token",
+    "scope": "openid calemaserp profile email",
+    "state": "1531588636923",
+    "nonce": "xyz"
+  }
+}
+2018-07-14 14:17:17.029 -03:00 [INF] Showing login: User is not authenticated
+2018-07-14 14:17:17.038 -03:00 [INF] idsrv was not authenticated. Failure message: Unprotect ticket failed
+2018-07-14 14:17:17.038 -03:00 [INF] idsrv was not authenticated. Failure message: Unprotect ticket failed
+2018-07-14 14:17:17.084 -03:00 [INF] idsrv was not authenticated. Failure message: Unprotect ticket failed
+2018-07-14 14:17:17.084 -03:00 [DBG] Start authorize request protocol validation
+2018-07-14 14:17:17.085 -03:00 [DBG] client configuration validation for client calemaserp-spa succeeded.
+2018-07-14 14:17:17.085 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-14 14:17:17.090 -03:00 [DBG] client configuration validation for client calemaserp-spa succeeded.
+2018-07-14 14:17:20.492 -03:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-07-14 14:17:20.493 -03:00 [INF] idsrv was not authenticated. Failure message: Unprotect ticket failed
+2018-07-14 14:17:20.493 -03:00 [INF] idsrv was not authenticated. Failure message: Unprotect ticket failed
+2018-07-14 14:17:20.526 -03:00 [INF] idsrv was not authenticated. Failure message: Unprotect ticket failed
+2018-07-14 14:17:20.526 -03:00 [DBG] Start authorize request protocol validation
+2018-07-14 14:17:20.526 -03:00 [DBG] client configuration validation for client calemaserp-spa succeeded.
+2018-07-14 14:17:20.526 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-14 14:17:20.541 -03:00 [INF] {
+  "Name": "User Login Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1000,
+  "Username": "alice",
+  "SubjectId": "818727",
+  "DisplayName": "alice",
+  "Endpoint": "UI",
+  "ActivityId": "0HLF9LMI21L34:00000006",
+  "TimeStamp": "2018-07-14T17:17:20Z",
+  "ProcessId": 12752,
+  "LocalIpAddress": "127.0.0.1:19915",
+  "RemoteIpAddress": "::1"
+}
+2018-07-14 14:17:20.555 -03:00 [DBG] Augmenting SignInContext
+2018-07-14 14:17:20.558 -03:00 [DBG] Adding idp claim with value: local
+2018-07-14 14:17:20.558 -03:00 [DBG] Adding amr claim with value: pwd
+2018-07-14 14:17:20.561 -03:00 [INF] idsrv was not authenticated. Failure message: Unprotect ticket failed
+2018-07-14 14:17:20.568 -03:00 [INF] AuthenticationScheme: idsrv signed in.
+2018-07-14 14:17:20.569 -03:00 [DBG] client configuration validation for client calemaserp-spa succeeded.
+2018-07-14 14:17:20.575 -03:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2018-07-14 14:17:20.576 -03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2018-07-14 14:17:20.576 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2018-07-14 14:17:20.581 -03:00 [DBG] Start authorize callback request
+2018-07-14 14:17:20.586 -03:00 [DBG] User in authorize request: 818727
+2018-07-14 14:17:20.586 -03:00 [DBG] Start authorize request protocol validation
+2018-07-14 14:17:20.586 -03:00 [DBG] client configuration validation for client calemaserp-spa succeeded.
+2018-07-14 14:17:20.587 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-07-14 14:17:20.587 -03:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "calemaserp-spa",
+  "ClientName": "Supera CRM",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "AllowedRedirectUris": [
+    "http://localhost:8080/authorized/?"
+  ],
+  "SubjectId": "818727",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid calemaserp profile email",
+  "State": "1531588636923",
+  "Nonce": "xyz",
+  "SessionId": "f0d3350a8abb9256841a308d80c83324",
+  "Raw": {
+    "client_id": "calemaserp-spa",
+    "redirect_uri": "http://localhost:8080/authorized/?",
+    "response_type": "id_token token",
+    "scope": "openid calemaserp profile email",
+    "state": "1531588636923",
+    "nonce": "xyz"
+  }
+}
+2018-07-14 14:17:20.588 -03:00 [DBG] IsActive called from: AuthorizeEndpoint
+2018-07-14 14:17:20.600 -03:00 [DBG] Client is configured to not require consent, no consent is required
+2018-07-14 14:17:20.605 -03:00 [DBG] Creating Implicit Flow response.
+2018-07-14 14:17:20.615 -03:00 [DBG] Getting claims for access token for client: calemaserp-spa
+2018-07-14 14:17:20.616 -03:00 [DBG] Getting claims for access token for subject: 818727
+2018-07-14 14:17:20.623 -03:00 [DBG] Get profile called for subject 818727 from client Supera CRM with claim types ["name","openid","email"] via ClaimsProviderAccessToken
+2018-07-14 14:17:20.633 -03:00 [DBG] Issued claims: ["name","email"]
+2018-07-14 14:17:20.693 -03:00 [DBG] Getting claims for identity token for subject: 818727 and client: calemaserp-spa
+2018-07-14 14:17:20.693 -03:00 [DBG] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2018-07-14 14:17:20.707 -03:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "calemaserp-spa",
+  "ClientName": "Supera CRM",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "Endpoint": "Authorize",
+  "SubjectId": "818727",
+  "Scopes": "openid profile email calemaserp",
+  "GrantType": "implicit",
+  "Tokens": [
+    {
+      "TokenType": "id_token",
+      "TokenValue": "****Ee-g"
+    },
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****jBYw"
+    }
+  ],
+  "ActivityId": "0HLF9LMI21L34:00000007",
+  "TimeStamp": "2018-07-14T17:17:20Z",
+  "ProcessId": 12752,
+  "LocalIpAddress": "127.0.0.1:19915",
+  "RemoteIpAddress": "::1"
+}
+2018-07-14 14:17:20.712 -03:00 [INF] Authorize endpoint response
+{
+  "SubjectId": "818727",
+  "ClientId": "calemaserp-spa",
+  "RedirectUri": "http://localhost:8080/authorized/?",
+  "State": "1531588636923",
+  "Scope": "openid profile email calemaserp"
+}
+2018-07-14 14:17:20.729 -03:00 [DBG] Augmenting SignInContext
+2018-07-14 14:17:20.729 -03:00 [INF] AuthenticationScheme: idsrv signed in.

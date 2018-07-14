@@ -9,9 +9,19 @@ using System.Text;
 namespace Common.Cripto
 {
 
-    public class Cripto 
+    public class Cripto : ICripto
     {
-        public string Salt { get { return "CNAHash";  } }
+        public string Salt { get; protected set; }
+
+        public Cripto()
+        {
+            this.Salt = "CNAHash";
+        }
+
+        public void SetSalt(string value)
+        {
+            this.Salt = value;
+        }
 
         public string Encrypt(string value, TypeCripto type)
         {
@@ -21,7 +31,48 @@ namespace Common.Cripto
             if (type == TypeCripto.Hash512)
                 return ComputeHash512(value);
 
+            if (type == TypeCripto.MD5Hash)
+                return EncryptMD5HashString(value, Salt);
+
             return string.Empty;
+        }
+
+        public static string EncryptMD5HashString(string Message, string Passphrase)
+        {
+            if (string.IsNullOrEmpty(Message))
+            {
+                return string.Empty;
+            }
+            else
+            {
+                using (var tripleDES = TripleDES.Create())
+                {
+                    byte[] Results;
+                    UTF8Encoding UTF8 = new UTF8Encoding();
+                    MD5 MD5 = MD5.Create();
+
+                    byte[] TDESKey = MD5.ComputeHash(UTF8.GetBytes(Passphrase));
+
+                    if (TDESKey.Length == 16)
+                    {
+                        byte[] keyTemp = new byte[24];
+                        Buffer.BlockCopy(TDESKey, 0, keyTemp, 0, TDESKey.Length);
+                        Buffer.BlockCopy(TDESKey, 0, keyTemp, TDESKey.Length, 8);
+                        TDESKey = keyTemp;
+                    }
+
+                    tripleDES.Key = TDESKey;
+                    tripleDES.Mode = CipherMode.ECB;
+                    tripleDES.Padding = PaddingMode.PKCS7;
+
+                    byte[] DataToEncrypt = UTF8.GetBytes(Message);
+
+                    ICryptoTransform Encryptor = tripleDES.CreateEncryptor();
+                    Results = Encryptor.TransformFinalBlock(DataToEncrypt, 0, DataToEncrypt.Length);
+
+                    return Convert.ToBase64String(Results);
+                }
+            }
         }
 
         private string ComputeHash128(string value)
@@ -29,13 +80,13 @@ namespace Common.Cripto
             var encrypt = true;
             byte[] toEncryptorDecryptArray = null;
             ICryptoTransform cTransform = null;
-             
+
             if (this.Salt.IsNullOrEmpaty())
                 throw new InvalidOperationException("Salt not found");
             byte[] keyArrays = MD5Hash(this.Salt);
 
             var resultsArray = TripleDESCrypto(value, encrypt, toEncryptorDecryptArray, cTransform, keyArrays);
-            if(encrypt)
+            if (encrypt)
                 return Convert.ToBase64String(resultsArray, 0, resultsArray.Length);
 
             return UTF8Encoding.UTF8.GetString(resultsArray);
@@ -43,12 +94,12 @@ namespace Common.Cripto
 
         private static byte[] CreateHash(string unHashed)
         {
-            var md5Hasing = new System.Security.Cryptography.HMACMD5();            
+            var md5Hasing = new System.Security.Cryptography.HMACMD5();
             var data = UTF8Encoding.UTF8.GetBytes(unHashed);
             data = md5Hasing.ComputeHash(data);
-            return data;            
+            return data;
         }
-        
+
         private static byte[] MD5Hash(string input)
         {
             using (var md5 = MD5.Create())
@@ -92,7 +143,7 @@ namespace Common.Cripto
                 byte[] resultsArray = cTransform.TransformFinalBlock(toEncryptorDecryptArray, 0, toEncryptorDecryptArray.Length);
 
                 return resultsArray;
-            }            
+            }
         }
 
         private string ComputeHash512(string value)
@@ -104,7 +155,7 @@ namespace Common.Cripto
             {
                 var result = SHA512.ComputeHash(UTF8Encoding.UTF8.GetBytes(value));
                 return Convert.ToBase64String(result);
-            } 
+            }
         }
     }
 }

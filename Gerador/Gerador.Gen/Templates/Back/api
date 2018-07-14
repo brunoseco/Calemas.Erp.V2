@@ -1,0 +1,115 @@
+﻿using Common.API;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Routing;
+using Microsoft.Extensions.Logging;
+using <#namespace#>.Services;
+using <#namespace#>.Dto;
+using <#namespace#>.Filters;
+using <#namespace#>.Data.Repository;
+using System;
+using System.Threading.Tasks;
+
+namespace <#namespace#>.Api.Controllers
+{
+    public class <#className#>ControllerBase : Controller
+    {
+        protected readonly <#className#>Service _service;
+        protected readonly <#className#>Repository _rep;
+        protected readonly ILogger _logger;
+
+        public <#className#>ControllerBase(<#className#>Service service, <#className#>Repository rep, ILoggerFactory logger)
+        {
+            this._service = service;
+            this._rep = rep;
+            this._logger = logger.CreateLogger<<#className#>Controller>();
+        }
+
+        #region Principals
+
+        [HttpGet]
+        public async Task<IActionResult> Get([FromQuery]<#className#>Filter filters)
+        {
+            var result = new HttpResult<<#className#>Dto>(this._logger, this._service);
+            try
+            {
+                var searchResult = await this._service.GetByFiltersPaging(filters);
+                return result.ReturnCustomResponse(searchResult);
+            }
+            catch (Exception ex)
+            {
+                return result.ReturnCustomException(ex, "<#className#>", filters);
+            }
+        }
+
+<#ApiGet#>
+
+        [HttpPost]
+        public async Task<IActionResult> Post([FromBody]<#className#>DtoSave dto)
+        {
+            var result = new HttpResult<<#className#>Dto>(this._logger, this._service);
+            try
+            {
+                var returnModel = await this._service.Save(dto);
+                return result.ReturnCustomResponse(returnModel);
+
+            }
+            catch (Exception ex)
+            {
+                return result.ReturnCustomException(ex, "<#className#>", dto);
+            }
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> Put([FromBody]<#className#>DtoSave dto)
+        {
+            var result = new HttpResult<<#className#>Dto>(this._logger, this._service);
+            try
+            {
+                var returnModel = await this._service.SavePartial(dto);
+                return result.ReturnCustomResponse(returnModel);
+
+            }
+            catch (Exception ex)
+            {
+                return result.ReturnCustomException(ex, "<#className#>", dto);
+            }
+        }
+		
+        [HttpDelete]
+        public async Task<IActionResult> Delete(<#className#>Dto dto)
+        {
+            var result = new HttpResult<<#className#>Dto>(this._logger, this._service);
+            try
+            {
+                await this._service.Remove(dto);
+                return result.ReturnCustomResponse(dto);
+            }
+            catch (Exception ex)
+            {
+                return result.ReturnCustomException(ex, "<#className#>", dto);
+            }
+        }
+
+        #endregion
+
+		#region Others
+
+        [HttpGet("DataItems")]
+        public async Task<IActionResult> DataItems([FromQuery]<#className#>Filter filters)
+        {
+            var result = new HttpResult<dynamic>(this._logger, this._service);
+            try
+            {
+                var items = await this._service.GetDataItems(filters);
+                return result.ReturnCustomResponse(items);
+            }
+            catch (Exception ex)
+            {
+                return result.ReturnCustomException(ex, "Assinatura", filters);
+            }
+        }
+
+        #endregion
+
+    }
+}

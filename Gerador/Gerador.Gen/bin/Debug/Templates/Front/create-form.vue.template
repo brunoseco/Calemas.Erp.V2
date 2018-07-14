@@ -1,0 +1,69 @@
+<template>
+
+    <form ref="<#classNameLower#>-form-create" v-on:submit.prevent="executeCreate(model)" novalidate>
+
+        <div class="row">
+
+            <#formFields#>
+
+        </div>
+
+        <button type="button" class="btn btn-default" @click="onBack()">
+            <span>Voltar</span>
+        </button>
+        <button type="button" class="btn btn-success float-right" @click="executeCreate(model)">
+            <span>Salvar</span>
+        </button>
+
+    </form>
+
+
+</template>
+<script>
+    
+	import base from '@/common/base.js'
+    import { Api } from '@/common/api'
+
+    export default {
+        name: "<#classNameLower#>-form-create",
+        mixins: [base],
+        data: () => ({
+
+            model: {},
+
+            form: "<#classNameLower#>-form-create",
+            
+            resources: {
+                create: '<#classNameLower#>',
+            },
+
+        }),
+		
+        methods: {
+
+            executeCreate: function (model) {
+
+                if (this.formValidate() == false)
+                    return;
+
+                new Api(this.resources.create).post(model).then(data => {
+                    this.$emit('on-saved', data)
+                    this.defaultSuccessResult('Registro inserido com sucesso');
+                }, err => {
+                    this.defaultErrorResult(err);
+                })
+            },
+
+            formValidate: function () {
+                var $form = this.$refs[this.form];
+                $form.classList.add("was-validated");
+                return $form.checkValidity();
+            },
+
+            onBack: function () {
+                this.$emit('on-back')
+            }
+        },
+    };
+</script>
+

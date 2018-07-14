@@ -21,7 +21,7 @@ namespace Common.API.Extensions
             this._next = next;
         }
 
-        public async Task Invoke(HttpContext context, CurrentUser currentUser, IOptions<ConfigSettingsBase> configSettingsBase)
+        public async Task Invoke(HttpContext context, CurrentUser currentUser)
         {
             var token = context.Request.Headers["Authorization"];
             if (!token.IsNullOrEmpaty())
@@ -33,9 +33,7 @@ namespace Common.API.Extensions
                 {
                     try
                     {
-                        //var claims = await GetClaimsFromServer(configSettingsBase, tokenClear);
                         var claims = GetClaimsFromUserPrincipal(context);
-                        //var claims = GetClaimsFromReadToken(tokenClear, jwt);
 
                         var claimsDictonary = new Dictionary<string, object>();
                         if (claims.IsAny())

@@ -23,7 +23,6 @@ namespace Common.API
         public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
         {
             var date = (DateTime)value;
-
             if (date.Hour == 0 && date.Minute == 0)
                 writer.WriteValue(date.ToString("dd/MM/yyyy"));
             else
