@@ -1759,7 +1759,7 @@
       ]
     },
     "runtime.native.System.Data.SqlClient.sni/4.4.0": {
-      "sha512": "oTuVZn2Mz7+/HZpNqQqwFOuJn6AXYAjfLbToZG6B8VsQ8zdzoh3Ft9PloPTaxgwKb+jRaiVuJPtYn/qWkR3rVg==",
+      "sha512": "Da+MFQ5CUI6eDLlB7Lvv70ftFDh5MZMtB3g3FWYQA52JzvXzCY9NZECrm425v/M+g7BrBW/9FxukZbgdHjUSJQ==",
       "type": "package",
       "path": "runtime.native.system.data.sqlclient.sni/4.4.0",
       "files": [
@@ -1772,7 +1772,7 @@
       ]
     },
     "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
-      "sha512": "ul8UaEF1e6LpXWNMevggKyeMV8NAH+Hj7dPyTaB6S1t8vKlGYHPT/76UM7V/uwXVRQxlX18hvYN7CbAqp+5y2Q==",
+      "sha512": "UL3GGqE2zTw0BM/I7yBd8+AKVStflqoDHQc5PhPGwwgTXsN2FBI5Gf7c91ZXYICvRHRSkkAci7lVseDHX+Ka+Q==",
       "type": "package",
       "path": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0",
       "files": [
@@ -1786,7 +1786,7 @@
       ]
     },
     "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
-      "sha512": "+JrEoQix0+NgUsx/FR+J6HIOaoTF2RqE3F7UERcqKdYMTubUo+VqjAaivMmX86ZduHo4/qGiII1xligbia2gDQ==",
+      "sha512": "q8UbLsDdgNqkzjaYIUUxopq94eobyb6gK/6GQXUGmlk+3hY1MbJbKgg5tPHECzYtv6Fd65bHsPRqWrC7Q+TOkw==",
       "type": "package",
       "path": "runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0",
       "files": [
@@ -1800,7 +1800,7 @@
       ]
     },
     "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
-      "sha512": "FPsNNPPGg7MtNbDhlAZPOqoH81Sy9TSYpmSDnDPiyR//eX/f1gdg5zaN2SIBOrVRdfmtidCk5QY0I3OKWJiUhg==",
+      "sha512": "O3M+7iTSZiiCvHVoECJYJw7dGj9nomxj5t5DQlwUWPa4QicCHmcROKeVuAamNOFD4Vl4NyQ5f/TEtCUn/mbGDg==",
       "type": "package",
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "files": [
@@ -3589,24 +3589,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Bruno Seco\\.nuget\\packages\\": {},
+    "C:\\Users\\Target Software\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "X:\\Projetos\\calemas-erp-v2\\Common\\Common.Orm\\Common.Orm.csproj",
+      "projectUniqueName": "C:\\Pessoal\\calemas-erp-v2\\Common\\Common.Orm\\Common.Orm.csproj",
       "projectName": "Common.Orm",
-      "projectPath": "X:\\Projetos\\calemas-erp-v2\\Common\\Common.Orm\\Common.Orm.csproj",
-      "packagesPath": "C:\\Users\\Bruno Seco\\.nuget\\packages\\",
-      "outputPath": "X:\\Projetos\\calemas-erp-v2\\Common\\Common.Orm\\obj\\",
+      "projectPath": "C:\\Pessoal\\calemas-erp-v2\\Common\\Common.Orm\\Common.Orm.csproj",
+      "packagesPath": "C:\\Users\\Target Software\\.nuget\\packages\\",
+      "outputPath": "C:\\Pessoal\\calemas-erp-v2\\Common\\Common.Orm\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "X:\\Projetos\\calemas-erp-v2\\.nuget\\NuGet.Config",
-        "C:\\Users\\Bruno Seco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Pessoal\\calemas-erp-v2\\.nuget\\NuGet.Config",
+        "C:\\Users\\Target Software\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3619,8 +3619,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "X:\\Projetos\\calemas-erp-v2\\Common\\Common.Domain\\Common.Domain.csproj": {
-              "projectPath": "X:\\Projetos\\calemas-erp-v2\\Common\\Common.Domain\\Common.Domain.csproj"
+            "C:\\Pessoal\\calemas-erp-v2\\Common\\Common.Domain\\Common.Domain.csproj": {
+              "projectPath": "C:\\Pessoal\\calemas-erp-v2\\Common\\Common.Domain\\Common.Domain.csproj"
             }
           }
         }

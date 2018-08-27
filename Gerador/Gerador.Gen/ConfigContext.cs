@@ -40,7 +40,13 @@ namespace Gerador.Gen
                 TableInfo = new UniqueListTableInfo
                 {
                     new TableInfo { TableName = "UnidadeMedida" },
-
+                    new TableInfo { TableName = "EstoqueMovimentacaoColaborador" },
+                    new TableInfo { TableName = "CategoriaEstoque" },
+                    new TableInfo { TableName = "SolicitacaoEstoque" },
+                    new TableInfo { TableName = "EstoqueMovimentacao" },
+                    new TableInfo { TableName = "MotivoEstoqueMovimentacao" },
+                    new TableInfo { TableName = "Estoque" },
+                    
 
                 }
             };
@@ -66,6 +72,12 @@ namespace Gerador.Gen
                 {
 
                     new TableInfo { TableName = "UnidadeMedida", ClassNameFormated = "Unidade de Medida", MakeFront = true },
+                    new TableInfo { TableName = "EstoqueMovimentacaoColaborador", ClassNameFormated = "Colaborador", MakeFront = true },
+                    new TableInfo { TableName = "CategoriaEstoque", ClassNameFormated = "Categoria de Estoque", MakeFront = true },
+                    new TableInfo { TableName = "SolicitacaoEstoque", ClassNameFormated = "Solicitação de Estoque", MakeFront = true },
+                    new TableInfo { TableName = "EstoqueMovimentacao", ClassNameFormated = "Movimentação de Estoque", MakeFront = true },
+                    new TableInfo { TableName = "MotivoEstoqueMovimentacao", ClassNameFormated = "Motivo de Movimentação de Estoque", MakeFront = true },
+                    new TableInfo { TableName = "Estoque", ClassNameFormated = "Estoque", MakeFront = true },
 
 
                 }

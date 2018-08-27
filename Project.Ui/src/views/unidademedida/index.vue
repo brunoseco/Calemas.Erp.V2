@@ -43,47 +43,53 @@
 				</div>
 			</div>
             <div class="row animated fadeIn">
-				<div class="col-sm-12">
-					<div class="card">
-						<div class="card-header">
-							<strong>Resultado</strong>
-							Unidade de Medida
-						</div>
-						<div class="card-body">
+                <div class="col-xs-12 col-sm-7 col-md-7 col-lg-8">
+                    <h6 class="page-title txt-color-blueDark">
+                        <i class="fa-fw fa fa-home"></i>
+                        Manutenção
+                        <span>de Unidade de medida</span>
+                    </h6>
+                </div>
+                <div class="col-sm-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <strong>Resultado</strong>
+                        </div>
+                        <div class="card-body">
                             <table class="table table-hover table-striped">
-								<thead>
-									<tr>
-	                                    <th>#</th>
-                                    <th>Nome<i @click="executeOrderBy('Nome')" class="fa fa-sort th-sort"></i></th>
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Nome<i @click="executeOrderBy('Nome')" class="fa fa-sort th-sort"></i></th>
 
-										<th class="text-center" width="150"><i class="fa fa-cog"></i></th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr v-for="item in result.items" v-bind:key="item.unidadeMedidaId" class="animated fadeIn">
-	                                    <td>{{ item.unidadeMedidaId }}</td>
-                                    <td>{{ item.nome }}</td>
+                                        <th class="text-center" width="150"><i class="fa fa-cog"></i></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr v-for="item in result.items" v-bind:key="item.unidadeMedidaId" class="animated fadeIn">
+                                        <td>{{ item.unidadeMedidaId }}</td>
+                                        <td>{{ item.nome }}</td>
 
-										<td class="text-center">
-											<div class="btn-group">
-												<button type="button" class="btn btn-sm btn-primary" v-b-tooltip title="Editar" @click="openEdit(item)">
-													<i class="fa fa-pencil"></i>
-												</button>
-												<button type="button" class="btn btn-sm btn-danger" v-b-tooltip title="Remover" @click="openRemove({ unidadeMedidaId: item.unidadeMedidaId })">
-													<i class="fa fa-trash-o"></i>
-												</button>
-											</div>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-							<div class="card-block no-padding">
-								<pagination :total="result.total" :page-size="filter.pageSize" :callback="executePageChanged"></pagination>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+                                        <td class="text-center">
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-primary" v-b-tooltip title="Editar" @click="openEdit(item)">
+                                                    <i class="fa fa-pencil"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-sm btn-danger" v-b-tooltip title="Remover" @click="openRemove({ unidadeMedidaId: item.unidadeMedidaId })">
+                                                    <i class="fa fa-trash-o"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="card-block no-padding">
+                                <pagination :total="result.total" :page-size="filter.pageSize" :callback="executePageChanged"></pagination>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 		</div>
 
         <b-modal centered v-model="dialogCreate" :hide-footer="true" title="Criar">

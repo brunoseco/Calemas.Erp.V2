@@ -18,6 +18,18 @@ namespace CalemasERP.Core.Api.Config
 
             services.AddScoped<UnidadeMedidaRepository>();
             services.AddScoped<UnidadeMedidaService>();
+            services.AddScoped<EstoqueMovimentacaoColaboradorRepository>();
+            services.AddScoped<EstoqueMovimentacaoColaboradorService>();
+            services.AddScoped<CategoriaEstoqueRepository>();
+            services.AddScoped<CategoriaEstoqueService>();
+            services.AddScoped<SolicitacaoEstoqueRepository>();
+            services.AddScoped<SolicitacaoEstoqueService>();
+            services.AddScoped<EstoqueMovimentacaoRepository>();
+            services.AddScoped<EstoqueMovimentacaoService>();
+            services.AddScoped<MotivoEstoqueMovimentacaoRepository>();
+            services.AddScoped<MotivoEstoqueMovimentacaoService>();
+            services.AddScoped<EstoqueRepository>();
+            services.AddScoped<EstoqueService>();
 
             
             RegisterOtherComponents(services);

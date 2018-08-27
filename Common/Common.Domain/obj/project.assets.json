@@ -847,24 +847,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Bruno Seco\\.nuget\\packages\\": {},
+    "C:\\Users\\Target Software\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "X:\\Projetos\\calemas-erp-v2\\Common\\Common.Domain\\Common.Domain.csproj",
+      "projectUniqueName": "C:\\Pessoal\\calemas-erp-v2\\Common\\Common.Domain\\Common.Domain.csproj",
       "projectName": "Common.Domain",
-      "projectPath": "X:\\Projetos\\calemas-erp-v2\\Common\\Common.Domain\\Common.Domain.csproj",
-      "packagesPath": "C:\\Users\\Bruno Seco\\.nuget\\packages\\",
-      "outputPath": "X:\\Projetos\\calemas-erp-v2\\Common\\Common.Domain\\obj\\",
+      "projectPath": "C:\\Pessoal\\calemas-erp-v2\\Common\\Common.Domain\\Common.Domain.csproj",
+      "packagesPath": "C:\\Users\\Target Software\\.nuget\\packages\\",
+      "outputPath": "C:\\Pessoal\\calemas-erp-v2\\Common\\Common.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "X:\\Projetos\\calemas-erp-v2\\.nuget\\NuGet.Config",
-        "C:\\Users\\Bruno Seco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Pessoal\\calemas-erp-v2\\.nuget\\NuGet.Config",
+        "C:\\Users\\Target Software\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -877,8 +877,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "X:\\Projetos\\calemas-erp-v2\\Common\\Common.Validation\\Common.Validation.csproj": {
-              "projectPath": "X:\\Projetos\\calemas-erp-v2\\Common\\Common.Validation\\Common.Validation.csproj"
+            "C:\\Pessoal\\calemas-erp-v2\\Common\\Common.Validation\\Common.Validation.csproj": {
+              "projectPath": "C:\\Pessoal\\calemas-erp-v2\\Common\\Common.Validation\\Common.Validation.csproj"
             }
           }
         }

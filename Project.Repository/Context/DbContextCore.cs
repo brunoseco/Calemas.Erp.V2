@@ -16,6 +16,12 @@ namespace CalemasERP.Core.Data.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             new UnidadeMedidaMap(modelBuilder.Entity<UnidadeMedida>());
+            new EstoqueMovimentacaoColaboradorMap(modelBuilder.Entity<EstoqueMovimentacaoColaborador>());
+            new CategoriaEstoqueMap(modelBuilder.Entity<CategoriaEstoque>());
+            new SolicitacaoEstoqueMap(modelBuilder.Entity<SolicitacaoEstoque>());
+            new EstoqueMovimentacaoMap(modelBuilder.Entity<EstoqueMovimentacao>());
+            new MotivoEstoqueMovimentacaoMap(modelBuilder.Entity<MotivoEstoqueMovimentacao>());
+            new EstoqueMap(modelBuilder.Entity<Estoque>());
 
         }
 

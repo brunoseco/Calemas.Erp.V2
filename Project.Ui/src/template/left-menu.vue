@@ -9,18 +9,30 @@
                 </li>
                 <li class="nav-title">Principal</li>
                 <li class="nav-item">
-                    <router-link to="/pessoa" class="nav-link">
-                        <i class="nav-icon icon-people"></i> Contatos
+                    <router-link to="/Estoque" class="nav-link">
+                        <i class="nav-icon icon-people"></i> Estoque
                     </router-link>
-                    <router-link to="/empresa" class="nav-link">
-                        <i class="nav-icon icon-globe"></i> Empresas
+                    <router-link to="/estoquemovimentacao" class="nav-link">
+                        <i class="nav-icon "></i> estoquemovimentacao
                     </router-link>
-                    <router-link to="/negocio" class="nav-link">
-                        <i class="nav-icon icon-briefcase"></i> Negócios
+                    <router-link to="/estoquemovimentacaocolaborador" class="nav-link">
+                        <i class="nav-icon "></i> estoquemovimentacaocolaborador
+                    </router-link>
+                    <router-link to="/solicitacaoestoque" class="nav-link">
+                        <i class="nav-icon "></i> solicitacaoestoque
+                    </router-link>
+                    <router-link to="/unidademedida" class="nav-link">
+                        <i class="nav-icon "></i> unidademedida
+                    </router-link>
+                    <router-link to="/categoriaestoque" class="nav-link">
+                        <i class="nav-icon"></i> categoriaestoque
+                    </router-link>
+                    <router-link to="/motivoestoquemovimentacao" class="nav-link">
+                        <i class="nav-icon "></i> motivoestoquemovimentacao
                     </router-link>
                 </li>
 
-                <li class="divider"></li>
+                <!--<li class="divider"></li>
                 <li class="nav-title">Configurações</li>
 
                 <li class="nav-item">
@@ -57,7 +69,7 @@
                     <router-link :to="'/produto'" class="nav-link">
                         <i class="nav-icon icon-arrow-right"></i> Produto
                     </router-link>
-                </li>
+                </li>-->
 
             </ul>
         </nav>

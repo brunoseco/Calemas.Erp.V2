@@ -1,0 +1,1319 @@
+2018-07-15T12:12:59.8552053-03:00 0HLFACLPSB78J:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5101/favicon.ico   (ca22a1cb)
+2018-07-15T12:13:00.0375369-03:00 0HLFACLPSB78J:00000001 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: "CalemasERP.Core.Api.Controllers.CategoriaEstoqueControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.EstoqueControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.EstoqueMovimentacaoColaboradorControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.EstoqueMovimentacaoControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.MotivoEstoqueMovimentacaoControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.SolicitacaoEstoqueControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.UnidadeMedidaControllerBase.Get (Project.Api)" (ab9a4111)
+2018-07-15T12:13:00.1031943-03:00 0HLFACLPSB78J:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+CalemasERP.Core.Api.Controllers.CategoriaEstoqueControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.EstoqueControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.EstoqueMovimentacaoColaboradorControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.EstoqueMovimentacaoControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.MotivoEstoqueMovimentacaoControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.SolicitacaoEstoqueControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.UnidadeMedidaControllerBase.Get (Project.Api)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-07-15T12:13:00.1347799-03:00 0HLFACLPSB78J:00000001 [INF] Request finished in 289.3385ms 500 text/html; charset=utf-8 (791a596a)
+2018-07-15T12:13:10.6579005-03:00 0HLFACLT3A5LO:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5101/favicon.ico   (ca22a1cb)
+2018-07-15T12:13:10.8058453-03:00 0HLFACLT3A5LO:00000001 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: "CalemasERP.Core.Api.Controllers.CategoriaEstoqueControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.EstoqueControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.EstoqueMovimentacaoColaboradorControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.EstoqueMovimentacaoControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.MotivoEstoqueMovimentacaoControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.SolicitacaoEstoqueControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.UnidadeMedidaControllerBase.Get (Project.Api)" (ab9a4111)
+2018-07-15T12:13:10.8297725-03:00 0HLFACLT3A5LO:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+CalemasERP.Core.Api.Controllers.CategoriaEstoqueControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.EstoqueControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.EstoqueMovimentacaoColaboradorControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.EstoqueMovimentacaoControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.MotivoEstoqueMovimentacaoControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.SolicitacaoEstoqueControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.UnidadeMedidaControllerBase.Get (Project.Api)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-07-15T12:13:10.8665885-03:00 0HLFACLT3A5LO:00000001 [INF] Request finished in 214.5893ms 500 text/html; charset=utf-8 (791a596a)
+2018-07-15T12:14:20.5701743-03:00 0HLFACLT3A5LP:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/healthsystem   (ca22a1cb)
+2018-07-15T12:14:20.5986527-03:00 0HLFACLT3A5LP:00000001 [INF] Route matched with "{action = \"Get\", controller = \"HealthSystem\"}". Executing action "CalemasERP.Core.Api.Controllers.HealthSystemController.Get (Project.Api)" (a44c0341)
+2018-07-15T12:14:20.6361628-03:00 0HLFACLT3A5LP:00000001 [INF] Executing action method "CalemasERP.Core.Api.Controllers.HealthSystemController.Get (Project.Api)" - Validation state: Valid (dad538d7)
+2018-07-15T12:14:20.6696011-03:00 0HLFACLT3A5LP:00000001 [INF] Executed action method "CalemasERP.Core.Api.Controllers.HealthSystemController.Get (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 23.3943ms. (50a9e262)
+2018-07-15T12:14:20.6887214-03:00 0HLFACLT3A5LP:00000001 [INF] Executing ObjectResult, writing value of type '"System.String"'. (8a1b66c8)
+2018-07-15T12:14:20.6953675-03:00 0HLFACLT3A5LP:00000001 [INF] Executed action "CalemasERP.Core.Api.Controllers.HealthSystemController.Get (Project.Api)" in 91.4621ms (afa2e885)
+2018-07-15T12:14:20.6983447-03:00 0HLFACLT3A5LP:00000001 [INF] Request finished in 126.8296ms 200 text/plain; charset=utf-8 (791a596a)
+2018-07-15T12:14:20.7757480-03:00 0HLFACLT3A5LP:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5101/favicon.ico   (ca22a1cb)
+2018-07-15T12:14:20.7762198-03:00 0HLFACLT3A5LP:00000002 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: "CalemasERP.Core.Api.Controllers.CategoriaEstoqueControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.EstoqueControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.EstoqueMovimentacaoColaboradorControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.EstoqueMovimentacaoControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.MotivoEstoqueMovimentacaoControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.SolicitacaoEstoqueControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.UnidadeMedidaControllerBase.Get (Project.Api)" (ab9a4111)
+2018-07-15T12:14:20.7776736-03:00 0HLFACLT3A5LP:00000002 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+CalemasERP.Core.Api.Controllers.CategoriaEstoqueControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.EstoqueControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.EstoqueMovimentacaoColaboradorControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.EstoqueMovimentacaoControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.MotivoEstoqueMovimentacaoControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.SolicitacaoEstoqueControllerBase.Get (Project.Api)
+CalemasERP.Core.Api.Controllers.UnidadeMedidaControllerBase.Get (Project.Api)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-07-15T12:14:20.7873603-03:00 0HLFACLT3A5LP:00000002 [INF] Request finished in 11.7082ms 500 text/html; charset=utf-8 (791a596a)
+2018-07-15T12:16:36.8180232-03:00 0HLFACLT3A5LQ:00000001 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/motivoestoquemovimentacao?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true   (ca22a1cb)
+2018-07-15T12:16:36.8194626-03:00 0HLFACLT3A5LQ:00000001 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:16:36.8210653-03:00 0HLFACLT3A5LQ:00000001 [INF] Request finished in 3.0973ms 204  (791a596a)
+2018-07-15T12:16:36.8292784-03:00 0HLFACLT3A5LQ:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/motivoestoquemovimentacao?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true   (ca22a1cb)
+2018-07-15T12:16:37.2653897-03:00 0HLFACLT3A5LQ:00000002 [INF] Failed to validate the token. (616bef97)
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden]', Current time: '[PII is hidden]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in C:\agent2\_work\15\s\src\Microsoft.IdentityModel.Tokens\Validators.cs:line 269
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters) in C:\agent2\_work\15\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1212
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters) in C:\agent2\_work\15\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 763
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in C:\agent2\_work\15\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 747
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2018-07-15T12:16:37.2695136-03:00 0HLFACLT3A5LQ:00000002 [INF] "BearerIdentityServerAuthenticationJwt" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden]', Current time: '[PII is hidden]'." (48071232)
+2018-07-15T12:16:37.2728405-03:00 0HLFACLT3A5LQ:00000002 [INF] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden]', Current time: '[PII is hidden]'." (48071232)
+2018-07-15T12:16:37.2755641-03:00 0HLFACLT3A5LQ:00000002 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:16:37.2982924-03:00 0HLFACLT3A5LQ:00000002 [INF] Route matched with "{action = \"Get\", controller = \"MotivoEstoqueMovimentacao\"}". Executing action "CalemasERP.Core.Api.Controllers.MotivoEstoqueMovimentacaoController.Get (Project.Api)" (a44c0341)
+2018-07-15T12:16:37.2984229-03:00 0HLFACLT3A5LQ:00000002 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:16:37.3086248-03:00 0HLFACLT3A5LQ:00000002 [INF] Authorization failed. (b15dd539)
+2018-07-15T12:16:37.3144704-03:00 0HLFACLT3A5LQ:00000002 [INF] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'. (8b6446cb)
+2018-07-15T12:16:37.3214089-03:00 0HLFACLT3A5LQ:00000002 [INF] Executing ChallengeResult with authentication schemes ([]). (f3dca807)
+2018-07-15T12:16:37.3278558-03:00 0HLFACLT3A5LQ:00000002 [INF] AuthenticationScheme: "BearerIdentityServerAuthenticationJwt" was challenged. (d45f1f38)
+2018-07-15T12:16:37.3279859-03:00 0HLFACLT3A5LQ:00000002 [INF] AuthenticationScheme: "Bearer" was challenged. (d45f1f38)
+2018-07-15T12:16:37.3280878-03:00 0HLFACLT3A5LQ:00000002 [INF] Executed action "CalemasERP.Core.Api.Controllers.MotivoEstoqueMovimentacaoController.Get (Project.Api)" in 29.7037ms (afa2e885)
+2018-07-15T12:16:37.3311979-03:00 0HLFACLT3A5LQ:00000002 [INF] Request finished in 501.8785ms 401  (791a596a)
+2018-07-15T12:16:56.7241195-03:00 0HLFACLT3A5LQ:00000003 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/currentuser?pageSize=10&pageIndex=0&isPaginate=true   (ca22a1cb)
+2018-07-15T12:16:56.7244249-03:00 0HLFACLT3A5LQ:00000003 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:16:56.7245956-03:00 0HLFACLT3A5LQ:00000003 [INF] Request finished in 0.5345ms 204  (791a596a)
+2018-07-15T12:16:56.7984290-03:00 0HLFACLT3A5LQ:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/currentuser?pageSize=10&pageIndex=0&isPaginate=true   (ca22a1cb)
+2018-07-15T12:16:56.8302901-03:00 0HLFACLT3A5LQ:00000004 [INF] Successfully validated the token. (60169667)
+2018-07-15T12:16:56.8386570-03:00 0HLFACLT3A5LQ:00000004 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:16:56.8439360-03:00 0HLFACLT3A5LQ:00000004 [INF] Route matched with "{action = \"Get\", controller = \"CurrentUser\"}". Executing action "CalemasERP.Core.Api.Controllers.CurrentUserController.Get (Project.Api)" (a44c0341)
+2018-07-15T12:16:56.8440333-03:00 0HLFACLT3A5LQ:00000004 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:16:56.8448021-03:00 0HLFACLT3A5LQ:00000004 [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:16:56.8458609-03:00 0HLFACLT3A5LQ:00000004 [INF] AccountController init success (0116ae7f)
+2018-07-15T12:16:56.8460778-03:00 0HLFACLT3A5LQ:00000004 [INF] Executing action method "CalemasERP.Core.Api.Controllers.CurrentUserController.Get (Project.Api)" - Validation state: Valid (dad538d7)
+2018-07-15T12:16:56.8614734-03:00 0HLFACLT3A5LQ:00000004 [INF] Executed action method "CalemasERP.Core.Api.Controllers.CurrentUserController.Get (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 15.0976ms. (50a9e262)
+2018-07-15T12:16:56.8739914-03:00 0HLFACLT3A5LQ:00000004 [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'. (8a1b66c8)
+2018-07-15T12:16:56.8957577-03:00 0HLFACLT3A5LQ:00000004 [INF] Executed action "CalemasERP.Core.Api.Controllers.CurrentUserController.Get (Project.Api)" in 51.7077ms (afa2e885)
+2018-07-15T12:16:56.8994433-03:00 0HLFACLT3A5LQ:00000004 [INF] Request finished in 101.0741ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:16:59.7744423-03:00 0HLFACLT3A5LQ:00000005 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/categoriaestoque?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true   (ca22a1cb)
+2018-07-15T12:16:59.7747084-03:00 0HLFACLT3A5LQ:00000005 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:16:59.7747977-03:00 0HLFACLT3A5LQ:00000005 [INF] Request finished in 0.41ms 204  (791a596a)
+2018-07-15T12:16:59.7858226-03:00 0HLFACLT3A5LQ:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/categoriaestoque?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true   (ca22a1cb)
+2018-07-15T12:16:59.7866565-03:00 0HLFACLT3A5LQ:00000006 [INF] Successfully validated the token. (60169667)
+2018-07-15T12:16:59.7869239-03:00 0HLFACLT3A5LQ:00000006 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:16:59.7946060-03:00 0HLFACLT3A5LQ:00000006 [INF] Route matched with "{action = \"Get\", controller = \"CategoriaEstoque\"}". Executing action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)" (a44c0341)
+2018-07-15T12:16:59.7947379-03:00 0HLFACLT3A5LQ:00000006 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:16:59.7948792-03:00 0HLFACLT3A5LQ:00000006 [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:17:00.1786846-03:00 0HLFACLT3A5LQ:00000006 [WRN] No type was specified for the decimal column '"Quantidade"' on entity type '"Estoque"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'. (b5b4253a)
+2018-07-15T12:17:00.1788116-03:00 0HLFACLT3A5LQ:00000006 [WRN] No type was specified for the decimal column '"QuantidadeMinima"' on entity type '"Estoque"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'. (b5b4253a)
+2018-07-15T12:17:00.1788691-03:00 0HLFACLT3A5LQ:00000006 [WRN] No type was specified for the decimal column '"ValorCompra"' on entity type '"Estoque"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'. (b5b4253a)
+2018-07-15T12:17:00.1789135-03:00 0HLFACLT3A5LQ:00000006 [WRN] No type was specified for the decimal column '"ValorVenda"' on entity type '"Estoque"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'. (b5b4253a)
+2018-07-15T12:17:00.1789731-03:00 0HLFACLT3A5LQ:00000006 [WRN] No type was specified for the decimal column '"Quantidade"' on entity type '"EstoqueMovimentacao"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'. (b5b4253a)
+2018-07-15T12:17:00.1790447-03:00 0HLFACLT3A5LQ:00000006 [WRN] No type was specified for the decimal column '"Quantidade"' on entity type '"EstoqueMovimentacaoColaborador"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'. (b5b4253a)
+2018-07-15T12:17:00.2376306-03:00 0HLFACLT3A5LQ:00000006 [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:17:00.2709511-03:00 0HLFACLT3A5LQ:00000006 [INF] Executing action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)" with arguments (["CalemasERP.Core.Filters.CategoriaEstoqueFilter"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:17:00.5774499-03:00 0HLFACLT3A5LQ:00000006 [INF] Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [CategoriaEstoque] AS [c]" (0723d8ff)
+2018-07-15T12:17:00.6041120-03:00 0HLFACLT3A5LQ:00000006 [WRN] Query: '"(from CategoriaEstoque <generated>_3 in DbSet<CategoriaEstoque> select [<generated>_3]).Skip(__p_0)...."' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results. (32148ccc)
+2018-07-15T12:17:00.6194254-03:00 0HLFACLT3A5LQ:00000006 [INF] Executed DbCommand ("3"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[Nome]
+FROM [CategoriaEstoque] AS [c]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2018-07-15T12:17:00.6586145-03:00 0HLFACLT3A5LQ:00000006 [INF] Executed action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 387.522ms. (50a9e262)
+2018-07-15T12:17:00.6588159-03:00 0HLFACLT3A5LQ:00000006 [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.CategoriaEstoqueDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:17:00.6639440-03:00 0HLFACLT3A5LQ:00000006 [INF] Executed action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)" in 869.2012ms (afa2e885)
+2018-07-15T12:17:00.6643104-03:00 0HLFACLT3A5LQ:00000006 [INF] Request finished in 878.524ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:17:04.5573793-03:00 0HLFACLT3A5LQ:00000007 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/categoriaestoque?categoriaEstoqueId=1   (ca22a1cb)
+2018-07-15T12:17:04.5576500-03:00 0HLFACLT3A5LQ:00000007 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:17:04.5577502-03:00 0HLFACLT3A5LQ:00000007 [INF] Request finished in 0.4383ms 204  (791a596a)
+2018-07-15T12:17:04.5609411-03:00 0HLFACLT3A5LQ:00000008 [INF] Request starting HTTP/1.1 DELETE http://localhost:5101/api/categoriaestoque?categoriaEstoqueId=1   (ca22a1cb)
+2018-07-15T12:17:04.5617535-03:00 0HLFACLT3A5LQ:00000008 [INF] Successfully validated the token. (60169667)
+2018-07-15T12:17:04.5619692-03:00 0HLFACLT3A5LQ:00000008 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:17:04.5745193-03:00 0HLFACLT3A5LQ:00000008 [INF] Route matched with "{action = \"Delete\", controller = \"CategoriaEstoque\"}". Executing action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Delete (Project.Api)" (a44c0341)
+2018-07-15T12:17:04.5747710-03:00 0HLFACLT3A5LQ:00000008 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:17:04.5748987-03:00 0HLFACLT3A5LQ:00000008 [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:17:04.5763285-03:00 0HLFACLT3A5LQ:00000008 [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:17:04.5773507-03:00 0HLFACLT3A5LQ:00000008 [INF] Executing action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Delete (Project.Api)" with arguments (["CalemasERP.Core.Dto.CategoriaEstoqueDto"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:17:04.7238508-03:00 0HLFACLT3A5LQ:00000008 [ERR] Failed executing DbCommand ("7"ms) [Parameters=["@p0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+DELETE FROM [CategoriaEstoque]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;" (627a98df)
+System.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_Estoque_CategoriaEstoque". The conflict occurred in database "calemas-erp", table "dbo.Estoque", column 'CategoriaEstoqueId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+ClientConnectionId:9044c3b4-7700-4d30-b310-a23558c377eb
+Error Number:547,State:0,Class:16
+2018-07-15T12:17:04.7432843-03:00 0HLFACLT3A5LQ:00000008 [ERR] An exception occurred in the database while saving changes for context type '"CalemasERP.Core.Data.Context.DbContextCore"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint \"FK_Estoque_CategoriaEstoque\". The conflict occurred in database \"calemas-erp\", table \"dbo.Estoque\", column 'CategoriaEstoqueId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_Estoque_CategoriaEstoque". The conflict occurred in database "calemas-erp", table "dbo.Estoque", column 'CategoriaEstoqueId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Common.Orm.UnitOfWork`1.CommitAsync() in C:\Pessoal\calemas-erp-v2\Common\Common.Orm\UnitofWork.cs:line 35
+2018-07-15T12:17:04.7487033-03:00 0HLFACLT3A5LQ:00000008 [FTL] "[CategoriaEstoque] - An error occurred while updating the entries. See the inner exception for details. - [{\"CategoriaEstoqueId\":1,\"Nome\":null,\"AttributeBehavior\":null}]" - [1] (4da76d2f)
+2018-07-15T12:17:04.7488775-03:00 0HLFACLT3A5LQ:00000008 [INF] Executed action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Delete (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 171.4625ms. (50a9e262)
+2018-07-15T12:17:04.7489847-03:00 0HLFACLT3A5LQ:00000008 [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.CategoriaEstoqueDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:17:04.7504015-03:00 0HLFACLT3A5LQ:00000008 [INF] Executed action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Delete (Project.Api)" in 175.6876ms (afa2e885)
+2018-07-15T12:17:04.7522881-03:00 0HLFACLT3A5LQ:00000008 [INF] Request finished in 191.3628ms 500 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:17:06.4044672-03:00 0HLFACLT3A5LQ:00000009 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/categoriaestoque?pageSize=10&pageIndex=0&isPaginate=true&categoriaEstoqueId=1   (ca22a1cb)
+2018-07-15T12:17:06.4051431-03:00 0HLFACLT3A5LQ:00000009 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:17:06.4053113-03:00 0HLFACLT3A5LQ:00000009 [INF] Request finished in 0.9785ms 204  (791a596a)
+2018-07-15T12:17:06.4131475-03:00 0HLFACLT3A5LQ:0000000A [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/categoriaestoque?pageSize=10&pageIndex=0&isPaginate=true&categoriaEstoqueId=1   (ca22a1cb)
+2018-07-15T12:17:06.4140735-03:00 0HLFACLT3A5LQ:0000000A [INF] Successfully validated the token. (60169667)
+2018-07-15T12:17:06.4142265-03:00 0HLFACLT3A5LQ:0000000A [INF] Policy execution successful. (0204925d)
+2018-07-15T12:17:06.4144166-03:00 0HLFACLT3A5LQ:0000000A [INF] Route matched with "{action = \"Get\", controller = \"CategoriaEstoque\"}". Executing action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)" (a44c0341)
+2018-07-15T12:17:06.4144610-03:00 0HLFACLT3A5LQ:0000000A [INF] Policy execution successful. (0204925d)
+2018-07-15T12:17:06.4145499-03:00 0HLFACLT3A5LQ:0000000A [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:17:06.4149505-03:00 0HLFACLT3A5LQ:0000000A [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:17:06.4166744-03:00 0HLFACLT3A5LQ:0000000A [INF] Executing action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)" with arguments (["CalemasERP.Core.Filters.CategoriaEstoqueFilter"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:17:06.4494103-03:00 0HLFACLT3A5LQ:0000000A [INF] Executed DbCommand ("1"ms) [Parameters=["@__filters_CategoriaEstoqueId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [CategoriaEstoque] AS [_]
+WHERE [_].[Id] = @__filters_CategoriaEstoqueId_0" (0723d8ff)
+2018-07-15T12:17:06.4533219-03:00 0HLFACLT3A5LQ:0000000A [WRN] Query: '"(from CategoriaEstoque _ in DbSet<CategoriaEstoque> where [_].CategoriaEstoqueId == __filters_Catego..."' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results. (32148ccc)
+2018-07-15T12:17:06.4616494-03:00 0HLFACLT3A5LQ:0000000A [INF] Executed DbCommand ("2"ms) [Parameters=["@__filters_CategoriaEstoqueId_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [_].[Id], [_].[Nome]
+FROM [CategoriaEstoque] AS [_]
+WHERE [_].[Id] = @__filters_CategoriaEstoqueId_0
+ORDER BY (SELECT 1)
+OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY" (0723d8ff)
+2018-07-15T12:17:06.4652252-03:00 0HLFACLT3A5LQ:0000000A [INF] Executed action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 48.323ms. (50a9e262)
+2018-07-15T12:17:06.4653501-03:00 0HLFACLT3A5LQ:0000000A [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.CategoriaEstoqueDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:17:06.4655444-03:00 0HLFACLT3A5LQ:0000000A [INF] Executed action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)" in 51.0794ms (afa2e885)
+2018-07-15T12:17:06.4656456-03:00 0HLFACLT3A5LQ:0000000A [INF] Request finished in 52.5336ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:17:08.1658067-03:00 0HLFACLT3A5LQ:0000000B [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/categoriaestoque   (ca22a1cb)
+2018-07-15T12:17:08.1660867-03:00 0HLFACLT3A5LQ:0000000B [INF] Policy execution successful. (0204925d)
+2018-07-15T12:17:08.1661935-03:00 0HLFACLT3A5LQ:0000000B [INF] Request finished in 0.4224ms 204  (791a596a)
+2018-07-15T12:17:08.1734451-03:00 0HLFACLT3A5LQ:0000000C [INF] Request starting HTTP/1.1 PUT http://localhost:5101/api/categoriaestoque application/json;charset=UTF-8 65 (ca22a1cb)
+2018-07-15T12:17:08.1740844-03:00 0HLFACLT3A5LQ:0000000C [INF] Successfully validated the token. (60169667)
+2018-07-15T12:17:08.1742568-03:00 0HLFACLT3A5LQ:0000000C [INF] Policy execution successful. (0204925d)
+2018-07-15T12:17:08.1802150-03:00 0HLFACLT3A5LQ:0000000C [INF] Route matched with "{action = \"Put\", controller = \"CategoriaEstoque\"}". Executing action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Put (Project.Api)" (a44c0341)
+2018-07-15T12:17:08.1803321-03:00 0HLFACLT3A5LQ:0000000C [INF] Policy execution successful. (0204925d)
+2018-07-15T12:17:08.1804590-03:00 0HLFACLT3A5LQ:0000000C [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:17:08.1810042-03:00 0HLFACLT3A5LQ:0000000C [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:17:08.2098595-03:00 0HLFACLT3A5LQ:0000000C [INF] Executing action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Put (Project.Api)" with arguments (["CalemasERP.Core.Dto.CategoriaEstoqueDtoSave"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:17:08.2282079-03:00 0HLFACLT3A5LQ:0000000C [INF] Executed DbCommand ("1"ms) [Parameters=["@__model_CategoriaEstoqueId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [_].[Id], [_].[Nome]
+FROM [CategoriaEstoque] AS [_]
+WHERE [_].[Id] = @__model_CategoriaEstoqueId_0" (0723d8ff)
+2018-07-15T12:17:08.2337483-03:00 0HLFACLT3A5LQ:0000000C [INF] Executed DbCommand ("1"ms) [Parameters=["@p1='?' (DbType = Int32), @p0='?' (Size = 100) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [CategoriaEstoque] SET [Nome] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2018-07-15T12:17:08.2937694-03:00 0HLFACLT3A5LQ:0000000C [INF] Executed action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Put (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 83.7853ms. (50a9e262)
+2018-07-15T12:17:08.2938967-03:00 0HLFACLT3A5LQ:0000000C [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.CategoriaEstoqueDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:17:08.2949552-03:00 0HLFACLT3A5LQ:0000000C [INF] Executed action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Put (Project.Api)" in 114.6287ms (afa2e885)
+2018-07-15T12:17:08.2951142-03:00 0HLFACLT3A5LQ:0000000C [INF] Request finished in 121.7403ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:17:08.3096071-03:00 0HLFACLT3A5LQ:0000000D [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/categoriaestoque?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true   (ca22a1cb)
+2018-07-15T12:17:08.3099482-03:00 0HLFACLT3A5LQ:0000000D [INF] Policy execution successful. (0204925d)
+2018-07-15T12:17:08.3100483-03:00 0HLFACLT3A5LQ:0000000D [INF] Request finished in 0.5539ms 204  (791a596a)
+2018-07-15T12:17:08.3167779-03:00 0HLFACLT3A5LQ:0000000E [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/categoriaestoque?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true   (ca22a1cb)
+2018-07-15T12:17:08.3175552-03:00 0HLFACLT3A5LQ:0000000E [INF] Successfully validated the token. (60169667)
+2018-07-15T12:17:08.3177297-03:00 0HLFACLT3A5LQ:0000000E [INF] Policy execution successful. (0204925d)
+2018-07-15T12:17:08.3187491-03:00 0HLFACLT3A5LQ:0000000E [INF] Route matched with "{action = \"Get\", controller = \"CategoriaEstoque\"}". Executing action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)" (a44c0341)
+2018-07-15T12:17:08.3188246-03:00 0HLFACLT3A5LQ:0000000E [INF] Policy execution successful. (0204925d)
+2018-07-15T12:17:08.3188968-03:00 0HLFACLT3A5LQ:0000000E [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:17:08.3194022-03:00 0HLFACLT3A5LQ:0000000E [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:17:08.3196366-03:00 0HLFACLT3A5LQ:0000000E [INF] Executing action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)" with arguments (["CalemasERP.Core.Filters.CategoriaEstoqueFilter"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:17:08.3237457-03:00 0HLFACLT3A5LQ:0000000E [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [CategoriaEstoque] AS [c]" (0723d8ff)
+2018-07-15T12:17:08.3247073-03:00 0HLFACLT3A5LQ:0000000E [INF] Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[Nome]
+FROM [CategoriaEstoque] AS [c]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2018-07-15T12:17:08.3249897-03:00 0HLFACLT3A5LQ:0000000E [INF] Executed action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 5.2998ms. (50a9e262)
+2018-07-15T12:17:08.3251244-03:00 0HLFACLT3A5LQ:0000000E [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.CategoriaEstoqueDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:17:08.3252545-03:00 0HLFACLT3A5LQ:0000000E [INF] Executed action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)" in 6.443ms (afa2e885)
+2018-07-15T12:17:08.3253695-03:00 0HLFACLT3A5LQ:0000000E [INF] Request finished in 8.6599ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:17:09.2187515-03:00 0HLFACLT3A5LQ:0000000F [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/categoriaestoque?pageSize=10&pageIndex=0&isPaginate=true&categoriaEstoqueId=1   (ca22a1cb)
+2018-07-15T12:17:09.2196552-03:00 0HLFACLT3A5LQ:0000000F [INF] Successfully validated the token. (60169667)
+2018-07-15T12:17:09.2199105-03:00 0HLFACLT3A5LQ:0000000F [INF] Policy execution successful. (0204925d)
+2018-07-15T12:17:09.2200667-03:00 0HLFACLT3A5LQ:0000000F [INF] Route matched with "{action = \"Get\", controller = \"CategoriaEstoque\"}". Executing action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)" (a44c0341)
+2018-07-15T12:17:09.2201143-03:00 0HLFACLT3A5LQ:0000000F [INF] Policy execution successful. (0204925d)
+2018-07-15T12:17:09.2201831-03:00 0HLFACLT3A5LQ:0000000F [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:17:09.2207406-03:00 0HLFACLT3A5LQ:0000000F [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:17:09.2210322-03:00 0HLFACLT3A5LQ:0000000F [INF] Executing action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)" with arguments (["CalemasERP.Core.Filters.CategoriaEstoqueFilter"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:17:09.2707453-03:00 0HLFACLT3A5LQ:0000000F [INF] Executed DbCommand ("0"ms) [Parameters=["@__filters_CategoriaEstoqueId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [CategoriaEstoque] AS [_]
+WHERE [_].[Id] = @__filters_CategoriaEstoqueId_0" (0723d8ff)
+2018-07-15T12:17:09.2724610-03:00 0HLFACLT3A5LQ:0000000F [INF] Executed DbCommand ("1"ms) [Parameters=["@__filters_CategoriaEstoqueId_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [_].[Id], [_].[Nome]
+FROM [CategoriaEstoque] AS [_]
+WHERE [_].[Id] = @__filters_CategoriaEstoqueId_0
+ORDER BY (SELECT 1)
+OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY" (0723d8ff)
+2018-07-15T12:17:09.2727277-03:00 0HLFACLT3A5LQ:0000000F [INF] Executed action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 51.6277ms. (50a9e262)
+2018-07-15T12:17:09.2728179-03:00 0HLFACLT3A5LQ:0000000F [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.CategoriaEstoqueDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:17:09.2729431-03:00 0HLFACLT3A5LQ:0000000F [INF] Executed action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)" in 52.8326ms (afa2e885)
+2018-07-15T12:17:09.2730362-03:00 0HLFACLT3A5LQ:0000000F [INF] Request finished in 54.3541ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:17:10.8724716-03:00 0HLFACLT3A5LQ:00000010 [INF] Request starting HTTP/1.1 PUT http://localhost:5101/api/categoriaestoque application/json;charset=UTF-8 64 (ca22a1cb)
+2018-07-15T12:17:10.8736751-03:00 0HLFACLT3A5LQ:00000010 [INF] Successfully validated the token. (60169667)
+2018-07-15T12:17:10.8738951-03:00 0HLFACLT3A5LQ:00000010 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:17:10.8740298-03:00 0HLFACLT3A5LQ:00000010 [INF] Route matched with "{action = \"Put\", controller = \"CategoriaEstoque\"}". Executing action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Put (Project.Api)" (a44c0341)
+2018-07-15T12:17:10.8740841-03:00 0HLFACLT3A5LQ:00000010 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:17:10.8741673-03:00 0HLFACLT3A5LQ:00000010 [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:17:10.8745890-03:00 0HLFACLT3A5LQ:00000010 [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:17:10.8753246-03:00 0HLFACLT3A5LQ:00000010 [INF] Executing action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Put (Project.Api)" with arguments (["CalemasERP.Core.Dto.CategoriaEstoqueDtoSave"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:17:10.8766702-03:00 0HLFACLT3A5LQ:00000010 [INF] Executed DbCommand ("0"ms) [Parameters=["@__model_CategoriaEstoqueId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [_].[Id], [_].[Nome]
+FROM [CategoriaEstoque] AS [_]
+WHERE [_].[Id] = @__model_CategoriaEstoqueId_0" (0723d8ff)
+2018-07-15T12:17:10.8777489-03:00 0HLFACLT3A5LQ:00000010 [INF] Executed DbCommand ("0"ms) [Parameters=["@p1='?' (DbType = Int32), @p0='?' (Size = 100) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [CategoriaEstoque] SET [Nome] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2018-07-15T12:17:10.9259777-03:00 0HLFACLT3A5LQ:00000010 [INF] Executed action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Put (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 50.537ms. (50a9e262)
+2018-07-15T12:17:10.9261424-03:00 0HLFACLT3A5LQ:00000010 [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.CategoriaEstoqueDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:17:10.9264143-03:00 0HLFACLT3A5LQ:00000010 [INF] Executed action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Put (Project.Api)" in 52.2821ms (afa2e885)
+2018-07-15T12:17:10.9266244-03:00 0HLFACLT3A5LQ:00000010 [INF] Request finished in 54.2466ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:17:10.9422393-03:00 0HLFACLT3A5LQ:00000011 [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/categoriaestoque?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true   (ca22a1cb)
+2018-07-15T12:17:10.9432690-03:00 0HLFACLT3A5LQ:00000011 [INF] Successfully validated the token. (60169667)
+2018-07-15T12:17:10.9434478-03:00 0HLFACLT3A5LQ:00000011 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:17:10.9436551-03:00 0HLFACLT3A5LQ:00000011 [INF] Route matched with "{action = \"Get\", controller = \"CategoriaEstoque\"}". Executing action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)" (a44c0341)
+2018-07-15T12:17:10.9437267-03:00 0HLFACLT3A5LQ:00000011 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:17:10.9438512-03:00 0HLFACLT3A5LQ:00000011 [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:17:10.9450814-03:00 0HLFACLT3A5LQ:00000011 [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:17:10.9457542-03:00 0HLFACLT3A5LQ:00000011 [INF] Executing action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)" with arguments (["CalemasERP.Core.Filters.CategoriaEstoqueFilter"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:17:10.9464965-03:00 0HLFACLT3A5LQ:00000011 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [CategoriaEstoque] AS [c]" (0723d8ff)
+2018-07-15T12:17:10.9471266-03:00 0HLFACLT3A5LQ:00000011 [INF] Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[Nome]
+FROM [CategoriaEstoque] AS [c]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2018-07-15T12:17:10.9472948-03:00 0HLFACLT3A5LQ:00000011 [INF] Executed action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 1.4767ms. (50a9e262)
+2018-07-15T12:17:10.9473724-03:00 0HLFACLT3A5LQ:00000011 [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.CategoriaEstoqueDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:17:10.9474947-03:00 0HLFACLT3A5LQ:00000011 [INF] Executed action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)" in 3.7789ms (afa2e885)
+2018-07-15T12:17:10.9475825-03:00 0HLFACLT3A5LQ:00000011 [INF] Request finished in 7.2198ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:17:25.6114104-03:00 0HLFACLT3A5LQ:00000012 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/categoriaestoque?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true&nome=dfsdfsfs   (ca22a1cb)
+2018-07-15T12:17:25.6118265-03:00 0HLFACLT3A5LQ:00000012 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:17:25.6121414-03:00 0HLFACLT3A5LQ:00000012 [INF] Request finished in 0.8854ms 204  (791a596a)
+2018-07-15T12:17:25.6154948-03:00 0HLFACLT3A5LQ:00000013 [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/categoriaestoque?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true&nome=dfsdfsfs   (ca22a1cb)
+2018-07-15T12:17:25.6162286-03:00 0HLFACLT3A5LQ:00000013 [INF] Successfully validated the token. (60169667)
+2018-07-15T12:17:25.6163576-03:00 0HLFACLT3A5LQ:00000013 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:17:25.6164842-03:00 0HLFACLT3A5LQ:00000013 [INF] Route matched with "{action = \"Get\", controller = \"CategoriaEstoque\"}". Executing action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)" (a44c0341)
+2018-07-15T12:17:25.6165241-03:00 0HLFACLT3A5LQ:00000013 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:17:25.6165801-03:00 0HLFACLT3A5LQ:00000013 [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:17:25.6170086-03:00 0HLFACLT3A5LQ:00000013 [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:17:25.6175124-03:00 0HLFACLT3A5LQ:00000013 [INF] Executing action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)" with arguments (["CalemasERP.Core.Filters.CategoriaEstoqueFilter"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:17:25.6362805-03:00 0HLFACLT3A5LQ:00000013 [INF] Executed DbCommand ("3"ms) [Parameters=["@__filters_Nome_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [CategoriaEstoque] AS [_]
+WHERE (CHARINDEX(@__filters_Nome_0, [_].[Nome]) > 0) OR (@__filters_Nome_0 = N'')" (0723d8ff)
+2018-07-15T12:17:25.6379671-03:00 0HLFACLT3A5LQ:00000013 [WRN] Query: '"(from CategoriaEstoque _ in DbSet<CategoriaEstoque> where bool [_].Nome.Contains(__filters_Nome_0) s..."' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results. (32148ccc)
+2018-07-15T12:17:25.6453791-03:00 0HLFACLT3A5LQ:00000013 [INF] Executed DbCommand ("2"ms) [Parameters=["@__filters_Nome_0='?' (Size = 4000), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [_].[Id], [_].[Nome]
+FROM [CategoriaEstoque] AS [_]
+WHERE (CHARINDEX(@__filters_Nome_0, [_].[Nome]) > 0) OR (@__filters_Nome_0 = N'')
+ORDER BY (SELECT 1)
+OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY" (0723d8ff)
+2018-07-15T12:17:25.6456016-03:00 0HLFACLT3A5LQ:00000013 [INF] Executed action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 28.0037ms. (50a9e262)
+2018-07-15T12:17:25.6456901-03:00 0HLFACLT3A5LQ:00000013 [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.CategoriaEstoqueDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:17:25.6458678-03:00 0HLFACLT3A5LQ:00000013 [INF] Executed action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)" in 29.3395ms (afa2e885)
+2018-07-15T12:17:25.6459591-03:00 0HLFACLT3A5LQ:00000013 [INF] Request finished in 30.5348ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:17:28.3741862-03:00 0HLFACLT3A5LQ:00000014 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/categoriaestoque?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true&nome=teste   (ca22a1cb)
+2018-07-15T12:17:28.3745980-03:00 0HLFACLT3A5LQ:00000014 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:17:28.3748184-03:00 0HLFACLT3A5LQ:00000014 [INF] Request finished in 0.733ms 204  (791a596a)
+2018-07-15T12:17:28.3795681-03:00 0HLFACLT3A5LQ:00000015 [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/categoriaestoque?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true&nome=teste   (ca22a1cb)
+2018-07-15T12:17:28.3805685-03:00 0HLFACLT3A5LQ:00000015 [INF] Successfully validated the token. (60169667)
+2018-07-15T12:17:28.3808139-03:00 0HLFACLT3A5LQ:00000015 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:17:28.3810146-03:00 0HLFACLT3A5LQ:00000015 [INF] Route matched with "{action = \"Get\", controller = \"CategoriaEstoque\"}". Executing action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)" (a44c0341)
+2018-07-15T12:17:28.3810837-03:00 0HLFACLT3A5LQ:00000015 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:17:28.3814501-03:00 0HLFACLT3A5LQ:00000015 [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:17:28.3820844-03:00 0HLFACLT3A5LQ:00000015 [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:17:28.3823894-03:00 0HLFACLT3A5LQ:00000015 [INF] Executing action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)" with arguments (["CalemasERP.Core.Filters.CategoriaEstoqueFilter"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:17:28.3835806-03:00 0HLFACLT3A5LQ:00000015 [INF] Executed DbCommand ("0"ms) [Parameters=["@__filters_Nome_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [CategoriaEstoque] AS [_]
+WHERE (CHARINDEX(@__filters_Nome_0, [_].[Nome]) > 0) OR (@__filters_Nome_0 = N'')" (0723d8ff)
+2018-07-15T12:17:28.3861018-03:00 0HLFACLT3A5LQ:00000015 [INF] Executed DbCommand ("2"ms) [Parameters=["@__filters_Nome_0='?' (Size = 4000), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [_].[Id], [_].[Nome]
+FROM [CategoriaEstoque] AS [_]
+WHERE (CHARINDEX(@__filters_Nome_0, [_].[Nome]) > 0) OR (@__filters_Nome_0 = N'')
+ORDER BY (SELECT 1)
+OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY" (0723d8ff)
+2018-07-15T12:17:28.3869122-03:00 0HLFACLT3A5LQ:00000015 [INF] Executed action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 4.3421ms. (50a9e262)
+2018-07-15T12:17:28.3870846-03:00 0HLFACLT3A5LQ:00000015 [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.CategoriaEstoqueDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:17:28.3875232-03:00 0HLFACLT3A5LQ:00000015 [INF] Executed action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)" in 6.1961ms (afa2e885)
+2018-07-15T12:17:28.3878134-03:00 0HLFACLT3A5LQ:00000015 [INF] Request finished in 8.2932ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:17:32.1244317-03:00 0HLFACLT3A5LQ:00000016 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/categoriaestoque?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true&nome=   (ca22a1cb)
+2018-07-15T12:17:32.1247000-03:00 0HLFACLT3A5LQ:00000016 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:17:32.1248054-03:00 0HLFACLT3A5LQ:00000016 [INF] Request finished in 0.4104ms 204  (791a596a)
+2018-07-15T12:17:32.1284801-03:00 0HLFACLT3A5LQ:00000017 [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/categoriaestoque?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true&nome=   (ca22a1cb)
+2018-07-15T12:17:32.1292812-03:00 0HLFACLT3A5LQ:00000017 [INF] Successfully validated the token. (60169667)
+2018-07-15T12:17:32.1294656-03:00 0HLFACLT3A5LQ:00000017 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:17:32.1295824-03:00 0HLFACLT3A5LQ:00000017 [INF] Route matched with "{action = \"Get\", controller = \"CategoriaEstoque\"}". Executing action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)" (a44c0341)
+2018-07-15T12:17:32.1296261-03:00 0HLFACLT3A5LQ:00000017 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:17:32.1296952-03:00 0HLFACLT3A5LQ:00000017 [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:17:32.1300990-03:00 0HLFACLT3A5LQ:00000017 [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:17:32.1303501-03:00 0HLFACLT3A5LQ:00000017 [INF] Executing action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)" with arguments (["CalemasERP.Core.Filters.CategoriaEstoqueFilter"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:17:32.1315101-03:00 0HLFACLT3A5LQ:00000017 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [CategoriaEstoque] AS [c]" (0723d8ff)
+2018-07-15T12:17:32.1323193-03:00 0HLFACLT3A5LQ:00000017 [INF] Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[Nome]
+FROM [CategoriaEstoque] AS [c]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2018-07-15T12:17:32.1326628-03:00 0HLFACLT3A5LQ:00000017 [INF] Executed action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 2.1724ms. (50a9e262)
+2018-07-15T12:17:32.1327725-03:00 0HLFACLT3A5LQ:00000017 [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.CategoriaEstoqueDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:17:32.1330052-03:00 0HLFACLT3A5LQ:00000017 [INF] Executed action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)" in 3.3727ms (afa2e885)
+2018-07-15T12:17:32.1331201-03:00 0HLFACLT3A5LQ:00000017 [INF] Request finished in 4.6894ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:17:33.5087209-03:00 0HLFACLT3A5LQ:00000018 [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/categoriaestoque?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true&nome=   (ca22a1cb)
+2018-07-15T12:17:33.5093507-03:00 0HLFACLT3A5LQ:00000018 [INF] Successfully validated the token. (60169667)
+2018-07-15T12:17:33.5094727-03:00 0HLFACLT3A5LQ:00000018 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:17:33.5096059-03:00 0HLFACLT3A5LQ:00000018 [INF] Route matched with "{action = \"Get\", controller = \"CategoriaEstoque\"}". Executing action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)" (a44c0341)
+2018-07-15T12:17:33.5096461-03:00 0HLFACLT3A5LQ:00000018 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:17:33.5097043-03:00 0HLFACLT3A5LQ:00000018 [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:17:33.5100510-03:00 0HLFACLT3A5LQ:00000018 [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:17:33.5102442-03:00 0HLFACLT3A5LQ:00000018 [INF] Executing action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)" with arguments (["CalemasERP.Core.Filters.CategoriaEstoqueFilter"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:17:33.5110711-03:00 0HLFACLT3A5LQ:00000018 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [CategoriaEstoque] AS [c]" (0723d8ff)
+2018-07-15T12:17:33.5118204-03:00 0HLFACLT3A5LQ:00000018 [INF] Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[Nome]
+FROM [CategoriaEstoque] AS [c]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2018-07-15T12:17:33.5119967-03:00 0HLFACLT3A5LQ:00000018 [INF] Executed action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 1.695ms. (50a9e262)
+2018-07-15T12:17:33.5120768-03:00 0HLFACLT3A5LQ:00000018 [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.CategoriaEstoqueDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:17:33.5121938-03:00 0HLFACLT3A5LQ:00000018 [INF] Executed action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)" in 2.549ms (afa2e885)
+2018-07-15T12:17:33.5122855-03:00 0HLFACLT3A5LQ:00000018 [INF] Request finished in 3.6601ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:22:58.0289116-03:00 0HLFACLT3A5LR:00000001 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/categoriaestoque   (ca22a1cb)
+2018-07-15T12:22:58.0301510-03:00 0HLFACLT3A5LR:00000001 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:22:58.0303358-03:00 0HLFACLT3A5LR:00000001 [INF] Request finished in 1.6484ms 204  (791a596a)
+2018-07-15T12:22:58.0376653-03:00 0HLFACLT3A5LR:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5101/api/categoriaestoque application/json;charset=UTF-8 17 (ca22a1cb)
+2018-07-15T12:22:58.0385839-03:00 0HLFACLT3A5LR:00000002 [INF] Successfully validated the token. (60169667)
+2018-07-15T12:22:58.0387785-03:00 0HLFACLT3A5LR:00000002 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:22:58.0518465-03:00 0HLFACLT3A5LR:00000002 [INF] Route matched with "{action = \"Post\", controller = \"CategoriaEstoque\"}". Executing action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Post (Project.Api)" (a44c0341)
+2018-07-15T12:22:58.0519160-03:00 0HLFACLT3A5LR:00000002 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:22:58.0520260-03:00 0HLFACLT3A5LR:00000002 [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:22:58.0525118-03:00 0HLFACLT3A5LR:00000002 [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:22:58.0528239-03:00 0HLFACLT3A5LR:00000002 [INF] Executing action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Post (Project.Api)" with arguments (["CalemasERP.Core.Dto.CategoriaEstoqueDtoSave"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:22:58.0573290-03:00 0HLFACLT3A5LR:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@__model_CategoriaEstoqueId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [_].[Id], [_].[Nome]
+FROM [CategoriaEstoque] AS [_]
+WHERE [_].[Id] = @__model_CategoriaEstoqueId_0" (0723d8ff)
+2018-07-15T12:22:58.0720162-03:00 0HLFACLT3A5LR:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@p0='?' (Size = 100) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [CategoriaEstoque] ([Nome])
+VALUES (@p0);
+SELECT [Id]
+FROM [CategoriaEstoque]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (0723d8ff)
+2018-07-15T12:22:58.0965016-03:00 0HLFACLT3A5LR:00000002 [INF] Executed action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Post (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 42.6144ms. (50a9e262)
+2018-07-15T12:22:58.0972340-03:00 0HLFACLT3A5LR:00000002 [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.CategoriaEstoqueDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:22:58.0981896-03:00 0HLFACLT3A5LR:00000002 [INF] Executed action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Post (Project.Api)" in 46.1589ms (afa2e885)
+2018-07-15T12:22:58.0989876-03:00 0HLFACLT3A5LR:00000002 [INF] Request finished in 61.3835ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:22:58.1130175-03:00 0HLFACLT3A5LR:00000003 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/categoriaestoque?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true&nome=   (ca22a1cb)
+2018-07-15T12:22:58.1133697-03:00 0HLFACLT3A5LR:00000003 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:22:58.1134621-03:00 0HLFACLT3A5LR:00000003 [INF] Request finished in 0.5807ms 204  (791a596a)
+2018-07-15T12:22:58.1205617-03:00 0HLFACLT3A5LR:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/categoriaestoque?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true&nome=   (ca22a1cb)
+2018-07-15T12:22:58.1214553-03:00 0HLFACLT3A5LR:00000004 [INF] Successfully validated the token. (60169667)
+2018-07-15T12:22:58.1216108-03:00 0HLFACLT3A5LR:00000004 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:22:58.1217151-03:00 0HLFACLT3A5LR:00000004 [INF] Route matched with "{action = \"Get\", controller = \"CategoriaEstoque\"}". Executing action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)" (a44c0341)
+2018-07-15T12:22:58.1217578-03:00 0HLFACLT3A5LR:00000004 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:22:58.1218178-03:00 0HLFACLT3A5LR:00000004 [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:22:58.1222127-03:00 0HLFACLT3A5LR:00000004 [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:22:58.1224074-03:00 0HLFACLT3A5LR:00000004 [INF] Executing action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)" with arguments (["CalemasERP.Core.Filters.CategoriaEstoqueFilter"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:22:58.1247920-03:00 0HLFACLT3A5LR:00000004 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [CategoriaEstoque] AS [c]" (0723d8ff)
+2018-07-15T12:22:58.1293722-03:00 0HLFACLT3A5LR:00000004 [INF] Executed DbCommand ("4"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[Nome]
+FROM [CategoriaEstoque] AS [c]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2018-07-15T12:22:58.1304093-03:00 0HLFACLT3A5LR:00000004 [INF] Executed action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 7.9257ms. (50a9e262)
+2018-07-15T12:22:58.1305686-03:00 0HLFACLT3A5LR:00000004 [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.CategoriaEstoqueDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:22:58.1316705-03:00 0HLFACLT3A5LR:00000004 [INF] Executed action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)" in 9.7632ms (afa2e885)
+2018-07-15T12:22:58.1318518-03:00 0HLFACLT3A5LR:00000004 [INF] Request finished in 11.3242ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:23:16.9763921-03:00 0HLFACLT3A5LR:00000005 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/unidademedida?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true   (ca22a1cb)
+2018-07-15T12:23:16.9779591-03:00 0HLFACLT3A5LR:00000005 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:23:16.9781082-03:00 0HLFACLT3A5LR:00000005 [INF] Request finished in 1.9866ms 204  (791a596a)
+2018-07-15T12:23:16.9838757-03:00 0HLFACLT3A5LR:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/unidademedida?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true   (ca22a1cb)
+2018-07-15T12:23:16.9848915-03:00 0HLFACLT3A5LR:00000006 [INF] Successfully validated the token. (60169667)
+2018-07-15T12:23:16.9850576-03:00 0HLFACLT3A5LR:00000006 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:23:16.9945046-03:00 0HLFACLT3A5LR:00000006 [INF] Route matched with "{action = \"Get\", controller = \"UnidadeMedida\"}". Executing action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" (a44c0341)
+2018-07-15T12:23:16.9946428-03:00 0HLFACLT3A5LR:00000006 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:23:16.9947440-03:00 0HLFACLT3A5LR:00000006 [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:23:16.9969398-03:00 0HLFACLT3A5LR:00000006 [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:23:17.0000203-03:00 0HLFACLT3A5LR:00000006 [INF] Executing action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" with arguments (["CalemasERP.Core.Filters.UnidadeMedidaFilter"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:23:17.0359480-03:00 0HLFACLT3A5LR:00000006 [INF] Executed DbCommand ("29"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [UnidadeMedida] AS [u]" (0723d8ff)
+2018-07-15T12:23:17.0380599-03:00 0HLFACLT3A5LR:00000006 [WRN] Query: '"(from UnidadeMedida <generated>_3 in DbSet<UnidadeMedida> select [<generated>_3]).Skip(__p_0).Take(_..."' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results. (32148ccc)
+2018-07-15T12:23:17.0439136-03:00 0HLFACLT3A5LR:00000006 [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Nome]
+FROM [UnidadeMedida] AS [u]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2018-07-15T12:23:17.0529160-03:00 0HLFACLT3A5LR:00000006 [INF] Executed action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 52.7455ms. (50a9e262)
+2018-07-15T12:23:17.0530528-03:00 0HLFACLT3A5LR:00000006 [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.UnidadeMedidaDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:23:17.0589306-03:00 0HLFACLT3A5LR:00000006 [INF] Executed action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" in 64.3247ms (afa2e885)
+2018-07-15T12:23:17.0590949-03:00 0HLFACLT3A5LR:00000006 [INF] Request finished in 75.2576ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:23:34.6615868-03:00 0HLFACLT3A5LR:00000007 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/unidademedida   (ca22a1cb)
+2018-07-15T12:23:34.6625297-03:00 0HLFACLT3A5LR:00000007 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:23:34.6626672-03:00 0HLFACLT3A5LR:00000007 [INF] Request finished in 1.1953ms 204  (791a596a)
+2018-07-15T12:23:34.6670432-03:00 0HLFACLT3A5LR:00000008 [INF] Request starting HTTP/1.1 POST http://localhost:5101/api/unidademedida application/json;charset=UTF-8 17 (ca22a1cb)
+2018-07-15T12:23:34.6677124-03:00 0HLFACLT3A5LR:00000008 [INF] Successfully validated the token. (60169667)
+2018-07-15T12:23:34.6678422-03:00 0HLFACLT3A5LR:00000008 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:23:34.6730803-03:00 0HLFACLT3A5LR:00000008 [INF] Route matched with "{action = \"Post\", controller = \"UnidadeMedida\"}". Executing action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Post (Project.Api)" (a44c0341)
+2018-07-15T12:23:34.6731822-03:00 0HLFACLT3A5LR:00000008 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:23:34.6732672-03:00 0HLFACLT3A5LR:00000008 [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:23:34.6738903-03:00 0HLFACLT3A5LR:00000008 [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:23:34.6764816-03:00 0HLFACLT3A5LR:00000008 [INF] Executing action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Post (Project.Api)" with arguments (["CalemasERP.Core.Dto.UnidadeMedidaDtoSave"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:23:34.6914097-03:00 0HLFACLT3A5LR:00000008 [INF] Executed DbCommand ("1"ms) [Parameters=["@__model_UnidadeMedidaId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [_].[Id], [_].[Nome]
+FROM [UnidadeMedida] AS [_]
+WHERE [_].[Id] = @__model_UnidadeMedidaId_0" (0723d8ff)
+2018-07-15T12:23:34.7038201-03:00 0HLFACLT3A5LR:00000008 [INF] Executed DbCommand ("2"ms) [Parameters=["@p0='?' (Size = 100) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [UnidadeMedida] ([Nome])
+VALUES (@p0);
+SELECT [Id]
+FROM [UnidadeMedida]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (0723d8ff)
+2018-07-15T12:23:34.7089524-03:00 0HLFACLT3A5LR:00000008 [INF] Executed action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Post (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 32.3364ms. (50a9e262)
+2018-07-15T12:23:34.7090712-03:00 0HLFACLT3A5LR:00000008 [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.UnidadeMedidaDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:23:34.7103777-03:00 0HLFACLT3A5LR:00000008 [INF] Executed action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Post (Project.Api)" in 37.1908ms (afa2e885)
+2018-07-15T12:23:34.7105082-03:00 0HLFACLT3A5LR:00000008 [INF] Request finished in 43.5185ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:23:34.7239933-03:00 0HLFACLT3A5LR:00000009 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/unidademedida?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true   (ca22a1cb)
+2018-07-15T12:23:34.7242927-03:00 0HLFACLT3A5LR:00000009 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:23:34.7243689-03:00 0HLFACLT3A5LR:00000009 [INF] Request finished in 0.4834ms 204  (791a596a)
+2018-07-15T12:23:34.7278509-03:00 0HLFACLT3A5LR:0000000A [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/unidademedida?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true   (ca22a1cb)
+2018-07-15T12:23:34.7293140-03:00 0HLFACLT3A5LR:0000000A [INF] Successfully validated the token. (60169667)
+2018-07-15T12:23:34.7294772-03:00 0HLFACLT3A5LR:0000000A [INF] Policy execution successful. (0204925d)
+2018-07-15T12:23:34.7295837-03:00 0HLFACLT3A5LR:0000000A [INF] Route matched with "{action = \"Get\", controller = \"UnidadeMedida\"}". Executing action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" (a44c0341)
+2018-07-15T12:23:34.7296253-03:00 0HLFACLT3A5LR:0000000A [INF] Policy execution successful. (0204925d)
+2018-07-15T12:23:34.7296951-03:00 0HLFACLT3A5LR:0000000A [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:23:34.7301493-03:00 0HLFACLT3A5LR:0000000A [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:23:34.7303862-03:00 0HLFACLT3A5LR:0000000A [INF] Executing action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" with arguments (["CalemasERP.Core.Filters.UnidadeMedidaFilter"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:23:34.7334960-03:00 0HLFACLT3A5LR:0000000A [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [UnidadeMedida] AS [u]" (0723d8ff)
+2018-07-15T12:23:34.7374076-03:00 0HLFACLT3A5LR:0000000A [INF] Executed DbCommand ("3"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Nome]
+FROM [UnidadeMedida] AS [u]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2018-07-15T12:23:34.7376477-03:00 0HLFACLT3A5LR:0000000A [INF] Executed action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 7.2032ms. (50a9e262)
+2018-07-15T12:23:34.7377570-03:00 0HLFACLT3A5LR:0000000A [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.UnidadeMedidaDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:23:34.7379101-03:00 0HLFACLT3A5LR:0000000A [INF] Executed action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" in 8.2752ms (afa2e885)
+2018-07-15T12:23:34.7380642-03:00 0HLFACLT3A5LR:0000000A [INF] Request finished in 10.284ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:23:42.1009301-03:00 0HLFACLT3A5LR:0000000B [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/unidademedida?unidadeMedidaId=1   (ca22a1cb)
+2018-07-15T12:23:42.1013694-03:00 0HLFACLT3A5LR:0000000B [INF] Policy execution successful. (0204925d)
+2018-07-15T12:23:42.1018130-03:00 0HLFACLT3A5LR:0000000B [INF] Request finished in 0.9175ms 204  (791a596a)
+2018-07-15T12:23:42.1069380-03:00 0HLFACLT3A5LR:0000000C [INF] Request starting HTTP/1.1 DELETE http://localhost:5101/api/unidademedida?unidadeMedidaId=1   (ca22a1cb)
+2018-07-15T12:23:42.1076814-03:00 0HLFACLT3A5LR:0000000C [INF] Successfully validated the token. (60169667)
+2018-07-15T12:23:42.1078210-03:00 0HLFACLT3A5LR:0000000C [INF] Policy execution successful. (0204925d)
+2018-07-15T12:23:42.1345183-03:00 0HLFACLT3A5LR:0000000C [INF] Route matched with "{action = \"Delete\", controller = \"UnidadeMedida\"}". Executing action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Delete (Project.Api)" (a44c0341)
+2018-07-15T12:23:42.1346777-03:00 0HLFACLT3A5LR:0000000C [INF] Policy execution successful. (0204925d)
+2018-07-15T12:23:42.1347673-03:00 0HLFACLT3A5LR:0000000C [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:23:42.1351403-03:00 0HLFACLT3A5LR:0000000C [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:23:42.1358949-03:00 0HLFACLT3A5LR:0000000C [INF] Executing action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Delete (Project.Api)" with arguments (["CalemasERP.Core.Dto.UnidadeMedidaDto"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:23:42.1497182-03:00 0HLFACLT3A5LR:0000000C [ERR] Failed executing DbCommand ("7"ms) [Parameters=["@p0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+DELETE FROM [UnidadeMedida]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;" (627a98df)
+System.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_Estoque_UnidadeMedida". The conflict occurred in database "calemas-erp", table "dbo.Estoque", column 'UnidadeMedidaId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:9044c3b4-7700-4d30-b310-a23558c377eb
+Error Number:547,State:0,Class:16
+2018-07-15T12:23:42.1565738-03:00 0HLFACLT3A5LR:0000000C [ERR] An exception occurred in the database while saving changes for context type '"CalemasERP.Core.Data.Context.DbContextCore"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint \"FK_Estoque_UnidadeMedida\". The conflict occurred in database \"calemas-erp\", table \"dbo.Estoque\", column 'UnidadeMedidaId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_Estoque_UnidadeMedida". The conflict occurred in database "calemas-erp", table "dbo.Estoque", column 'UnidadeMedidaId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+2018-07-15T12:23:42.1604688-03:00 0HLFACLT3A5LR:0000000C [FTL] "[UnidadeMedida] - An error occurred while updating the entries. See the inner exception for details. - [{\"UnidadeMedidaId\":1,\"Nome\":null,\"AttributeBehavior\":null}]" - [1] (4da76d2f)
+2018-07-15T12:23:42.1606895-03:00 0HLFACLT3A5LR:0000000C [INF] Executed action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Delete (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 24.7233ms. (50a9e262)
+2018-07-15T12:23:42.1608154-03:00 0HLFACLT3A5LR:0000000C [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.UnidadeMedidaDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:23:42.1609752-03:00 0HLFACLT3A5LR:0000000C [INF] Executed action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Delete (Project.Api)" in 26.3094ms (afa2e885)
+2018-07-15T12:23:42.1620901-03:00 0HLFACLT3A5LR:0000000C [INF] Request finished in 55.1616ms 500 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:23:52.1835127-03:00 0HLFACLT3A5LR:0000000D [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/categoriaestoque?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true   (ca22a1cb)
+2018-07-15T12:23:52.1839902-03:00 0HLFACLT3A5LR:0000000D [INF] Policy execution successful. (0204925d)
+2018-07-15T12:23:52.1841464-03:00 0HLFACLT3A5LR:0000000D [INF] Request finished in 0.9735ms 204  (791a596a)
+2018-07-15T12:23:52.1896017-03:00 0HLFACLT3A5LR:0000000E [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/categoriaestoque?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true   (ca22a1cb)
+2018-07-15T12:23:52.1903824-03:00 0HLFACLT3A5LR:0000000E [INF] Successfully validated the token. (60169667)
+2018-07-15T12:23:52.1905312-03:00 0HLFACLT3A5LR:0000000E [INF] Policy execution successful. (0204925d)
+2018-07-15T12:23:52.1906948-03:00 0HLFACLT3A5LR:0000000E [INF] Route matched with "{action = \"Get\", controller = \"CategoriaEstoque\"}". Executing action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)" (a44c0341)
+2018-07-15T12:23:52.1908101-03:00 0HLFACLT3A5LR:0000000E [INF] Policy execution successful. (0204925d)
+2018-07-15T12:23:52.1908683-03:00 0HLFACLT3A5LR:0000000E [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:23:52.1924470-03:00 0HLFACLT3A5LR:0000000E [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:23:52.1929646-03:00 0HLFACLT3A5LR:0000000E [INF] Executing action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)" with arguments (["CalemasERP.Core.Filters.CategoriaEstoqueFilter"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:23:52.1970859-03:00 0HLFACLT3A5LR:0000000E [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [CategoriaEstoque] AS [c]" (0723d8ff)
+2018-07-15T12:23:52.2066338-03:00 0HLFACLT3A5LR:0000000E [INF] Executed DbCommand ("8"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[Nome]
+FROM [CategoriaEstoque] AS [c]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2018-07-15T12:23:52.2071437-03:00 0HLFACLT3A5LR:0000000E [INF] Executed action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 14.0856ms. (50a9e262)
+2018-07-15T12:23:52.2072717-03:00 0HLFACLT3A5LR:0000000E [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.CategoriaEstoqueDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:23:52.2074332-03:00 0HLFACLT3A5LR:0000000E [INF] Executed action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.Get (Project.Api)" in 16.6195ms (afa2e885)
+2018-07-15T12:23:52.2075341-03:00 0HLFACLT3A5LR:0000000E [INF] Request finished in 17.9764ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:23:56.5237854-03:00 0HLFACLT3A5LR:0000000F [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/motivoestoquemovimentacao?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true   (ca22a1cb)
+2018-07-15T12:23:56.5244137-03:00 0HLFACLT3A5LR:0000000F [INF] Policy execution successful. (0204925d)
+2018-07-15T12:23:56.5246458-03:00 0HLFACLT3A5LR:0000000F [INF] Request finished in 0.9545ms 204  (791a596a)
+2018-07-15T12:23:56.5335627-03:00 0HLFACLT3A5LR:00000010 [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/motivoestoquemovimentacao?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true   (ca22a1cb)
+2018-07-15T12:23:56.5346005-03:00 0HLFACLT3A5LR:00000010 [INF] Successfully validated the token. (60169667)
+2018-07-15T12:23:56.5348043-03:00 0HLFACLT3A5LR:00000010 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:23:56.5349662-03:00 0HLFACLT3A5LR:00000010 [INF] Route matched with "{action = \"Get\", controller = \"MotivoEstoqueMovimentacao\"}". Executing action "CalemasERP.Core.Api.Controllers.MotivoEstoqueMovimentacaoController.Get (Project.Api)" (a44c0341)
+2018-07-15T12:23:56.5350462-03:00 0HLFACLT3A5LR:00000010 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:23:56.5351312-03:00 0HLFACLT3A5LR:00000010 [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:23:56.5368156-03:00 0HLFACLT3A5LR:00000010 [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:23:56.5400284-03:00 0HLFACLT3A5LR:00000010 [INF] Executing action method "CalemasERP.Core.Api.Controllers.MotivoEstoqueMovimentacaoController.Get (Project.Api)" with arguments (["CalemasERP.Core.Filters.MotivoEstoqueMovimentacaoFilter"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:23:56.5825289-03:00 0HLFACLT3A5LR:00000010 [INF] Executed DbCommand ("30"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [MotivoEstoqueMovimentacao] AS [m]" (0723d8ff)
+2018-07-15T12:23:56.5846366-03:00 0HLFACLT3A5LR:00000010 [WRN] Query: '"(from MotivoEstoqueMovimentacao <generated>_3 in DbSet<MotivoEstoqueMovimentacao> select [<generated..."' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results. (32148ccc)
+2018-07-15T12:23:56.5913293-03:00 0HLFACLT3A5LR:00000010 [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Nome]
+FROM [MotivoEstoqueMovimentacao] AS [m]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2018-07-15T12:23:56.6014789-03:00 0HLFACLT3A5LR:00000010 [INF] Executed action method "CalemasERP.Core.Api.Controllers.MotivoEstoqueMovimentacaoController.Get (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 61.295ms. (50a9e262)
+2018-07-15T12:23:56.6016870-03:00 0HLFACLT3A5LR:00000010 [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.MotivoEstoqueMovimentacaoDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:23:56.6076335-03:00 0HLFACLT3A5LR:00000010 [INF] Executed action "CalemasERP.Core.Api.Controllers.MotivoEstoqueMovimentacaoController.Get (Project.Api)" in 72.5714ms (afa2e885)
+2018-07-15T12:23:56.6077587-03:00 0HLFACLT3A5LR:00000010 [INF] Request finished in 74.2403ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:23:58.9819166-03:00 0HLFACLT3A5LR:00000011 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/estoque?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true   (ca22a1cb)
+2018-07-15T12:23:58.9831750-03:00 0HLFACLT3A5LR:00000011 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:23:58.9834808-03:00 0HLFACLT3A5LR:00000011 [INF] Request finished in 2.4873ms 204  (791a596a)
+2018-07-15T12:23:58.9886036-03:00 0HLFACLT3A5LR:00000012 [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/estoque?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true   (ca22a1cb)
+2018-07-15T12:23:58.9892789-03:00 0HLFACLT3A5LR:00000012 [INF] Successfully validated the token. (60169667)
+2018-07-15T12:23:58.9894294-03:00 0HLFACLT3A5LR:00000012 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:23:59.0086703-03:00 0HLFACLT3A5LR:00000012 [INF] Route matched with "{action = \"Get\", controller = \"Estoque\"}". Executing action "CalemasERP.Core.Api.Controllers.EstoqueController.Get (Project.Api)" (a44c0341)
+2018-07-15T12:23:59.0087873-03:00 0HLFACLT3A5LR:00000012 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:23:59.0088625-03:00 0HLFACLT3A5LR:00000012 [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:23:59.0097814-03:00 0HLFACLT3A5LR:00000012 [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:23:59.0185270-03:00 0HLFACLT3A5LR:00000012 [INF] Executing action method "CalemasERP.Core.Api.Controllers.EstoqueController.Get (Project.Api)" with arguments (["CalemasERP.Core.Filters.EstoqueFilter"]) - Validation state: Invalid (4e3479ed)
+2018-07-15T12:23:59.0350408-03:00 0HLFACLT3A5LR:00000012 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Estoque] AS [e]" (0723d8ff)
+2018-07-15T12:23:59.0367418-03:00 0HLFACLT3A5LR:00000012 [WRN] Query: '"(from Estoque <generated>_3 in DbSet<Estoque> select [<generated>_3]).Skip(__p_0).Take(__p_1)"' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results. (32148ccc)
+2018-07-15T12:23:59.0526670-03:00 0HLFACLT3A5LR:00000012 [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[Ativo], [e].[CategoriaEstoqueId], [e].[Descricao], [e].[Fabricante], [e].[Localizacao], [e].[Modelo], [e].[Nome], [e].[Observacao], [e].[Quantidade], [e].[QuantidadeMinima], [e].[Referencia], [e].[UnidadeMedidaId], [e].[UserAlterDate], [e].[UserAlterId], [e].[UserCreateDate], [e].[UserCreateId], [e].[ValorCompra], [e].[ValorVenda]
+FROM [Estoque] AS [e]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2018-07-15T12:23:59.0700864-03:00 0HLFACLT3A5LR:00000012 [INF] Executed action method "CalemasERP.Core.Api.Controllers.EstoqueController.Get (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 51.4471ms. (50a9e262)
+2018-07-15T12:23:59.0702214-03:00 0HLFACLT3A5LR:00000012 [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.EstoqueDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:23:59.0831642-03:00 0HLFACLT3A5LR:00000012 [INF] Executed action "CalemasERP.Core.Api.Controllers.EstoqueController.Get (Project.Api)" in 74.3775ms (afa2e885)
+2018-07-15T12:23:59.0832848-03:00 0HLFACLT3A5LR:00000012 [INF] Request finished in 94.721ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:24:03.1046037-03:00 0HLFACLT3A5LR:00000013 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/UnidadeMedida/dataitems?pageSize=10&pageIndex=0&isPaginate=true   (ca22a1cb)
+2018-07-15T12:24:03.1049919-03:00 0HLFACLT3A5LR:00000013 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:03.1051309-03:00 0HLFACLT3A5LR:00000013 [INF] Request finished in 0.9964ms 204  (791a596a)
+2018-07-15T12:24:03.1066654-03:00 0HLFACLT3A5LS:00000001 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/CategoriaEstoque/dataitems?pageSize=10&pageIndex=0&isPaginate=true   (ca22a1cb)
+2018-07-15T12:24:03.1069655-03:00 0HLFACLT3A5LS:00000001 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:03.1071975-03:00 0HLFACLT3A5LS:00000001 [INF] Request finished in 0.5451ms 204  (791a596a)
+2018-07-15T12:24:03.1089219-03:00 0HLFACLT3A5LR:00000014 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/estoque?pageSize=10&pageIndex=0&isPaginate=true&estoqueId=1   (ca22a1cb)
+2018-07-15T12:24:03.1091743-03:00 0HLFACLT3A5LR:00000014 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:03.1092804-03:00 0HLFACLT3A5LR:00000014 [INF] Request finished in 0.4093ms 204  (791a596a)
+2018-07-15T12:24:03.1169139-03:00 0HLFACLT3A5LS:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/UnidadeMedida/dataitems?pageSize=10&pageIndex=0&isPaginate=true   (ca22a1cb)
+2018-07-15T12:24:03.1176381-03:00 0HLFACLT3A5LS:00000002 [INF] Successfully validated the token. (60169667)
+2018-07-15T12:24:03.1177718-03:00 0HLFACLT3A5LS:00000002 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:03.1246813-03:00 0HLFACLT3A5LS:00000002 [INF] Route matched with "{action = \"DataItems\", controller = \"UnidadeMedida\"}". Executing action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.DataItems (Project.Api)" (a44c0341)
+2018-07-15T12:24:03.1247458-03:00 0HLFACLT3A5LS:00000002 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:03.1248076-03:00 0HLFACLT3A5LS:00000002 [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:24:03.1251189-03:00 0HLFACLT3A5LS:00000002 [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:24:03.1256341-03:00 0HLFACLT3A5LS:00000002 [INF] Executing action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.DataItems (Project.Api)" with arguments (["CalemasERP.Core.Filters.UnidadeMedidaFilter"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:24:03.1354968-03:00 0HLFACLT3A5LR:00000015 [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/CategoriaEstoque/dataitems?pageSize=10&pageIndex=0&isPaginate=true   (ca22a1cb)
+2018-07-15T12:24:03.1361520-03:00 0HLFACLT3A5LR:00000015 [INF] Successfully validated the token. (60169667)
+2018-07-15T12:24:03.1363321-03:00 0HLFACLT3A5LR:00000015 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:03.1425794-03:00 0HLFACLT3A5LT:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/estoque?pageSize=10&pageIndex=0&isPaginate=true&estoqueId=1   (ca22a1cb)
+2018-07-15T12:24:03.1427773-03:00 0HLFACLT3A5LR:00000015 [INF] Route matched with "{action = \"DataItems\", controller = \"CategoriaEstoque\"}". Executing action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.DataItems (Project.Api)" (a44c0341)
+2018-07-15T12:24:03.1428524-03:00 0HLFACLT3A5LR:00000015 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:03.1429730-03:00 0HLFACLT3A5LR:00000015 [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:24:03.1434071-03:00 0HLFACLT3A5LT:00000001 [INF] Successfully validated the token. (60169667)
+2018-07-15T12:24:03.1434314-03:00 0HLFACLT3A5LR:00000015 [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:24:03.1435488-03:00 0HLFACLT3A5LT:00000001 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:03.1436613-03:00 0HLFACLT3A5LT:00000001 [INF] Route matched with "{action = \"Get\", controller = \"Estoque\"}". Executing action "CalemasERP.Core.Api.Controllers.EstoqueController.Get (Project.Api)" (a44c0341)
+2018-07-15T12:24:03.1437188-03:00 0HLFACLT3A5LT:00000001 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:03.1437915-03:00 0HLFACLT3A5LT:00000001 [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:24:03.1441134-03:00 0HLFACLT3A5LR:00000015 [INF] Executing action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.DataItems (Project.Api)" with arguments (["CalemasERP.Core.Filters.CategoriaEstoqueFilter"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:24:03.1442428-03:00 0HLFACLT3A5LT:00000001 [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:24:03.1448824-03:00 0HLFACLT3A5LT:00000001 [INF] Executing action method "CalemasERP.Core.Api.Controllers.EstoqueController.Get (Project.Api)" with arguments (["CalemasERP.Core.Filters.EstoqueFilter"]) - Validation state: Invalid (4e3479ed)
+2018-07-15T12:24:03.1588531-03:00 0HLFACLT3A5LS:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [_].[Id], [_].[Nome] AS [Name]
+FROM [UnidadeMedida] AS [_]" (0723d8ff)
+2018-07-15T12:24:03.1603217-03:00 0HLFACLT3A5LS:00000002 [INF] Executed action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.DataItems (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 34.5786ms. (50a9e262)
+2018-07-15T12:24:03.1604490-03:00 0HLFACLT3A5LS:00000002 [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'. (8a1b66c8)
+2018-07-15T12:24:03.1654865-03:00 0HLFACLT3A5LT:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=["@__filters_EstoqueId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Estoque] AS [_]
+WHERE [_].[Id] = @__filters_EstoqueId_0" (0723d8ff)
+2018-07-15T12:24:03.1668695-03:00 0HLFACLT3A5LT:00000001 [WRN] Query: '"(from Estoque _ in DbSet<Estoque> where [_].EstoqueId == __filters_EstoqueId_0 select [_]).Skip(__p_..."' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results. (32148ccc)
+2018-07-15T12:24:03.1674306-03:00 0HLFACLT3A5LS:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [_].[Id], [_].[Nome] AS [Name]
+FROM [UnidadeMedida] AS [_]" (0723d8ff)
+2018-07-15T12:24:03.1692194-03:00 0HLFACLT3A5LS:00000002 [INF] Executed action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.DataItems (Project.Api)" in 44.4512ms (afa2e885)
+2018-07-15T12:24:03.1693484-03:00 0HLFACLT3A5LS:00000002 [INF] Request finished in 52.4789ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:24:03.1696590-03:00 0HLFACLT3A5LR:00000015 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [_].[Id], [_].[Nome] AS [Name]
+FROM [CategoriaEstoque] AS [_]" (0723d8ff)
+2018-07-15T12:24:03.1698096-03:00 0HLFACLT3A5LR:00000015 [INF] Executed action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.DataItems (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 25.6335ms. (50a9e262)
+2018-07-15T12:24:03.1698928-03:00 0HLFACLT3A5LR:00000015 [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'. (8a1b66c8)
+2018-07-15T12:24:03.1707539-03:00 0HLFACLT3A5LR:00000015 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [_].[Id], [_].[Nome] AS [Name]
+FROM [CategoriaEstoque] AS [_]" (0723d8ff)
+2018-07-15T12:24:03.1710766-03:00 0HLFACLT3A5LR:00000015 [INF] Executed action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.DataItems (Project.Api)" in 28.222ms (afa2e885)
+2018-07-15T12:24:03.1712300-03:00 0HLFACLT3A5LR:00000015 [INF] Request finished in 35.7684ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:24:03.1892537-03:00 0HLFACLT3A5LT:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=["@__filters_EstoqueId_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [_].[Id], [_].[Ativo], [_].[CategoriaEstoqueId], [_].[Descricao], [_].[Fabricante], [_].[Localizacao], [_].[Modelo], [_].[Nome], [_].[Observacao], [_].[Quantidade], [_].[QuantidadeMinima], [_].[Referencia], [_].[UnidadeMedidaId], [_].[UserAlterDate], [_].[UserAlterId], [_].[UserCreateDate], [_].[UserCreateId], [_].[ValorCompra], [_].[ValorVenda]
+FROM [Estoque] AS [_]
+WHERE [_].[Id] = @__filters_EstoqueId_0
+ORDER BY (SELECT 1)
+OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY" (0723d8ff)
+2018-07-15T12:24:03.1896651-03:00 0HLFACLT3A5LT:00000001 [INF] Executed action method "CalemasERP.Core.Api.Controllers.EstoqueController.Get (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 44.6984ms. (50a9e262)
+2018-07-15T12:24:03.1898200-03:00 0HLFACLT3A5LT:00000001 [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.EstoqueDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:24:03.1899815-03:00 0HLFACLT3A5LT:00000001 [INF] Executed action "CalemasERP.Core.Api.Controllers.EstoqueController.Get (Project.Api)" in 46.2799ms (afa2e885)
+2018-07-15T12:24:03.1900802-03:00 0HLFACLT3A5LT:00000001 [INF] Request finished in 47.5437ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:24:05.6760113-03:00 0HLFACLT3A5LR:00000016 [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/UnidadeMedida/dataitems?pageSize=10&pageIndex=0&isPaginate=true   (ca22a1cb)
+2018-07-15T12:24:05.6759958-03:00 0HLFACLT3A5LS:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/CategoriaEstoque/dataitems?pageSize=10&pageIndex=0&isPaginate=true   (ca22a1cb)
+2018-07-15T12:24:05.6767013-03:00 0HLFACLT3A5LS:00000003 [INF] Successfully validated the token. (60169667)
+2018-07-15T12:24:05.6767013-03:00 0HLFACLT3A5LR:00000016 [INF] Successfully validated the token. (60169667)
+2018-07-15T12:24:05.6768603-03:00 0HLFACLT3A5LS:00000003 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:05.6768896-03:00 0HLFACLT3A5LR:00000016 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:05.6769633-03:00 0HLFACLT3A5LS:00000003 [INF] Route matched with "{action = \"DataItems\", controller = \"CategoriaEstoque\"}". Executing action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.DataItems (Project.Api)" (a44c0341)
+2018-07-15T12:24:05.6769640-03:00 0HLFACLT3A5LR:00000016 [INF] Route matched with "{action = \"DataItems\", controller = \"UnidadeMedida\"}". Executing action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.DataItems (Project.Api)" (a44c0341)
+2018-07-15T12:24:05.6770004-03:00 0HLFACLT3A5LR:00000016 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:05.6770039-03:00 0HLFACLT3A5LS:00000003 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:05.6770554-03:00 0HLFACLT3A5LR:00000016 [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:24:05.6770536-03:00 0HLFACLT3A5LS:00000003 [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:24:05.6773653-03:00 0HLFACLT3A5LS:00000003 [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:24:05.6773678-03:00 0HLFACLT3A5LR:00000016 [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:24:05.6775402-03:00 0HLFACLT3A5LR:00000016 [INF] Executing action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.DataItems (Project.Api)" with arguments (["CalemasERP.Core.Filters.UnidadeMedidaFilter"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:24:05.6775413-03:00 0HLFACLT3A5LS:00000003 [INF] Executing action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.DataItems (Project.Api)" with arguments (["CalemasERP.Core.Filters.CategoriaEstoqueFilter"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:24:05.6784578-03:00 0HLFACLT3A5LR:00000016 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [_].[Id], [_].[Nome] AS [Name]
+FROM [UnidadeMedida] AS [_]" (0723d8ff)
+2018-07-15T12:24:05.6784504-03:00 0HLFACLT3A5LS:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [_].[Id], [_].[Nome] AS [Name]
+FROM [CategoriaEstoque] AS [_]" (0723d8ff)
+2018-07-15T12:24:05.6785607-03:00 0HLFACLT3A5LS:00000003 [INF] Executed action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.DataItems (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.9742ms. (50a9e262)
+2018-07-15T12:24:05.6785720-03:00 0HLFACLT3A5LR:00000016 [INF] Executed action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.DataItems (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.9936ms. (50a9e262)
+2018-07-15T12:24:05.6786365-03:00 0HLFACLT3A5LS:00000003 [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'. (8a1b66c8)
+2018-07-15T12:24:05.6786365-03:00 0HLFACLT3A5LR:00000016 [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'. (8a1b66c8)
+2018-07-15T12:24:05.6797780-03:00 0HLFACLT3A5LR:00000016 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [_].[Id], [_].[Nome] AS [Name]
+FROM [UnidadeMedida] AS [_]" (0723d8ff)
+2018-07-15T12:24:05.6800026-03:00 0HLFACLT3A5LR:00000016 [INF] Executed action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.DataItems (Project.Api)" in 2.9926ms (afa2e885)
+2018-07-15T12:24:05.6801309-03:00 0HLFACLT3A5LR:00000016 [INF] Request finished in 4.2525ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:24:05.6807424-03:00 0HLFACLT3A5LS:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [_].[Id], [_].[Nome] AS [Name]
+FROM [CategoriaEstoque] AS [_]" (0723d8ff)
+2018-07-15T12:24:05.6812632-03:00 0HLFACLT3A5LS:00000003 [INF] Executed action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.DataItems (Project.Api)" in 4.2296ms (afa2e885)
+2018-07-15T12:24:05.6813612-03:00 0HLFACLT3A5LS:00000003 [INF] Request finished in 5.4839ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:24:09.2747609-03:00 0HLFACLT3A5LT:00000002 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/UnidadeMedida/dataitems?pageSize=10&pageIndex=0&isPaginate=true   (ca22a1cb)
+2018-07-15T12:24:09.2750109-03:00 0HLFACLT3A5LR:00000017 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/CategoriaEstoque/dataitems?pageSize=10&pageIndex=0&isPaginate=true   (ca22a1cb)
+2018-07-15T12:24:09.2751043-03:00 0HLFACLT3A5LT:00000002 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:09.2752259-03:00 0HLFACLT3A5LT:00000002 [INF] Request finished in 0.768ms 204  (791a596a)
+2018-07-15T12:24:09.2752281-03:00 0HLFACLT3A5LR:00000017 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:09.2753046-03:00 0HLFACLT3A5LR:00000017 [INF] Request finished in 0.3233ms 204  (791a596a)
+2018-07-15T12:24:09.2773931-03:00 0HLFACLT3A5LS:00000004 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/estoque?pageSize=10&pageIndex=0&isPaginate=true&estoqueId=1   (ca22a1cb)
+2018-07-15T12:24:09.2776343-03:00 0HLFACLT3A5LS:00000004 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:09.2781918-03:00 0HLFACLT3A5LS:00000004 [INF] Request finished in 0.7856ms 204  (791a596a)
+2018-07-15T12:24:09.2871754-03:00 0HLFACLT3A5LT:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/UnidadeMedida/dataitems?pageSize=10&pageIndex=0&isPaginate=true   (ca22a1cb)
+2018-07-15T12:24:09.2874885-03:00 0HLFACLT3A5LR:00000018 [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/CategoriaEstoque/dataitems?pageSize=10&pageIndex=0&isPaginate=true   (ca22a1cb)
+2018-07-15T12:24:09.2879907-03:00 0HLFACLT3A5LT:00000003 [INF] Successfully validated the token. (60169667)
+2018-07-15T12:24:09.2880132-03:00 0HLFACLT3A5LR:00000018 [INF] Successfully validated the token. (60169667)
+2018-07-15T12:24:09.2881398-03:00 0HLFACLT3A5LR:00000018 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:09.2881381-03:00 0HLFACLT3A5LT:00000003 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:09.2882474-03:00 0HLFACLT3A5LT:00000003 [INF] Route matched with "{action = \"DataItems\", controller = \"UnidadeMedida\"}". Executing action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.DataItems (Project.Api)" (a44c0341)
+2018-07-15T12:24:09.2882474-03:00 0HLFACLT3A5LR:00000018 [INF] Route matched with "{action = \"DataItems\", controller = \"CategoriaEstoque\"}". Executing action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.DataItems (Project.Api)" (a44c0341)
+2018-07-15T12:24:09.2882869-03:00 0HLFACLT3A5LR:00000018 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:09.2882876-03:00 0HLFACLT3A5LT:00000003 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:09.2883447-03:00 0HLFACLT3A5LR:00000018 [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:24:09.2883465-03:00 0HLFACLT3A5LT:00000003 [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:24:09.2887076-03:00 0HLFACLT3A5LR:00000018 [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:24:09.2887259-03:00 0HLFACLT3A5LT:00000003 [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:24:09.2888821-03:00 0HLFACLT3A5LR:00000018 [INF] Executing action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.DataItems (Project.Api)" with arguments (["CalemasERP.Core.Filters.CategoriaEstoqueFilter"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:24:09.2888870-03:00 0HLFACLT3A5LT:00000003 [INF] Executing action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.DataItems (Project.Api)" with arguments (["CalemasERP.Core.Filters.UnidadeMedidaFilter"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:24:09.2897287-03:00 0HLFACLT3A5LS:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/estoque?pageSize=10&pageIndex=0&isPaginate=true&estoqueId=1   (ca22a1cb)
+2018-07-15T12:24:09.2902093-03:00 0HLFACLT3A5LT:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [_].[Id], [_].[Nome] AS [Name]
+FROM [UnidadeMedida] AS [_]" (0723d8ff)
+2018-07-15T12:24:09.2902671-03:00 0HLFACLT3A5LR:00000018 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [_].[Id], [_].[Nome] AS [Name]
+FROM [CategoriaEstoque] AS [_]" (0723d8ff)
+2018-07-15T12:24:09.2903179-03:00 0HLFACLT3A5LT:00000003 [INF] Executed action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.DataItems (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 1.39ms. (50a9e262)
+2018-07-15T12:24:09.2903458-03:00 0HLFACLT3A5LR:00000018 [INF] Executed action method "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.DataItems (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 1.4213ms. (50a9e262)
+2018-07-15T12:24:09.2903895-03:00 0HLFACLT3A5LT:00000003 [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'. (8a1b66c8)
+2018-07-15T12:24:09.2903973-03:00 0HLFACLT3A5LR:00000018 [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'. (8a1b66c8)
+2018-07-15T12:24:09.2904164-03:00 0HLFACLT3A5LS:00000005 [INF] Successfully validated the token. (60169667)
+2018-07-15T12:24:09.2905574-03:00 0HLFACLT3A5LS:00000005 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:09.2906435-03:00 0HLFACLT3A5LS:00000005 [INF] Route matched with "{action = \"Get\", controller = \"Estoque\"}". Executing action "CalemasERP.Core.Api.Controllers.EstoqueController.Get (Project.Api)" (a44c0341)
+2018-07-15T12:24:09.2906766-03:00 0HLFACLT3A5LS:00000005 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:09.2907327-03:00 0HLFACLT3A5LS:00000005 [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:24:09.2911322-03:00 0HLFACLT3A5LS:00000005 [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:24:09.2915450-03:00 0HLFACLT3A5LS:00000005 [INF] Executing action method "CalemasERP.Core.Api.Controllers.EstoqueController.Get (Project.Api)" with arguments (["CalemasERP.Core.Filters.EstoqueFilter"]) - Validation state: Invalid (4e3479ed)
+2018-07-15T12:24:09.2924960-03:00 0HLFACLT3A5LR:00000018 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [_].[Id], [_].[Nome] AS [Name]
+FROM [CategoriaEstoque] AS [_]" (0723d8ff)
+2018-07-15T12:24:09.2924914-03:00 0HLFACLT3A5LT:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [_].[Id], [_].[Nome] AS [Name]
+FROM [UnidadeMedida] AS [_]" (0723d8ff)
+2018-07-15T12:24:09.2926794-03:00 0HLFACLT3A5LT:00000003 [INF] Executed action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.DataItems (Project.Api)" in 4.3826ms (afa2e885)
+2018-07-15T12:24:09.2926794-03:00 0HLFACLT3A5LR:00000018 [INF] Executed action "CalemasERP.Core.Api.Controllers.CategoriaEstoqueController.DataItems (Project.Api)" in 4.3826ms (afa2e885)
+2018-07-15T12:24:09.2927616-03:00 0HLFACLT3A5LT:00000003 [INF] Request finished in 5.6372ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:24:09.2927616-03:00 0HLFACLT3A5LR:00000018 [INF] Request finished in 5.2818ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:24:09.3017858-03:00 0HLFACLT3A5LS:00000005 [INF] Executed DbCommand ("1"ms) [Parameters=["@__filters_EstoqueId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Estoque] AS [_]
+WHERE [_].[Id] = @__filters_EstoqueId_0" (0723d8ff)
+2018-07-15T12:24:09.3028788-03:00 0HLFACLT3A5LS:00000005 [INF] Executed DbCommand ("0"ms) [Parameters=["@__filters_EstoqueId_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [_].[Id], [_].[Ativo], [_].[CategoriaEstoqueId], [_].[Descricao], [_].[Fabricante], [_].[Localizacao], [_].[Modelo], [_].[Nome], [_].[Observacao], [_].[Quantidade], [_].[QuantidadeMinima], [_].[Referencia], [_].[UnidadeMedidaId], [_].[UserAlterDate], [_].[UserAlterId], [_].[UserCreateDate], [_].[UserCreateId], [_].[ValorCompra], [_].[ValorVenda]
+FROM [Estoque] AS [_]
+WHERE [_].[Id] = @__filters_EstoqueId_0
+ORDER BY (SELECT 1)
+OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY" (0723d8ff)
+2018-07-15T12:24:09.3031144-03:00 0HLFACLT3A5LS:00000005 [INF] Executed action method "CalemasERP.Core.Api.Controllers.EstoqueController.Get (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 11.4963ms. (50a9e262)
+2018-07-15T12:24:09.3032054-03:00 0HLFACLT3A5LS:00000005 [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.EstoqueDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:24:09.3034162-03:00 0HLFACLT3A5LS:00000005 [INF] Executed action "CalemasERP.Core.Api.Controllers.EstoqueController.Get (Project.Api)" in 12.7319ms (afa2e885)
+2018-07-15T12:24:09.3035160-03:00 0HLFACLT3A5LS:00000005 [INF] Request finished in 13.813ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:24:19.5039535-03:00 0HLFACLT3A5LT:00000004 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/unidademedida?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true   (ca22a1cb)
+2018-07-15T12:24:19.5042085-03:00 0HLFACLT3A5LT:00000004 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:19.5043040-03:00 0HLFACLT3A5LT:00000004 [INF] Request finished in 0.4104ms 204  (791a596a)
+2018-07-15T12:24:19.5074275-03:00 0HLFACLT3A5LR:00000019 [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/unidademedida?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true   (ca22a1cb)
+2018-07-15T12:24:19.5081817-03:00 0HLFACLT3A5LR:00000019 [INF] Successfully validated the token. (60169667)
+2018-07-15T12:24:19.5084099-03:00 0HLFACLT3A5LR:00000019 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:19.5085851-03:00 0HLFACLT3A5LR:00000019 [INF] Route matched with "{action = \"Get\", controller = \"UnidadeMedida\"}". Executing action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" (a44c0341)
+2018-07-15T12:24:19.5086384-03:00 0HLFACLT3A5LR:00000019 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:19.5088038-03:00 0HLFACLT3A5LR:00000019 [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:24:19.5094765-03:00 0HLFACLT3A5LR:00000019 [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:24:19.5103948-03:00 0HLFACLT3A5LR:00000019 [INF] Executing action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" with arguments (["CalemasERP.Core.Filters.UnidadeMedidaFilter"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:24:19.5117802-03:00 0HLFACLT3A5LR:00000019 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [UnidadeMedida] AS [u]" (0723d8ff)
+2018-07-15T12:24:19.5126726-03:00 0HLFACLT3A5LR:00000019 [INF] Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Nome]
+FROM [UnidadeMedida] AS [u]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2018-07-15T12:24:19.5131011-03:00 0HLFACLT3A5LR:00000019 [INF] Executed action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 2.6231ms. (50a9e262)
+2018-07-15T12:24:19.5132188-03:00 0HLFACLT3A5LR:00000019 [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.UnidadeMedidaDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:24:19.5138734-03:00 0HLFACLT3A5LR:00000019 [INF] Executed action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" in 5.0741ms (afa2e885)
+2018-07-15T12:24:19.5142316-03:00 0HLFACLT3A5LR:00000019 [INF] Request finished in 6.8576ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:24:23.3559996-03:00 0HLFACLT3A5LS:00000006 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/unidademedida?unidadeMedidaId=1   (ca22a1cb)
+2018-07-15T12:24:23.3564813-03:00 0HLFACLT3A5LS:00000006 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:23.3567059-03:00 0HLFACLT3A5LS:00000006 [INF] Request finished in 0.7479ms 204  (791a596a)
+2018-07-15T12:24:23.3616919-03:00 0HLFACLT3A5LT:00000005 [INF] Request starting HTTP/1.1 DELETE http://localhost:5101/api/unidademedida?unidadeMedidaId=1   (ca22a1cb)
+2018-07-15T12:24:23.3625445-03:00 0HLFACLT3A5LT:00000005 [INF] Successfully validated the token. (60169667)
+2018-07-15T12:24:23.3628862-03:00 0HLFACLT3A5LT:00000005 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:23.3630233-03:00 0HLFACLT3A5LT:00000005 [INF] Route matched with "{action = \"Delete\", controller = \"UnidadeMedida\"}". Executing action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Delete (Project.Api)" (a44c0341)
+2018-07-15T12:24:23.3630762-03:00 0HLFACLT3A5LT:00000005 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:23.3631566-03:00 0HLFACLT3A5LT:00000005 [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:24:23.3638555-03:00 0HLFACLT3A5LT:00000005 [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:24:23.3640752-03:00 0HLFACLT3A5LT:00000005 [INF] Executing action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Delete (Project.Api)" with arguments (["CalemasERP.Core.Dto.UnidadeMedidaDto"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:24:23.3690044-03:00 0HLFACLT3A5LT:00000005 [ERR] Failed executing DbCommand ("2"ms) [Parameters=["@p0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+DELETE FROM [UnidadeMedida]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;" (627a98df)
+System.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_Estoque_UnidadeMedida". The conflict occurred in database "calemas-erp", table "dbo.Estoque", column 'UnidadeMedidaId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+ClientConnectionId:9044c3b4-7700-4d30-b310-a23558c377eb
+Error Number:547,State:0,Class:16
+2018-07-15T12:24:23.3753420-03:00 0HLFACLT3A5LT:00000005 [ERR] An exception occurred in the database while saving changes for context type '"CalemasERP.Core.Data.Context.DbContextCore"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint \"FK_Estoque_UnidadeMedida\". The conflict occurred in database \"calemas-erp\", table \"dbo.Estoque\", column 'UnidadeMedidaId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_Estoque_UnidadeMedida". The conflict occurred in database "calemas-erp", table "dbo.Estoque", column 'UnidadeMedidaId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Common.Orm.UnitOfWork`1.CommitAsync() in C:\Pessoal\calemas-erp-v2\Common\Common.Orm\UnitofWork.cs:line 35
+2018-07-15T12:24:23.3763445-03:00 0HLFACLT3A5LT:00000005 [FTL] "[UnidadeMedida] - An error occurred while updating the entries. See the inner exception for details. - [{\"UnidadeMedidaId\":1,\"Nome\":null,\"AttributeBehavior\":null}]" - [1] (4da76d2f)
+2018-07-15T12:24:23.3765092-03:00 0HLFACLT3A5LT:00000005 [INF] Executed action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Delete (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 12.3447ms. (50a9e262)
+2018-07-15T12:24:23.3765988-03:00 0HLFACLT3A5LT:00000005 [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.UnidadeMedidaDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:24:23.3767366-03:00 0HLFACLT3A5LT:00000005 [INF] Executed action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Delete (Project.Api)" in 13.6579ms (afa2e885)
+2018-07-15T12:24:23.3770646-03:00 0HLFACLT3A5LT:00000005 [INF] Request finished in 15.4626ms 500 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:24:26.0729041-03:00 0HLFACLT3A5LR:0000001A [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/unidademedida?pageSize=10&pageIndex=0&isPaginate=true&unidadeMedidaId=1   (ca22a1cb)
+2018-07-15T12:24:26.0732469-03:00 0HLFACLT3A5LR:0000001A [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:26.0733389-03:00 0HLFACLT3A5LR:0000001A [INF] Request finished in 0.5479ms 204  (791a596a)
+2018-07-15T12:24:26.0774412-03:00 0HLFACLT3A5LS:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/unidademedida?pageSize=10&pageIndex=0&isPaginate=true&unidadeMedidaId=1   (ca22a1cb)
+2018-07-15T12:24:26.0781979-03:00 0HLFACLT3A5LS:00000007 [INF] Successfully validated the token. (60169667)
+2018-07-15T12:24:26.0783552-03:00 0HLFACLT3A5LS:00000007 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:26.0784959-03:00 0HLFACLT3A5LS:00000007 [INF] Route matched with "{action = \"Get\", controller = \"UnidadeMedida\"}". Executing action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" (a44c0341)
+2018-07-15T12:24:26.0785467-03:00 0HLFACLT3A5LS:00000007 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:26.0786091-03:00 0HLFACLT3A5LS:00000007 [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:24:26.0790378-03:00 0HLFACLT3A5LS:00000007 [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:24:26.0805714-03:00 0HLFACLT3A5LS:00000007 [INF] Executing action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" with arguments (["CalemasERP.Core.Filters.UnidadeMedidaFilter"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:24:26.0880966-03:00 0HLFACLT3A5LS:00000007 [INF] Executed DbCommand ("1"ms) [Parameters=["@__filters_UnidadeMedidaId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [UnidadeMedida] AS [_]
+WHERE [_].[Id] = @__filters_UnidadeMedidaId_0" (0723d8ff)
+2018-07-15T12:24:26.0890939-03:00 0HLFACLT3A5LS:00000007 [WRN] Query: '"(from UnidadeMedida _ in DbSet<UnidadeMedida> where [_].UnidadeMedidaId == __filters_UnidadeMedidaId..."' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results. (32148ccc)
+2018-07-15T12:24:26.0956623-03:00 0HLFACLT3A5LS:00000007 [INF] Executed DbCommand ("2"ms) [Parameters=["@__filters_UnidadeMedidaId_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [_].[Id], [_].[Nome]
+FROM [UnidadeMedida] AS [_]
+WHERE [_].[Id] = @__filters_UnidadeMedidaId_0
+ORDER BY (SELECT 1)
+OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY" (0723d8ff)
+2018-07-15T12:24:26.0958672-03:00 0HLFACLT3A5LS:00000007 [INF] Executed action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 15.2207ms. (50a9e262)
+2018-07-15T12:24:26.0959578-03:00 0HLFACLT3A5LS:00000007 [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.UnidadeMedidaDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:24:26.0961891-03:00 0HLFACLT3A5LS:00000007 [INF] Executed action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" in 17.6329ms (afa2e885)
+2018-07-15T12:24:26.0963577-03:00 0HLFACLT3A5LS:00000007 [INF] Request finished in 18.9521ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:24:31.0043853-03:00 0HLFACLT3A5LT:00000006 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/unidademedida?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true&orderFields=Nome&orderByType=0&isOrderByDynamic=true   (ca22a1cb)
+2018-07-15T12:24:31.0047506-03:00 0HLFACLT3A5LT:00000006 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:31.0048497-03:00 0HLFACLT3A5LT:00000006 [INF] Request finished in 0.5902ms 204  (791a596a)
+2018-07-15T12:24:31.0082161-03:00 0HLFACLT3A5LR:0000001B [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/unidademedida?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true&orderFields=Nome&orderByType=0&isOrderByDynamic=true   (ca22a1cb)
+2018-07-15T12:24:31.0089333-03:00 0HLFACLT3A5LR:0000001B [INF] Successfully validated the token. (60169667)
+2018-07-15T12:24:31.0091061-03:00 0HLFACLT3A5LR:0000001B [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:31.0092327-03:00 0HLFACLT3A5LR:0000001B [INF] Route matched with "{action = \"Get\", controller = \"UnidadeMedida\"}". Executing action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" (a44c0341)
+2018-07-15T12:24:31.0092806-03:00 0HLFACLT3A5LR:0000001B [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:31.0093430-03:00 0HLFACLT3A5LR:0000001B [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:24:31.0097257-03:00 0HLFACLT3A5LR:0000001B [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:24:31.0146736-03:00 0HLFACLT3A5LR:0000001B [INF] Executing action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" with arguments (["CalemasERP.Core.Filters.UnidadeMedidaFilter"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:24:31.0222718-03:00 0HLFACLT3A5LR:0000001B [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [UnidadeMedida] AS [u]" (0723d8ff)
+2018-07-15T12:24:31.0288110-03:00 0HLFACLT3A5LR:0000001B [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Nome]
+FROM [UnidadeMedida] AS [u]
+ORDER BY [u].[Nome]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2018-07-15T12:24:31.0290441-03:00 0HLFACLT3A5LR:0000001B [INF] Executed action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 14.2898ms. (50a9e262)
+2018-07-15T12:24:31.0291608-03:00 0HLFACLT3A5LR:0000001B [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.UnidadeMedidaDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:24:31.0292899-03:00 0HLFACLT3A5LR:0000001B [INF] Executed action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" in 20.0166ms (afa2e885)
+2018-07-15T12:24:31.0293798-03:00 0HLFACLT3A5LR:0000001B [INF] Request finished in 21.2631ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:24:31.6674529-03:00 0HLFACLT3A5LS:00000008 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/unidademedida?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true&orderFields=Nome&orderByType=1&isOrderByDynamic=true   (ca22a1cb)
+2018-07-15T12:24:31.6677682-03:00 0HLFACLT3A5LS:00000008 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:31.6678637-03:00 0HLFACLT3A5LS:00000008 [INF] Request finished in 0.4548ms 204  (791a596a)
+2018-07-15T12:24:31.6714720-03:00 0HLFACLT3A5LT:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/unidademedida?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true&orderFields=Nome&orderByType=1&isOrderByDynamic=true   (ca22a1cb)
+2018-07-15T12:24:31.6722284-03:00 0HLFACLT3A5LT:00000007 [INF] Successfully validated the token. (60169667)
+2018-07-15T12:24:31.6723684-03:00 0HLFACLT3A5LT:00000007 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:31.6724689-03:00 0HLFACLT3A5LT:00000007 [INF] Route matched with "{action = \"Get\", controller = \"UnidadeMedida\"}". Executing action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" (a44c0341)
+2018-07-15T12:24:31.6725095-03:00 0HLFACLT3A5LT:00000007 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:31.6725887-03:00 0HLFACLT3A5LT:00000007 [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:24:31.6729283-03:00 0HLFACLT3A5LT:00000007 [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:24:31.6732728-03:00 0HLFACLT3A5LT:00000007 [INF] Executing action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" with arguments (["CalemasERP.Core.Filters.UnidadeMedidaFilter"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:24:31.6781996-03:00 0HLFACLT3A5LT:00000007 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [UnidadeMedida] AS [u]" (0723d8ff)
+2018-07-15T12:24:31.6842160-03:00 0HLFACLT3A5LT:00000007 [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Nome]
+FROM [UnidadeMedida] AS [u]
+ORDER BY [u].[Nome] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2018-07-15T12:24:31.6844575-03:00 0HLFACLT3A5LT:00000007 [INF] Executed action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 11.1183ms. (50a9e262)
+2018-07-15T12:24:31.6845509-03:00 0HLFACLT3A5LT:00000007 [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.UnidadeMedidaDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:24:31.6846800-03:00 0HLFACLT3A5LT:00000007 [INF] Executed action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" in 12.1723ms (afa2e885)
+2018-07-15T12:24:31.6847692-03:00 0HLFACLT3A5LT:00000007 [INF] Request finished in 13.4177ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:24:32.4048865-03:00 0HLFACLT3A5LR:0000001C [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/unidademedida?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true&orderFields=Nome&orderByType=0&isOrderByDynamic=true   (ca22a1cb)
+2018-07-15T12:24:32.4057278-03:00 0HLFACLT3A5LR:0000001C [INF] Successfully validated the token. (60169667)
+2018-07-15T12:24:32.4058868-03:00 0HLFACLT3A5LR:0000001C [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:32.4063245-03:00 0HLFACLT3A5LR:0000001C [INF] Route matched with "{action = \"Get\", controller = \"UnidadeMedida\"}". Executing action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" (a44c0341)
+2018-07-15T12:24:32.4064750-03:00 0HLFACLT3A5LR:0000001C [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:32.4065593-03:00 0HLFACLT3A5LR:0000001C [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:24:32.4069521-03:00 0HLFACLT3A5LR:0000001C [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:24:32.4073379-03:00 0HLFACLT3A5LR:0000001C [INF] Executing action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" with arguments (["CalemasERP.Core.Filters.UnidadeMedidaFilter"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:24:32.4095428-03:00 0HLFACLT3A5LR:0000001C [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [UnidadeMedida] AS [u]" (0723d8ff)
+2018-07-15T12:24:32.4110188-03:00 0HLFACLT3A5LR:0000001C [INF] Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Nome]
+FROM [UnidadeMedida] AS [u]
+ORDER BY [u].[Nome]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2018-07-15T12:24:32.4117250-03:00 0HLFACLT3A5LR:0000001C [INF] Executed action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 4.3026ms. (50a9e262)
+2018-07-15T12:24:32.4118488-03:00 0HLFACLT3A5LR:0000001C [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.UnidadeMedidaDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:24:32.4119927-03:00 0HLFACLT3A5LR:0000001C [INF] Executed action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" in 5.6171ms (afa2e885)
+2018-07-15T12:24:32.4120861-03:00 0HLFACLT3A5LR:0000001C [INF] Request finished in 7.3813ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:24:39.7093209-03:00 0HLFACLT3A5LS:00000009 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/unidademedida?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true&orderFields=Nome&orderByType=0&isOrderByDynamic=true&nome=g   (ca22a1cb)
+2018-07-15T12:24:39.7095956-03:00 0HLFACLT3A5LS:00000009 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:39.7097254-03:00 0HLFACLT3A5LS:00000009 [INF] Request finished in 0.4823ms 204  (791a596a)
+2018-07-15T12:24:39.7136633-03:00 0HLFACLT3A5LT:00000008 [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/unidademedida?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true&orderFields=Nome&orderByType=0&isOrderByDynamic=true&nome=g   (ca22a1cb)
+2018-07-15T12:24:39.7150922-03:00 0HLFACLT3A5LT:00000008 [INF] Successfully validated the token. (60169667)
+2018-07-15T12:24:39.7152576-03:00 0HLFACLT3A5LT:00000008 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:39.7153669-03:00 0HLFACLT3A5LT:00000008 [INF] Route matched with "{action = \"Get\", controller = \"UnidadeMedida\"}". Executing action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" (a44c0341)
+2018-07-15T12:24:39.7154064-03:00 0HLFACLT3A5LT:00000008 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:39.7154737-03:00 0HLFACLT3A5LT:00000008 [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:24:39.7166074-03:00 0HLFACLT3A5LT:00000008 [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:24:39.7174237-03:00 0HLFACLT3A5LT:00000008 [INF] Executing action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" with arguments (["CalemasERP.Core.Filters.UnidadeMedidaFilter"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:24:39.7247715-03:00 0HLFACLT3A5LT:00000008 [INF] Executed DbCommand ("2"ms) [Parameters=["@__filters_Nome_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [UnidadeMedida] AS [_]
+WHERE (CHARINDEX(@__filters_Nome_0, [_].[Nome]) > 0) OR (@__filters_Nome_0 = N'')" (0723d8ff)
+2018-07-15T12:24:39.7337721-03:00 0HLFACLT3A5LT:00000008 [INF] Executed DbCommand ("3"ms) [Parameters=["@__filters_Nome_0='?' (Size = 4000), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [_].[Id], [_].[Nome]
+FROM [UnidadeMedida] AS [_]
+WHERE (CHARINDEX(@__filters_Nome_0, [_].[Nome]) > 0) OR (@__filters_Nome_0 = N'')
+ORDER BY [_].[Nome]
+OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY" (0723d8ff)
+2018-07-15T12:24:39.7342872-03:00 0HLFACLT3A5LT:00000008 [INF] Executed action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 16.6802ms. (50a9e262)
+2018-07-15T12:24:39.7344347-03:00 0HLFACLT3A5LT:00000008 [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.UnidadeMedidaDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:24:39.7345842-03:00 0HLFACLT3A5LT:00000008 [INF] Executed action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" in 19.1756ms (afa2e885)
+2018-07-15T12:24:39.7347062-03:00 0HLFACLT3A5LT:00000008 [INF] Request finished in 21.3827ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:24:42.2053516-03:00 0HLFACLT3A5LR:0000001D [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/unidademedida?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true&orderFields=Nome&orderByType=0&isOrderByDynamic=true&nome=t   (ca22a1cb)
+2018-07-15T12:24:42.2056644-03:00 0HLFACLT3A5LR:0000001D [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:42.2057868-03:00 0HLFACLT3A5LR:0000001D [INF] Request finished in 0.567ms 204  (791a596a)
+2018-07-15T12:24:42.2125246-03:00 0HLFACLT3A5LS:0000000A [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/unidademedida?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true&orderFields=Nome&orderByType=0&isOrderByDynamic=true&nome=t   (ca22a1cb)
+2018-07-15T12:24:42.2135673-03:00 0HLFACLT3A5LS:0000000A [INF] Successfully validated the token. (60169667)
+2018-07-15T12:24:42.2137841-03:00 0HLFACLT3A5LS:0000000A [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:42.2139262-03:00 0HLFACLT3A5LS:0000000A [INF] Route matched with "{action = \"Get\", controller = \"UnidadeMedida\"}". Executing action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" (a44c0341)
+2018-07-15T12:24:42.2139781-03:00 0HLFACLT3A5LS:0000000A [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:42.2140987-03:00 0HLFACLT3A5LS:0000000A [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:24:42.2170385-03:00 0HLFACLT3A5LS:0000000A [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:24:42.2174531-03:00 0HLFACLT3A5LS:0000000A [INF] Executing action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" with arguments (["CalemasERP.Core.Filters.UnidadeMedidaFilter"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:24:42.2229804-03:00 0HLFACLT3A5LS:0000000A [INF] Executed DbCommand ("5"ms) [Parameters=["@__filters_Nome_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [UnidadeMedida] AS [_]
+WHERE (CHARINDEX(@__filters_Nome_0, [_].[Nome]) > 0) OR (@__filters_Nome_0 = N'')" (0723d8ff)
+2018-07-15T12:24:42.2266766-03:00 0HLFACLT3A5LS:0000000A [INF] Executed DbCommand ("3"ms) [Parameters=["@__filters_Nome_0='?' (Size = 4000), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [_].[Id], [_].[Nome]
+FROM [UnidadeMedida] AS [_]
+WHERE (CHARINDEX(@__filters_Nome_0, [_].[Nome]) > 0) OR (@__filters_Nome_0 = N'')
+ORDER BY [_].[Nome]
+OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY" (0723d8ff)
+2018-07-15T12:24:42.2272347-03:00 0HLFACLT3A5LS:0000000A [INF] Executed action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 9.7124ms. (50a9e262)
+2018-07-15T12:24:42.2273557-03:00 0HLFACLT3A5LS:0000000A [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.UnidadeMedidaDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:24:42.2275553-03:00 0HLFACLT3A5LS:0000000A [INF] Executed action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" in 13.5796ms (afa2e885)
+2018-07-15T12:24:42.2276907-03:00 0HLFACLT3A5LS:0000000A [INF] Request finished in 15.2263ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:24:43.0300816-03:00 0HLFACLT3A5LT:00000009 [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/unidademedida?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true&orderFields=Nome&orderByType=0&isOrderByDynamic=true&nome=t   (ca22a1cb)
+2018-07-15T12:24:43.0311384-03:00 0HLFACLT3A5LT:00000009 [INF] Successfully validated the token. (60169667)
+2018-07-15T12:24:43.0313464-03:00 0HLFACLT3A5LT:00000009 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:43.0317833-03:00 0HLFACLT3A5LT:00000009 [INF] Route matched with "{action = \"Get\", controller = \"UnidadeMedida\"}". Executing action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" (a44c0341)
+2018-07-15T12:24:43.0318824-03:00 0HLFACLT3A5LT:00000009 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:43.0319610-03:00 0HLFACLT3A5LT:00000009 [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:24:43.0325816-03:00 0HLFACLT3A5LT:00000009 [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:24:43.0330584-03:00 0HLFACLT3A5LT:00000009 [INF] Executing action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" with arguments (["CalemasERP.Core.Filters.UnidadeMedidaFilter"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:24:43.0344456-03:00 0HLFACLT3A5LT:00000009 [INF] Executed DbCommand ("0"ms) [Parameters=["@__filters_Nome_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [UnidadeMedida] AS [_]
+WHERE (CHARINDEX(@__filters_Nome_0, [_].[Nome]) > 0) OR (@__filters_Nome_0 = N'')" (0723d8ff)
+2018-07-15T12:24:43.0357146-03:00 0HLFACLT3A5LT:00000009 [INF] Executed DbCommand ("1"ms) [Parameters=["@__filters_Nome_0='?' (Size = 4000), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [_].[Id], [_].[Nome]
+FROM [UnidadeMedida] AS [_]
+WHERE (CHARINDEX(@__filters_Nome_0, [_].[Nome]) > 0) OR (@__filters_Nome_0 = N'')
+ORDER BY [_].[Nome]
+OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY" (0723d8ff)
+2018-07-15T12:24:43.0359350-03:00 0HLFACLT3A5LT:00000009 [INF] Executed action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 2.799ms. (50a9e262)
+2018-07-15T12:24:43.0360704-03:00 0HLFACLT3A5LT:00000009 [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.UnidadeMedidaDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:24:43.0362633-03:00 0HLFACLT3A5LT:00000009 [INF] Executed action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" in 4.4154ms (afa2e885)
+2018-07-15T12:24:43.0363980-03:00 0HLFACLT3A5LT:00000009 [INF] Request finished in 6.3583ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:24:43.1616370-03:00 0HLFACLT3A5LR:0000001E [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/unidademedida?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true&orderFields=Nome&orderByType=0&isOrderByDynamic=true&nome=t   (ca22a1cb)
+2018-07-15T12:24:43.1625263-03:00 0HLFACLT3A5LR:0000001E [INF] Successfully validated the token. (60169667)
+2018-07-15T12:24:43.1626864-03:00 0HLFACLT3A5LR:0000001E [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:43.1628045-03:00 0HLFACLT3A5LR:0000001E [INF] Route matched with "{action = \"Get\", controller = \"UnidadeMedida\"}". Executing action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" (a44c0341)
+2018-07-15T12:24:43.1628539-03:00 0HLFACLT3A5LR:0000001E [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:43.1629202-03:00 0HLFACLT3A5LR:0000001E [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:24:43.1633896-03:00 0HLFACLT3A5LR:0000001E [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:24:43.1637715-03:00 0HLFACLT3A5LR:0000001E [INF] Executing action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" with arguments (["CalemasERP.Core.Filters.UnidadeMedidaFilter"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:24:43.1653377-03:00 0HLFACLT3A5LR:0000001E [INF] Executed DbCommand ("1"ms) [Parameters=["@__filters_Nome_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [UnidadeMedida] AS [_]
+WHERE (CHARINDEX(@__filters_Nome_0, [_].[Nome]) > 0) OR (@__filters_Nome_0 = N'')" (0723d8ff)
+2018-07-15T12:24:43.1665596-03:00 0HLFACLT3A5LR:0000001E [INF] Executed DbCommand ("0"ms) [Parameters=["@__filters_Nome_0='?' (Size = 4000), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [_].[Id], [_].[Nome]
+FROM [UnidadeMedida] AS [_]
+WHERE (CHARINDEX(@__filters_Nome_0, [_].[Nome]) > 0) OR (@__filters_Nome_0 = N'')
+ORDER BY [_].[Nome]
+OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY" (0723d8ff)
+2018-07-15T12:24:43.1668282-03:00 0HLFACLT3A5LR:0000001E [INF] Executed action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 2.8854ms. (50a9e262)
+2018-07-15T12:24:43.1669337-03:00 0HLFACLT3A5LR:0000001E [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.UnidadeMedidaDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:24:43.1670842-03:00 0HLFACLT3A5LR:0000001E [INF] Executed action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" in 4.2289ms (afa2e885)
+2018-07-15T12:24:43.1671974-03:00 0HLFACLT3A5LR:0000001E [INF] Request finished in 5.6658ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:24:44.9395581-03:00 0HLFACLT3A5LS:0000000B [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/unidademedida?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true&orderFields=Nome&orderByType=0&isOrderByDynamic=true&nome=   (ca22a1cb)
+2018-07-15T12:24:44.9399018-03:00 0HLFACLT3A5LS:0000000B [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:44.9400058-03:00 0HLFACLT3A5LS:0000000B [INF] Request finished in 0.4869ms 204  (791a596a)
+2018-07-15T12:24:44.9436191-03:00 0HLFACLT3A5LT:0000000A [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/unidademedida?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true&orderFields=Nome&orderByType=0&isOrderByDynamic=true&nome=   (ca22a1cb)
+2018-07-15T12:24:44.9445405-03:00 0HLFACLT3A5LT:0000000A [INF] Successfully validated the token. (60169667)
+2018-07-15T12:24:44.9447316-03:00 0HLFACLT3A5LT:0000000A [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:44.9448942-03:00 0HLFACLT3A5LT:0000000A [INF] Route matched with "{action = \"Get\", controller = \"UnidadeMedida\"}". Executing action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" (a44c0341)
+2018-07-15T12:24:44.9449453-03:00 0HLFACLT3A5LT:0000000A [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:44.9450282-03:00 0HLFACLT3A5LT:0000000A [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:24:44.9454708-03:00 0HLFACLT3A5LT:0000000A [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:24:44.9457701-03:00 0HLFACLT3A5LT:0000000A [INF] Executing action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" with arguments (["CalemasERP.Core.Filters.UnidadeMedidaFilter"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:24:44.9479962-03:00 0HLFACLT3A5LT:0000000A [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [UnidadeMedida] AS [u]" (0723d8ff)
+2018-07-15T12:24:44.9490477-03:00 0HLFACLT3A5LT:0000000A [INF] Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Nome]
+FROM [UnidadeMedida] AS [u]
+ORDER BY [u].[Nome]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2018-07-15T12:24:44.9493266-03:00 0HLFACLT3A5LT:0000000A [INF] Executed action method "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 3.4387ms. (50a9e262)
+2018-07-15T12:24:44.9494468-03:00 0HLFACLT3A5LT:0000000A [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.UnidadeMedidaDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:24:44.9496037-03:00 0HLFACLT3A5LT:0000000A [INF] Executed action "CalemasERP.Core.Api.Controllers.UnidadeMedidaController.Get (Project.Api)" in 4.6566ms (afa2e885)
+2018-07-15T12:24:44.9497392-03:00 0HLFACLT3A5LT:0000000A [INF] Request finished in 6.1612ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:24:58.6223814-03:00 0HLFACLT3A5LR:0000001F [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/solicitacaoestoque?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true   (ca22a1cb)
+2018-07-15T12:24:58.6226939-03:00 0HLFACLT3A5LR:0000001F [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:58.6227996-03:00 0HLFACLT3A5LR:0000001F [INF] Request finished in 0.4788ms 204  (791a596a)
+2018-07-15T12:24:58.6301612-03:00 0HLFACLT3A5LS:0000000C [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/solicitacaoestoque?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true   (ca22a1cb)
+2018-07-15T12:24:58.6356133-03:00 0HLFACLT3A5LS:0000000C [INF] Successfully validated the token. (60169667)
+2018-07-15T12:24:58.6358055-03:00 0HLFACLT3A5LS:0000000C [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:58.6437010-03:00 0HLFACLT3A5LS:0000000C [INF] Route matched with "{action = \"Get\", controller = \"SolicitacaoEstoque\"}". Executing action "CalemasERP.Core.Api.Controllers.SolicitacaoEstoqueController.Get (Project.Api)" (a44c0341)
+2018-07-15T12:24:58.6437842-03:00 0HLFACLT3A5LS:0000000C [INF] Policy execution successful. (0204925d)
+2018-07-15T12:24:58.6438670-03:00 0HLFACLT3A5LS:0000000C [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:24:58.6447779-03:00 0HLFACLT3A5LS:0000000C [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:24:58.6516948-03:00 0HLFACLT3A5LS:0000000C [INF] Executing action method "CalemasERP.Core.Api.Controllers.SolicitacaoEstoqueController.Get (Project.Api)" with arguments (["CalemasERP.Core.Filters.SolicitacaoEstoqueFilter"]) - Validation state: Invalid (4e3479ed)
+2018-07-15T12:24:58.6906421-03:00 0HLFACLT3A5LS:0000000C [INF] Executed DbCommand ("30"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [SolicitacaoEstoque] AS [s]" (0723d8ff)
+2018-07-15T12:24:58.6929052-03:00 0HLFACLT3A5LS:0000000C [WRN] Query: '"(from SolicitacaoEstoque <generated>_3 in DbSet<SolicitacaoEstoque> select [<generated>_3]).Skip(__p..."' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results. (32148ccc)
+2018-07-15T12:24:58.7024604-03:00 0HLFACLT3A5LS:0000000C [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[Id], [s].[DataPrevista], [s].[DataSolicitacao], [s].[Descricao], [s].[SolicitanteId], [s].[StatusSolicitacaoEstoqueMovimentacaoId], [s].[UserAlterDate], [s].[UserAlterId], [s].[UserCreateDate], [s].[UserCreateId]
+FROM [SolicitacaoEstoque] AS [s]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2018-07-15T12:24:58.7103619-03:00 0HLFACLT3A5LS:0000000C [INF] Executed action method "CalemasERP.Core.Api.Controllers.SolicitacaoEstoqueController.Get (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 58.5749ms. (50a9e262)
+2018-07-15T12:24:58.7105103-03:00 0HLFACLT3A5LS:0000000C [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.SolicitacaoEstoqueDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:24:58.7161846-03:00 0HLFACLT3A5LS:0000000C [INF] Executed action "CalemasERP.Core.Api.Controllers.SolicitacaoEstoqueController.Get (Project.Api)" in 72.3873ms (afa2e885)
+2018-07-15T12:24:58.7163059-03:00 0HLFACLT3A5LS:0000000C [INF] Request finished in 86.2099ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:25:06.4004716-03:00 0HLFACLT3A5LT:0000000B [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/estoquemovimentacaocolaborador?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true   (ca22a1cb)
+2018-07-15T12:25:06.4021991-03:00 0HLFACLT3A5LT:0000000B [INF] Policy execution successful. (0204925d)
+2018-07-15T12:25:06.4023183-03:00 0HLFACLT3A5LT:0000000B [INF] Request finished in 2.0279ms 204  (791a596a)
+2018-07-15T12:25:06.4068410-03:00 0HLFACLT3A5LR:00000020 [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/estoquemovimentacaocolaborador?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true   (ca22a1cb)
+2018-07-15T12:25:06.4076273-03:00 0HLFACLT3A5LR:00000020 [INF] Successfully validated the token. (60169667)
+2018-07-15T12:25:06.4077990-03:00 0HLFACLT3A5LR:00000020 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:25:06.4159724-03:00 0HLFACLT3A5LR:00000020 [INF] Route matched with "{action = \"Get\", controller = \"EstoqueMovimentacaoColaborador\"}". Executing action "CalemasERP.Core.Api.Controllers.EstoqueMovimentacaoColaboradorController.Get (Project.Api)" (a44c0341)
+2018-07-15T12:25:06.4162069-03:00 0HLFACLT3A5LR:00000020 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:25:06.4163056-03:00 0HLFACLT3A5LR:00000020 [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:25:06.4180179-03:00 0HLFACLT3A5LR:00000020 [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:25:06.4208117-03:00 0HLFACLT3A5LR:00000020 [INF] Executing action method "CalemasERP.Core.Api.Controllers.EstoqueMovimentacaoColaboradorController.Get (Project.Api)" with arguments (["CalemasERP.Core.Filters.EstoqueMovimentacaoColaboradorFilter"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:25:06.4297975-03:00 0HLFACLT3A5LR:00000020 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [EstoqueMovimentacaoColaborador] AS [e]" (0723d8ff)
+2018-07-15T12:25:06.4337943-03:00 0HLFACLT3A5LR:00000020 [WRN] Query: '"(from EstoqueMovimentacaoColaborador <generated>_3 in DbSet<EstoqueMovimentacaoColaborador> select [..."' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results. (32148ccc)
+2018-07-15T12:25:06.4456359-03:00 0HLFACLT3A5LR:00000020 [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[ColaboradorId], [e].[Descricao], [e].[Entrada], [e].[EstoqueMovimentacaoId], [e].[Quantidade]
+FROM [EstoqueMovimentacaoColaborador] AS [e]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2018-07-15T12:25:06.4558626-03:00 0HLFACLT3A5LR:00000020 [INF] Executed action method "CalemasERP.Core.Api.Controllers.EstoqueMovimentacaoColaboradorController.Get (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 34.9545ms. (50a9e262)
+2018-07-15T12:25:06.4560022-03:00 0HLFACLT3A5LR:00000020 [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.EstoqueMovimentacaoColaboradorDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:25:06.4611292-03:00 0HLFACLT3A5LR:00000020 [INF] Executed action "CalemasERP.Core.Api.Controllers.EstoqueMovimentacaoColaboradorController.Get (Project.Api)" in 44.9329ms (afa2e885)
+2018-07-15T12:25:06.4612745-03:00 0HLFACLT3A5LR:00000020 [INF] Request finished in 54.4747ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:25:07.7378271-03:00 0HLFACLT3A5LS:0000000D [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/EstoqueMovimentacao/dataitems?pageSize=10&pageIndex=0&isPaginate=true   (ca22a1cb)
+2018-07-15T12:25:07.7381614-03:00 0HLFACLT3A5LS:0000000D [INF] Policy execution successful. (0204925d)
+2018-07-15T12:25:07.7382581-03:00 0HLFACLT3A5LS:0000000D [INF] Request finished in 0.5655ms 204  (791a596a)
+2018-07-15T12:25:07.7442712-03:00 0HLFACLT3A5LT:0000000C [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/EstoqueMovimentacao/dataitems?pageSize=10&pageIndex=0&isPaginate=true   (ca22a1cb)
+2018-07-15T12:25:07.7450999-03:00 0HLFACLT3A5LT:0000000C [INF] Successfully validated the token. (60169667)
+2018-07-15T12:25:07.7452685-03:00 0HLFACLT3A5LT:0000000C [INF] Policy execution successful. (0204925d)
+2018-07-15T12:25:07.7545863-03:00 0HLFACLT3A5LT:0000000C [INF] Route matched with "{action = \"DataItems\", controller = \"EstoqueMovimentacao\"}". Executing action "CalemasERP.Core.Api.Controllers.EstoqueMovimentacaoController.DataItems (Project.Api)" (a44c0341)
+2018-07-15T12:25:07.7546865-03:00 0HLFACLT3A5LT:0000000C [INF] Policy execution successful. (0204925d)
+2018-07-15T12:25:07.7547704-03:00 0HLFACLT3A5LT:0000000C [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:25:07.7557994-03:00 0HLFACLT3A5LT:0000000C [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:25:07.7595836-03:00 0HLFACLT3A5LT:0000000C [INF] Executing action method "CalemasERP.Core.Api.Controllers.EstoqueMovimentacaoController.DataItems (Project.Api)" with arguments (["CalemasERP.Core.Filters.EstoqueMovimentacaoFilter"]) - Validation state: Invalid (4e3479ed)
+2018-07-15T12:25:07.7714549-03:00 0HLFACLT3A5LT:0000000C [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [_].[Id], [_].[Entrada] AS [Name]
+FROM [EstoqueMovimentacao] AS [_]" (0723d8ff)
+2018-07-15T12:25:07.7730681-03:00 0HLFACLT3A5LT:0000000C [INF] Executed action method "CalemasERP.Core.Api.Controllers.EstoqueMovimentacaoController.DataItems (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 13.3589ms. (50a9e262)
+2018-07-15T12:25:07.7731856-03:00 0HLFACLT3A5LT:0000000C [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'. (8a1b66c8)
+2018-07-15T12:25:07.7758605-03:00 0HLFACLT3A5LT:0000000C [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [_].[Id], [_].[Entrada] AS [Name]
+FROM [EstoqueMovimentacao] AS [_]" (0723d8ff)
+2018-07-15T12:25:07.7760678-03:00 0HLFACLT3A5LT:0000000C [INF] Executed action "CalemasERP.Core.Api.Controllers.EstoqueMovimentacaoController.DataItems (Project.Api)" in 21.377ms (afa2e885)
+2018-07-15T12:25:07.7761651-03:00 0HLFACLT3A5LT:0000000C [INF] Request finished in 32.061ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:25:16.0016102-03:00 0HLFACLT3A5LR:00000021 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/estoquemovimentacao?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true   (ca22a1cb)
+2018-07-15T12:25:16.0021000-03:00 0HLFACLT3A5LR:00000021 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:25:16.0023218-03:00 0HLFACLT3A5LR:00000021 [INF] Request finished in 0.8861ms 204  (791a596a)
+2018-07-15T12:25:16.0062080-03:00 0HLFACLT3A5LS:0000000E [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/estoquemovimentacao?pageSize=50&pageIndex=1&isPaginate=true&isPagination=true   (ca22a1cb)
+2018-07-15T12:25:16.0068917-03:00 0HLFACLT3A5LS:0000000E [INF] Successfully validated the token. (60169667)
+2018-07-15T12:25:16.0071417-03:00 0HLFACLT3A5LS:0000000E [INF] Policy execution successful. (0204925d)
+2018-07-15T12:25:16.0133368-03:00 0HLFACLT3A5LS:0000000E [INF] Route matched with "{action = \"Get\", controller = \"EstoqueMovimentacao\"}". Executing action "CalemasERP.Core.Api.Controllers.EstoqueMovimentacaoController.Get (Project.Api)" (a44c0341)
+2018-07-15T12:25:16.0134560-03:00 0HLFACLT3A5LS:0000000E [INF] Policy execution successful. (0204925d)
+2018-07-15T12:25:16.0135562-03:00 0HLFACLT3A5LS:0000000E [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:25:16.0139254-03:00 0HLFACLT3A5LS:0000000E [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:25:16.0145473-03:00 0HLFACLT3A5LS:0000000E [INF] Executing action method "CalemasERP.Core.Api.Controllers.EstoqueMovimentacaoController.Get (Project.Api)" with arguments (["CalemasERP.Core.Filters.EstoqueMovimentacaoFilter"]) - Validation state: Invalid (4e3479ed)
+2018-07-15T12:25:16.0292417-03:00 0HLFACLT3A5LS:0000000E [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [EstoqueMovimentacao] AS [e]" (0723d8ff)
+2018-07-15T12:25:16.0311821-03:00 0HLFACLT3A5LS:0000000E [WRN] Query: '"(from EstoqueMovimentacao <generated>_3 in DbSet<EstoqueMovimentacao> select [<generated>_3]).Skip(_..."' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results. (32148ccc)
+2018-07-15T12:25:16.0416202-03:00 0HLFACLT3A5LS:0000000E [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[Descricao], [e].[Entrada], [e].[EstoqueId], [e].[MotivoEstoqueMovimentacaoId], [e].[Quantidade], [e].[ResponsavelId], [e].[UserAlterDate], [e].[UserAlterId], [e].[UserCreateDate], [e].[UserCreateId]
+FROM [EstoqueMovimentacao] AS [e]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2018-07-15T12:25:16.0529551-03:00 0HLFACLT3A5LS:0000000E [INF] Executed action method "CalemasERP.Core.Api.Controllers.EstoqueMovimentacaoController.Get (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 38.2931ms. (50a9e262)
+2018-07-15T12:25:16.0532256-03:00 0HLFACLT3A5LS:0000000E [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[CalemasERP.Core.Dto.EstoqueMovimentacaoDto, Project.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2018-07-15T12:25:16.0612021-03:00 0HLFACLT3A5LS:0000000E [INF] Executed action "CalemasERP.Core.Api.Controllers.EstoqueMovimentacaoController.Get (Project.Api)" in 47.6844ms (afa2e885)
+2018-07-15T12:25:16.0613601-03:00 0HLFACLT3A5LS:0000000E [INF] Request finished in 55.1986ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:25:17.1744747-03:00 0HLFACLT3A5LT:0000000D [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/Estoque/dataitems?pageSize=10&pageIndex=0&isPaginate=true   (ca22a1cb)
+2018-07-15T12:25:17.1748351-03:00 0HLFACLT3A5LT:0000000D [INF] Policy execution successful. (0204925d)
+2018-07-15T12:25:17.1752674-03:00 0HLFACLT3A5LT:0000000D [INF] Request finished in 0.8409ms 204  (791a596a)
+2018-07-15T12:25:17.1756737-03:00 0HLFACLT3A5LR:00000022 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5101/api/MotivoEstoqueMovimentacao/dataitems?pageSize=10&pageIndex=0&isPaginate=true   (ca22a1cb)
+2018-07-15T12:25:17.1765637-03:00 0HLFACLT3A5LR:00000022 [INF] Policy execution successful. (0204925d)
+2018-07-15T12:25:17.1767629-03:00 0HLFACLT3A5LR:00000022 [INF] Request finished in 1.0229ms 204  (791a596a)
+2018-07-15T12:25:17.1830617-03:00 0HLFACLT3A5LT:0000000E [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/MotivoEstoqueMovimentacao/dataitems?pageSize=10&pageIndex=0&isPaginate=true   (ca22a1cb)
+2018-07-15T12:25:17.1830617-03:00 0HLFACLT3A5LS:0000000F [INF] Request starting HTTP/1.1 GET http://localhost:5101/api/Estoque/dataitems?pageSize=10&pageIndex=0&isPaginate=true   (ca22a1cb)
+2018-07-15T12:25:17.1837232-03:00 0HLFACLT3A5LT:0000000E [INF] Successfully validated the token. (60169667)
+2018-07-15T12:25:17.1837397-03:00 0HLFACLT3A5LS:0000000F [INF] Successfully validated the token. (60169667)
+2018-07-15T12:25:17.1838555-03:00 0HLFACLT3A5LT:0000000E [INF] Policy execution successful. (0204925d)
+2018-07-15T12:25:17.1838928-03:00 0HLFACLT3A5LS:0000000F [INF] Policy execution successful. (0204925d)
+2018-07-15T12:25:17.1885523-03:00 0HLFACLT3A5LT:0000000E [INF] Route matched with "{action = \"DataItems\", controller = \"MotivoEstoqueMovimentacao\"}". Executing action "CalemasERP.Core.Api.Controllers.MotivoEstoqueMovimentacaoController.DataItems (Project.Api)" (a44c0341)
+2018-07-15T12:25:17.1885456-03:00 0HLFACLT3A5LS:0000000F [INF] Route matched with "{action = \"DataItems\", controller = \"Estoque\"}". Executing action "CalemasERP.Core.Api.Controllers.EstoqueController.DataItems (Project.Api)" (a44c0341)
+2018-07-15T12:25:17.1886055-03:00 0HLFACLT3A5LS:0000000F [INF] Policy execution successful. (0204925d)
+2018-07-15T12:25:17.1886115-03:00 0HLFACLT3A5LT:0000000E [INF] Policy execution successful. (0204925d)
+2018-07-15T12:25:17.1886658-03:00 0HLFACLT3A5LS:0000000F [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:25:17.1886799-03:00 0HLFACLT3A5LT:0000000E [INF] Authorization was successful. (0d575a54)
+2018-07-15T12:25:17.1889648-03:00 0HLFACLT3A5LS:0000000F [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:25:17.1890452-03:00 0HLFACLT3A5LT:0000000E [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"DbContextCore"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-07-15T12:25:17.1896264-03:00 0HLFACLT3A5LS:0000000F [INF] Executing action method "CalemasERP.Core.Api.Controllers.EstoqueController.DataItems (Project.Api)" with arguments (["CalemasERP.Core.Filters.EstoqueFilter"]) - Validation state: Invalid (4e3479ed)
+2018-07-15T12:25:17.1926556-03:00 0HLFACLT3A5LT:0000000E [INF] Executing action method "CalemasERP.Core.Api.Controllers.MotivoEstoqueMovimentacaoController.DataItems (Project.Api)" with arguments (["CalemasERP.Core.Filters.MotivoEstoqueMovimentacaoFilter"]) - Validation state: Valid (4e3479ed)
+2018-07-15T12:25:17.2019436-03:00 0HLFACLT3A5LT:0000000E [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [_].[Id], [_].[Nome] AS [Name]
+FROM [MotivoEstoqueMovimentacao] AS [_]" (0723d8ff)
+2018-07-15T12:25:17.2020709-03:00 0HLFACLT3A5LS:0000000F [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [_].[Id], [_].[Nome] AS [Name]
+FROM [Estoque] AS [_]" (0723d8ff)
+2018-07-15T12:25:17.2033996-03:00 0HLFACLT3A5LS:0000000F [INF] Executed action method "CalemasERP.Core.Api.Controllers.EstoqueController.DataItems (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 13.6938ms. (50a9e262)
+2018-07-15T12:25:17.2034112-03:00 0HLFACLT3A5LT:0000000E [INF] Executed action method "CalemasERP.Core.Api.Controllers.MotivoEstoqueMovimentacaoController.DataItems (Project.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 10.6606ms. (50a9e262)
+2018-07-15T12:25:17.2034965-03:00 0HLFACLT3A5LS:0000000F [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'. (8a1b66c8)
+2018-07-15T12:25:17.2035022-03:00 0HLFACLT3A5LT:0000000E [INF] Executing ObjectResult, writing value of type '"Common.API.HttpResult`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'. (8a1b66c8)
+2018-07-15T12:25:17.2040058-03:00 0HLFACLT3A5LT:0000000E [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [_].[Id], [_].[Nome] AS [Name]
+FROM [MotivoEstoqueMovimentacao] AS [_]" (0723d8ff)
+2018-07-15T12:25:17.2040044-03:00 0HLFACLT3A5LS:0000000F [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [_].[Id], [_].[Nome] AS [Name]
+FROM [Estoque] AS [_]" (0723d8ff)
+2018-07-15T12:25:17.2041666-03:00 0HLFACLT3A5LS:0000000F [INF] Executed action "CalemasERP.Core.Api.Controllers.EstoqueController.DataItems (Project.Api)" in 15.5638ms (afa2e885)
+2018-07-15T12:25:17.2041694-03:00 0HLFACLT3A5LT:0000000E [INF] Executed action "CalemasERP.Core.Api.Controllers.MotivoEstoqueMovimentacaoController.DataItems (Project.Api)" in 15.5638ms (afa2e885)
+2018-07-15T12:25:17.2042537-03:00 0HLFACLT3A5LS:0000000F [INF] Request finished in 21.2243ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-15T12:25:17.2042628-03:00 0HLFACLT3A5LT:0000000E [INF] Request finished in 21.224ms 200 application/json; charset=utf-8 (791a596a)
